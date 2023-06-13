@@ -6,3 +6,21 @@
           
 
 }
+
+.quick_links {
+          background: #030419;
+          display: flex;
+          justify-content: flex-end;
+          padding: 15px;
+}
+
+.quick_links h5 {
+          color:#fff;
+          font-weight: 400;
+}
+
+.quick_links i {
+          color:#fff;
+          padding-left: 5px;
+
+}
