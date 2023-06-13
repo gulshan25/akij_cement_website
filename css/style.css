@@ -7,6 +7,8 @@
 
 }
 
+/*quick links*/
+
 .quick_links {
           background: #030419;
           display: flex;
@@ -24,3 +26,27 @@
           padding-left: 5px;
 
 }
+
+/*nav*/
+.header {
+          padding: 20px;
+          
+}
+.logo {
+          width: 50%;
+          height: 50%;
+}
+.menu ul {
+          text-align: center;
+}
+
+ul li {
+          display: inline-block;
+          
+}
+
+ul li a {
+          color: black;
+          padding-left: 10px;
+}
+
