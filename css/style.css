@@ -1,0 +1,45 @@
+* {
+          margin: 0;
+          padding: 0;
+          background: #fff;
+          text-decoration: none;
+          list-style: none;
+}
+
+body {
+
+}
+
+/* quick links section */
+
+section {
+          padding: 15px;
+          
+          
+}
+
+
+.quick_links {
+          display: flex;
+          justify-content: flex-end;
+          background: #030419;
+}
+
+.quick_links h5 {
+          background: #030419;
+          color: #fff; 
+          font-weight: 400;
+}
+
+
+
+.quick_links a {
+          padding-left:5px;
+          background: #030419;
+          
+}
+
+.quick_links i {
+          background: #030419;
+          color: #fff;   
+}
