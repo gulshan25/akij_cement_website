@@ -41,6 +41,29 @@ button:focus {
     max-width: 1290px;
 }
 
-/* Top Bar */
+/* Top header */
+
+.top-hdr {
+    background-color: #030419;
+    height: 54px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar-nav {
+    padding-left: 15%;
+    
+}
+
+.btn  {
+    background-color: #2A2F76;
+    border: none;
+    margin-left: 26%;
+}
+
+
+
 
 /* Main Header */
