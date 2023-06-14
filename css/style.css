@@ -52,6 +52,10 @@ button:focus {
     align-items: center;
 }
 
+
+
+/* Main Header */
+
 .navbar-nav {
     padding-left: 15%;
     
@@ -63,7 +67,39 @@ button:focus {
     margin-left: 26%;
 }
 
+/* Banner */
+ .carousel-item {
+  position: relative;
+  
+     
+}
+
+.banner h1 {
+    position: absolute;
+    padding: 80px 13% 70px;
+    text-align: left;
+    line-height: 2 rem;
+    left: 0;
+    top: 0;
+    color: #fff;
+}  
+
+/* our products */
+
+.pro-text {
+    margin-left: 20%;
+}
+
+.card-img-top {
+    /* width: 50%;
+    height: 50%; */
+    width: 300px;
+height: 238px;
 
 
+}
 
-/* Main Header */
+.card-title {
+    padding: 20px;
+}
+
