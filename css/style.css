@@ -82,29 +82,21 @@ button:focus {
 }
 
 /* Banner */
-
-.banner .img-fluid{
-    /* background-image: url('./images/banner.png'); */
-    background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
-}
-.left-text {
-    position: absolute;
-    bottom:0;
-    left:0;
-    color: white;    
-}
-.left-text h1 {
-    font-size: 70px;
-    line-height: 5rem;
-    padding: 150px 120px
+ .carousel-item {
+  position: relative;
+  
+     
 }
 
 .right-text {
     position: absolute;
-    bottom:140px;
-    right:120px;
-    color: white;
-}
+    padding: 80px 13% 70px;
+    text-align: left;
+    line-height: 2 rem;
+    left: 0;
+    top: 0;
+    color: #fff;
+}  
 
 
 
@@ -126,11 +118,11 @@ button:focus {
     padding-top: 10px;
 }
 
-.box-img {
-    object-fit: cover;
-    width: 100%;
-    max-width: 306px;
-    max-height: 238px;
+.card-img-top {
+    /* width: 50%;
+    height: 50%; */
+    width: 300px;
+height: 238px;
 
 
 }
@@ -160,24 +152,3 @@ button:focus {
     
 }
 
-
-
-
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
-
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
-
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    .akj-nav ul {
-        margin: 20px 0;
-        padding-left: 0;
-    }
-
-    .akj-nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-}
