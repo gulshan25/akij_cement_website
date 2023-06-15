@@ -82,21 +82,39 @@ button:focus {
 }
 
 /* Banner */
- .carousel-item {
+ .banner {
   position: relative;
   
      
 }
 
+.left-text {
+    position: absolute;
+    /* padding: 80px 13% 70px; */
+    
+    left: 50px;
+    bottom: 70px;
+    color: #fff;
+}
+
+.left-text h1 {
+    font-size:70px;
+    line-height: 84px;
+    padding-left: 70px;
+    
+
+
+}
+
 .right-text {
     position: absolute;
-    padding: 80px 13% 70px;
-    text-align: left;
-    line-height: 2 rem;
-    left: 0;
-    top: 0;
+    right: 130px;
+    bottom: 60px;
     color: #fff;
-}  
+}
+
+
+
 
 
 
@@ -125,6 +143,9 @@ button:focus {
 height: 238px;
 
 
+}
+.box-img {
+    padding-top: 30px;
 }
 
 .box-img h5 {
