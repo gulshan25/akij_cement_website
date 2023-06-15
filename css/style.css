@@ -1,9 +1,8 @@
-
-  /* BASE-SETTINGS */
+/* BASE-SETTINGS */
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: var(--color-black);
+    color: #4C4D5C;
     line-height: normal;
     text-align: left;
 }
@@ -37,12 +36,12 @@ button:focus {
     text-decoration: none !important;
     outline: 0 !important;
 }
-.akj-container{
+
+.akj-container {
     max-width: 1290px;
 }
 
 /* Top header */
-
 .top-hdr {
     background-color: #030419;
     height: 54px;
@@ -52,54 +51,133 @@ button:focus {
     align-items: center;
 }
 
-
-
 /* Main Header */
-
-.navbar-nav {
-    padding-left: 15%;
-    
+.akj-nav {
+    padding: 7px 0;
 }
 
-.btn  {
+.akj-nav ul {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.akj-nav ul li {
+    display: inline-block;
+    margin: 0 14px;
+}
+
+.akj-nav ul li a {
+    display: inline-block;
+    color: #4C4D5C;
+    padding: 5px 10px;
+}
+
+.akj-nav ul li.current_page_selected a {
+    color: #030419;
+}
+
+.btn {
     background-color: #2A2F76;
     border: none;
-    margin-left: 26%;
 }
 
 /* Banner */
- .carousel-item {
-  position: relative;
-  
-     
+
+.banner .img-fluid{
+    /* background-image: url('./images/banner.png'); */
+    background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
+}
+.left-text {
+    position: absolute;
+    bottom:0;
+    left:0;
+    color: white;    
+}
+.left-text h1 {
+    font-size: 70px;
+    line-height: 5rem;
+    padding: 150px 120px
 }
 
-.banner h1 {
+.right-text {
     position: absolute;
-    padding: 80px 13% 70px;
-    text-align: left;
-    line-height: 2 rem;
-    left: 0;
-    top: 0;
-    color: #fff;
-}  
+    bottom:140px;
+    right:120px;
+    color: white;
+}
+
+
+
+
 
 /* our products */
 
-.pro-text {
-    margin-left: 20%;
+.our-products {
+    padding-top: 70px;
+    color: black;
+    position: relative;
+    
 }
 
-.card-img-top {
-    /* width: 50%;
-    height: 50%; */
-    width: 300px;
-height: 238px;
+.our-products p {
+    font-size: 16px;
+    color: #4C4D5C;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+.box-img {
+    object-fit: cover;
+    width: 100%;
+    max-width: 306px;
+    max-height: 238px;
 
 
 }
 
-.card-title {
-    padding: 20px;
+.box-img h5 {
+    padding: 15px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
 }
 
+
+
+
+
+/* .our-products {
+    background-image: url('./images/invisible.png');
+    justify-content: center;
+    
+} */
+
+/* About Us */
+
+.about-us {
+    /* padding-top: 200px; */
+    
+    
+}
+
+
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .akj-nav ul {
+        margin: 20px 0;
+        padding-left: 0;
+    }
+
+    .akj-nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
