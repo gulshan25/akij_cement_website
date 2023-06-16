@@ -174,22 +174,26 @@ height: 238px;
 position: relative;
 }
 
+
+
 .about-box {
     position: absolute;
     width: 699px;
 height: 516px;
 left: 111px;
-top: 0px;
-
+top: 150px;
 background: rgba(3, 4, 25, 0.7);
 border-radius: 8px;
 padding: 60px;
     
 }
 
+.middle-text {
+    font-size: 12px;
+}
 .about-box p {
-    size: 16px;
-    white-space: wrap;
+    font-size: 16px;
+   
     line-height: 27.52px;
 }
 
@@ -197,5 +201,10 @@ padding: 60px;
     font-size:48px;
     line-height: 57.6px;
     font-weight: 400;
+}
+
+.middle-text {
+    padding-bottom: 50px;
+    font-size: 12px;
 }
 
