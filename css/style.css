@@ -135,17 +135,18 @@ button:focus {
     line-height: 2rem;
     padding-top: 10px;
 }
-
+/* 
 .card-img-top {
     /* width: 50%;
     height: 50%; */
-    width: 300px;
+    /* width: 300px;
 height: 238px;
 
 
-}
+}  */
 .box-img {
     padding-top: 30px;
+    
 }
 
 .box-img h5 {
@@ -156,7 +157,9 @@ height: 238px;
 }
 
 
-
+/* .middle-img {
+    position: relative;
+} */
 
 
 /* .our-products {
@@ -167,5 +170,32 @@ height: 238px;
 
 /* About Us */
 
+.about-us {
+position: relative;
+}
 
+.about-box {
+    position: absolute;
+    width: 699px;
+height: 516px;
+left: 111px;
+top: 0px;
+
+background: rgba(3, 4, 25, 0.7);
+border-radius: 8px;
+padding: 60px;
+    
+}
+
+.about-box p {
+    size: 16px;
+    white-space: wrap;
+    line-height: 27.52px;
+}
+
+.about-box h3 {
+    font-size:48px;
+    line-height: 57.6px;
+    font-weight: 400;
+}
 
