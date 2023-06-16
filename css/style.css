@@ -82,28 +82,38 @@ button:focus {
 }
 
 /* Banner */
- .banner {
-  position: relative;
-  
-     
+.banner {
+    position: relative;
 }
 
-.left-text {
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.banner-g {
     position: absolute;
-    /* padding: 80px 13% 70px; */
-    
-    left: 50px;
-    bottom: 70px;
-    color: #fff;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
 }
-
-.left-text h1 {
-    font-size:70px;
+.banner-txt{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+.banner-txt h1 {
+    font-size: 70px;
     line-height: 84px;
-    padding-left: 70px;
-    
-
-
+    color: #fff;
 }
 
 .right-text {
@@ -112,14 +122,6 @@ button:focus {
     bottom: 60px;
     color: #fff;
 }
-
-
-
-
-
-
-
-
 /* our products */
 
 .our-products {
@@ -174,17 +176,23 @@ height: 238px;
 position: relative;
 }
 
-
+.about-us img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
 
 .about-box {
     position: absolute;
-    width: 699px;
-height: 516px;
-left: 111px;
-top: 150px;
+    max-height: 490px;
+    max-width: 660px;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
 background: rgba(3, 4, 25, 0.7);
 border-radius: 8px;
-padding: 60px;
+padding: 20px;
     
 }
 
@@ -208,9 +216,48 @@ padding: 60px;
     font-size: 12px;
 }
 
+/* News & Events */
+
+/* .news h2, p{
+    padding-left: 10px;
+    color: black;
+    
+} */
+
+.news-events {
+    padding-top: 50px;
+}
+.news-events h2 {
+    text-align: center;
+}
+
+.news-events p {
+    line-height: 1.5 rem;
+}
 
 
+button {
+    padding: 15px 12px;
+    border: none;
+    color: white;
+    background-color: #2A2F76;
+    border-radius:8px;
+    margin-top: 50px;
+    font-family: 'DIN-Bold';
+    
+}
 
+.read-text {
+    text-decoration: underline;
+}
+
+.p-text p {
+    text-align: left;
+}
+
+/* .news-events  {
+    text-align: center;
+} */
 
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
