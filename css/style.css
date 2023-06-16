@@ -177,7 +177,7 @@ position: relative;
 
 
 .about-box {
-    position: absolute;
+    position: fixed;
     width: 699px;
 height: 516px;
 left: 111px;
