@@ -294,6 +294,11 @@ margin: 20px 0px;
     padding-top: 10px;
 }
 
+.akij-text img {
+    width:20px;
+    height: 20px;
+}
+
 /* Projects */
 
 .project-img {
