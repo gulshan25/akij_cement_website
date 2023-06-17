@@ -239,7 +239,7 @@ margin-bottom: 30px;
 }
 
 
-button {
+.button {
     padding: 15px 12px;
     border: none;
     color: white;
@@ -384,5 +384,11 @@ margin: 20px 0px;
         display: block;
         margin: 10px 0;
     }
+
+    .banner-txt{
+        
+    }
+
+
 }
 
