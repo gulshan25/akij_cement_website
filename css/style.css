@@ -53,6 +53,10 @@ button:focus {
     align-items: center;
 }
 
+.top-hdr input {
+
+}
+
 /* Main Header */
 .akj-nav {
     padding: 7px 0;
@@ -155,7 +159,7 @@ height: 238px;
 
 .box-img h5 {
     padding: 15px;
-    color: black;
+    color: #030419;
     font-size: 12px;
     font-weight: bold;
 }
@@ -190,12 +194,13 @@ position: relative;
     max-width: 660px;
 left: 100px;
 right: 0;
-top: 0;
+top: -50px;
 bottom: 0;
 background: rgba(3, 4, 25, 0.7);
 border-radius: 8px;
-padding: 20px;
+padding: 60px 20px;
 margin-bottom: 30px;
+color: #fff;
     
 }
 
@@ -226,6 +231,10 @@ margin-bottom: 30px;
     color: black;
     
 } */
+
+.news {
+    text-align: left;
+}
 
 .news-events {
     padding-top: 50px;
@@ -265,68 +274,99 @@ margin-bottom: 30px;
 
 /* why akij cement*/
 
-.why-akij  {
+.why-akij {
     position: relative;
-}
-.why-akij img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 460px;
-    padding-top: 50px;
-}
-.akij-box {
-    position: absolute;
-    max-height: 699px;
-    max-width: 660px;
-left: 100px;
-right: 0;
-top: 0;
-bottom: 0;
-background: rgba(3, 4, 25, 0.7);
-border-radius: 8px;
-padding: 60px;
-margin: 20px 0px;
+    padding: 20px 0;
+    }
+    
+    /* .why-akij img {
+        object-fit: cover;
+        width: 100%;
+        max-height: 460px;
+    } */
+    
+    .akij-box {
+        position: absolute;
+        max-height: 699px;
+        max-width: 660px;
+    left: 100px;
+    right: 0;
+    top: -50px;
+    bottom: 0;
+    background: rgba(3, 4, 25, 0.7);
+    border-radius: 8px;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+        
+    }
+    
+    .akij-text {
+        font-size: 12px;
+        display: block;
+        /* width: 100%; */
+        padding: 20px 0;
+    }
+    .akij-box p {
+        font-size: 16px;
+       
+        line-height: 27.52px;
+    }
+    
+    .akij-box h3 {
+        font-size:48px;
+        line-height: 57.6px;
+        font-weight: 400;
+    }
+    
+    .akij-text {
+        padding-bottom: 50px;
+        font-size: 12px;
+    }
+    
+
+
+
+/* World of Building Solutions*/
+
+.our-projects {
+    padding-top: 70px;
+    color: black;
+    position: relative;
+    background: #F1F1F2;
+    margin-top: 20px;
+    
     
 }
 
-.akij-box p {
+.our-projects p {
     font-size: 16px;
-    line-height:27.52px;
+    color: #4C4D5C;
+    line-height: 2rem;
     padding-top: 10px;
 }
+/* 
+.card-img-top {
+    /* width: 50%;
+    height: 50%; */
+    /* width: 300px;
+height: 238px;
 
-.akij-text a img {
-    width:20px;
-    height: 20px;
+
+}  */
+.pro-img {
+    padding-top: 30px;
+    
 }
 
-
-
-/* Projects */
-
-.project-img {
-    position: relative;
+.pro-img h5 {
+    padding: 15px;
+    color: #030419;
+    font-size: 20px;
+    font-family: 'DIN-Bold';
+    line-height: 24px;
 }
 
-/* .our-products img {
-    width: 100px;
-    height: 100px;
-    display: grid;
-    object-fit: cover;
-    gap: 3;
-} */
-
-.project-text {
-    position: absolute;
-    padding-left: 20px;
-    left:0;
-    bottom:25px;
-    color: #fff;
-    font-family: poppins;
-    font-size: 24px;
-    font-weight: 600;
-
-}
 
 /* Cost Calculator */
 
@@ -337,10 +377,13 @@ margin: 20px 0px;
     color: white;
     background-color: #2A2F76;
     border-radius:8px;
-    margin: 50px 0;
+    /* margin: 50px 0; */
     font-family: 'DIN-Bold';
     align-items: center;
     justify-content: center;
+    left: 0;
+    right:0;
+    margin:0;
     
 }
 
@@ -380,7 +423,9 @@ margin: 20px 0px;
 
 /*footer*/
 
-
+.footer {
+    width: 100%;
+}
 
 .footer-area {
     background-color: #030419;
@@ -389,41 +434,19 @@ margin: 20px 0px;
     padding: 7px 0;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 3.5rem;
+    gap: 6rem;
     /* position: absolute;
     left:0;
     right:0;
     bottom:0; */
 }
-.footer1 h4 {
-    margin-bottom: 1.5rem;
-    font-size: 20px;
-}
 
-.footer-area ul {
-    margin: 0 auto;
-    list-style: none;
-}
-
-.footer-area li {
-    margin-bottom: 16px;
-}
-
-.footer-area li a {
+.footer-area .icons {
     display: block;
-    font-size:15px;
-    font-weight: 400;
-    justify-content: center;
 }
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.icons {
-    display: block;
-
+.footer-p {
+    text-align: left;
+    padding-left: 50px;
     
 }
 
