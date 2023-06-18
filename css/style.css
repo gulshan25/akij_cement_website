@@ -404,17 +404,24 @@ height: 238px;
 
 /*Projects*/
 
-.projects img{
+.p-img{
     position: relative;
 }
 
-.projects h5 {
+ /* .p-img h5 {
     position: absolute;
-    top:150px;
-    bottom:0;
-    left:0;
-    right:0;
-}
+    left: 10px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    display: flex; 
+    align-items: left; 
+    color: #fff;
+    
+
+} */
+
 
 .projects {
     padding-top: 70px;
@@ -445,9 +452,15 @@ height: 238px;
 
 .p-img h5 {
     padding: 15px;
-    color: #030419;
-    font-size: 12px;
-    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    right: 0;
+    /* top: 0; */
+    bottom: 0;
+    z-index: 9;
+    /* /* display: flex; */
+    align-items: left;
     text-align: left;
 }
 
@@ -467,9 +480,10 @@ height: 238px;
     font-family: 'DIN-Bold';
     align-items: center;
     justify-content: center;
-    left: 0;
+    /* left: 0; */
     right:0;
-    margin:0;
+    margin-right: 600px;
+    margin-top: 20px;
     
 }
 
@@ -502,7 +516,7 @@ height: 238px;
     display: flex;
     align-items: center;
 }
-.banner-txt h1 {
+.cost-calculator-txt h1 {
     font-size: 70px;
     line-height: 84px;
     color: #fff;
@@ -560,6 +574,10 @@ height: 238px;
     left:0;
     right:0;
     bottom:0; */
+}
+
+.follow-text {
+    display: block;
 }
 
 .footer-area .icons {
@@ -621,6 +639,8 @@ height: 238px;
         line-height: 1.5rem;
         /* padding-left: 70px; */
     }
+
+    
 
     
 
