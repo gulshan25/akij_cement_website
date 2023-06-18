@@ -226,7 +226,7 @@ color: #fff;
 }
 .about-box p {
     font-size: 16px;
-   
+    font-family: Mark Pro;
     line-height: 27.52px;
 }
 
@@ -234,6 +234,7 @@ color: #fff;
     font-size:48px;
     line-height: 57.6px;
     font-weight: 400;
+    font-family: DIN-Bold;
 }
 
 .middle-text {
@@ -251,6 +252,12 @@ color: #fff;
 
 .news {
     text-align: left;
+}
+
+.news h4 {
+    font-family: 'DIN-Bold';
+    color: black;
+    font-weight: 600;
 }
 
 .news-events {
@@ -279,6 +286,8 @@ color: #fff;
 
 .read-text {
     text-decoration: underline;
+    font-family: 'DIN-Bold';
+    font-weight:600;
 }
 
 .p-text p {
@@ -399,6 +408,7 @@ height: 238px;
     font-size: 20px;
     font-family: 'DIN-Bold';
     line-height: 24px;
+    font-weight: bold;
 }
 
 .invisible-img img {
@@ -586,6 +596,7 @@ height: 238px;
 .footer-area .icons {
     display: inline-grid;
     grid-template-columns: auto;
+    
     padding: 10px;
 }
 
