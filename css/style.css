@@ -327,16 +327,19 @@ color: #fff;
     }
 
     .akij-text a {
-        padding: 34px 10px;
+        padding: 34px 20px;
+       
+        
     }
 
-    .akij-text img {
-        padding: 0 10px;
-        /* background-color: white; */
-        /* border-radius: 50px; */
-        width: 50px;
-        height: 30px;
+    .akij-text a img {
+        padding: 10px 10px;
+        background-color: rgba(255, 255, 255,0.48);
+        border-radius: 100px ;
+        width: 45px;
+        height: 45px;
         border:none;
+        
     }
     .akij-box p {
         font-size: 16px;
@@ -601,6 +604,12 @@ height: 238px;
 
 .follow-text {
     text-align:left;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-text li {
+    list-style: none;
 }
 
 
