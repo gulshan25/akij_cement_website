@@ -610,6 +610,8 @@ height: 238px;
 .footer-p {
     text-align: left;
     padding-left: 50px;
+    line-height: 1.5em;
+    padding-top: 20px;
     
 }
 
@@ -621,6 +623,26 @@ height: 238px;
 
 .follow-text li {
     list-style: none;
+    padding-top:20px;
+}
+.footer-text li {
+    list-style: none;
+    padding-top:20px;
+}
+
+.footer-content {
+    position: relative;
+}
+
+.follow-text {
+    position: absolute;
+    left:80px;
+    
+}
+
+.footer-text {
+    position: absolute;
+    left:115px;
 }
 
 
