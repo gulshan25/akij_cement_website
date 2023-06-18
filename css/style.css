@@ -650,7 +650,32 @@ height: 238px;
 
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .top-hdr {
+        background-color: #030419;
+        height: 54px;
+        /* width: 100%; */
+        color: #fff;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .fa-solid {
+        position: absolute;
+        left:0;
+        right:150px;
+        /* padding-left: 890px; */
+        top:19px;
+        
+        
+        
+        
+    }
+    .akj-container {
+        max-width: 1440px;
+    }
+}
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {}
