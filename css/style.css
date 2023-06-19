@@ -600,6 +600,10 @@ height: 238px;
     padding: 10px;
 }
 
+.footer-area p {
+    text-align: center;
+}
+
 .footer-area .icons a {
     padding: 10px;
 }
