@@ -723,6 +723,17 @@ height: 238px;
         /* padding-left: 70px; */
     }
 
+    .sub-banner-txt h1{
+        font-size: 16px;
+        line-height: 1.5rem;
+        /* padding-left: 70px; */
+    }
+    .sub-banner-txt p{
+        font-size: 12px;
+        line-height: 1.5rem;
+        /* padding-left: 70px; */
+    }
+
     .about-box p {
         font-size: 12px;
         font-family: Mark Pro;
