@@ -593,6 +593,18 @@ footer {
   .footer-area .footer-p {
     text-align: left;
   }
+   .footer-content h4 {
+        font-size:24px;
+        padding-left: 25px;
+        line-height: 28.8px;
+        font-weight:500;
+        font-family: 'DIN-Bold';
+   }
+
+  
+
+
+  
   
   .col-md-3 {
     flex: 1;
@@ -627,7 +639,20 @@ footer {
 }
 
 .footer-area p {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5rem;
+    color: #ADADB4;
+}
+
+.copy-right {
     text-align: center;
+    font-size: 18px;
+    font-family: Mark Pro;
+    line-height: 29.88px;
+    font-weight: 400;
+    color: #DDDDE0;
 }
 
 .footer-area .icons a {
