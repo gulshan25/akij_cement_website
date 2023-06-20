@@ -812,7 +812,16 @@ height: 238px;
 
 /* Start Building Estimation Calculator */
 
+.radio{
+    text-align: left;
+    align-items: left;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
 
+.form-text {
+    text-align: left;
+}
 
 /* End Building Estimation Calculator */
 
