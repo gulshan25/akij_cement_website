@@ -798,11 +798,13 @@ height: 238px;
     font-size: 70px;
     line-height: 84px;
     color: #fff;
+    font-family: 'DIN-Bold';
 }
 
 .sub-banner-txt p {
     color: #EDEDEE;
     line-height: 1.5rem;
+    font-family: Mark Pro;
 }
 
 
