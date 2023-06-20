@@ -768,6 +768,39 @@ height: 238px;
 
 /* Start Sub-Banner */
 
+.sub-banner {
+    position: relative;
+}
+
+.sub-banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.sub-banner-g {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(95.16deg, #030419 -4.63%, rgba(4, 5, 33, 0.32) 105.04%);
+}
+.sub-banner-txt{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+.sub-banner-txt h1 {
+    font-size: 70px;
+    line-height: 84px;
+    color: #fff;
+}
 
 
 /* End Sub-Banner */
