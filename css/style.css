@@ -578,9 +578,28 @@ height: 238px;
 
 /*footer*/
 
-.footer {
+/* .footer {
     width: 100%;
-}
+} */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 100%;
+  }
+
+  .footer-area .footer-p {
+    text-align: left;
+  }
+  
+  .col-md-3 {
+    flex: 1;
+    margin-right: 50px;
+  }
+  
+  
 
 .footer-area {
     background-color: #030419;
