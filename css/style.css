@@ -867,6 +867,21 @@ height: 238px;
     font-weight:5;
 }
 
+option {
+    color: #4C4D5C;
+    font-family:Mark Pro;
+    font-weight:400;
+    font-size: 16px;
+    line-height:27.52px;
+}
+
+form {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+}
+
 /* End Building Estimation Calculator */
 
 
