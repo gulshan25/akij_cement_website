@@ -860,6 +860,13 @@ height: 238px;
     font-weight:500;
 }
 
+.bec button {
+    font-family: 'DIN-Bold';
+    font-size:18px;
+    line-height: 19.8px;
+    font-weight:5;
+}
+
 /* End Building Estimation Calculator */
 
 
