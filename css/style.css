@@ -759,9 +759,6 @@ height: 238px;
     }
 
     
-
-    
-
 }
 
 /* Construction cost Calculator */
@@ -770,6 +767,7 @@ height: 238px;
 
 .sub-banner {
     position: relative;
+    
 }
 
 .sub-banner img {
@@ -790,8 +788,8 @@ height: 238px;
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
-    bottom: 0;
+    top: 50px;
+    /* bottom: 0; */
     z-index: 9;
     display: flex;
     align-items: center;
@@ -800,6 +798,11 @@ height: 238px;
     font-size: 70px;
     line-height: 84px;
     color: #fff;
+}
+
+.sub-banner-txt p {
+    color: #EDEDEE;
+    line-height: 1.5rem;
 }
 
 
