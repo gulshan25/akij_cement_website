@@ -53,24 +53,24 @@ button:focus {
     align-items: center;
 }
 
-.top-hdr input {
-        padding: 0px ;
-        border-radius: 8px;
+.top-search {
+    position: relative;
 }
 
-.fa-solid {
-    position: absolute;
-    left:0;
-    right:0;
-    padding-left: 890px;
-    top:19px;
-    
-    
-    
-    
+.top-search input {
+    max-width: 156px;
+    padding: 0 0 0 30px;
+    border-radius: 8px;
 }
+
+.top-search i {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
 .fa-magnifying-glass {
-    color:#646471;
+    color: #646471;
 
 }
 
@@ -94,7 +94,7 @@ button:focus {
     color: #4C4D5C;
     padding: 5px 10px;
     font-size: 16px;
-    line-height:27.52px;
+    line-height: 27.52px;
     font-weight: 400;
     font-family: Mark Pro;
 }
@@ -108,7 +108,7 @@ button:focus {
     border: none;
     font-family: 'DIN-Bold';
     font-size: 18px;
-    line-height:19.8px;
+    line-height: 19.8px;
 }
 
 /* Banner */
@@ -130,7 +130,8 @@ button:focus {
     bottom: 0;
     background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
 }
-.banner-txt{
+
+.banner-txt {
     position: absolute;
     left: 0;
     right: 0;
@@ -140,6 +141,7 @@ button:focus {
     display: flex;
     align-items: center;
 }
+
 .banner-txt h1 {
     font-size: 70px;
     line-height: 84px;
@@ -158,7 +160,7 @@ button:focus {
     padding-top: 70px;
     color: black;
     position: relative;
-    
+
 }
 
 .our-products p {
@@ -167,18 +169,19 @@ button:focus {
     line-height: 2rem;
     padding-top: 10px;
 }
+
 /* 
 .card-img-top {
     /* width: 50%;
     height: 50%; */
-    /* width: 300px;
+/* width: 300px;
 height: 238px;
 
 
 }  */
 .box-img {
     padding-top: 30px;
-    
+
 }
 
 .box-img h5 {
@@ -203,7 +206,7 @@ height: 238px;
 /* About Us */
 
 .about-us {
-position: relative;
+    position: relative;
 }
 
 .about-us img {
@@ -216,21 +219,22 @@ position: relative;
     position: absolute;
     max-height: 699px;
     max-width: 660px;
-left: 100px;
-right: 0;
-top: -50px;
-bottom: 0;
-background: rgba(3, 4, 25, 0.7);
-border-radius: 8px;
-padding: 60px 20px;
-margin-bottom: 30px;
-color: #fff;
-    
+    left: 100px;
+    right: 0;
+    top: -50px;
+    bottom: 0;
+    background: rgba(3, 4, 25, 0.7);
+    border-radius: 8px;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+
 }
 
 .middle-text {
     font-size: 12px;
 }
+
 .about-box p {
     font-size: 16px;
     font-family: Mark Pro;
@@ -238,7 +242,7 @@ color: #fff;
 }
 
 .about-box h3 {
-    font-size:48px;
+    font-size: 48px;
     line-height: 57.6px;
     font-weight: 400;
     font-family: DIN-Bold;
@@ -269,8 +273,9 @@ color: #fff;
 
 .news-events {
     padding-top: 50px;
-    
+
 }
+
 .news-events h2 {
     text-align: center;
 }
@@ -285,16 +290,16 @@ color: #fff;
     border: none;
     color: white;
     background-color: #2A2F76;
-    border-radius:8px;
+    border-radius: 8px;
     margin-top: 50px;
     font-family: 'DIN-Bold';
-    
+
 }
 
 .read-text {
     text-decoration: underline;
     font-family: 'DIN-Bold';
-    font-weight:600;
+    font-weight: 600;
 }
 
 .p-text p {
@@ -310,18 +315,18 @@ color: #fff;
 .why-akij {
     position: relative;
     padding: 50px 0;
-    }
-    
-    /* .why-akij img {
-        object-fit: cover;
-        width: 100%;
-        max-height: 460px;
-    } */
-    
-    .akij-box {
-        position: absolute;
-        max-height: 699px;
-        max-width: 660px;
+}
+
+.why-akij img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.akij-box {
+    position: absolute;
+    max-height: 699px;
+    max-width: 660px;
     left: 100px;
     right: 0;
     top: 20px;
@@ -331,49 +336,50 @@ color: #fff;
     padding: 60px 20px;
     margin-bottom: 30px;
     color: #fff;
-        
-    }
-    
-    .akij-text {
-        font-size: 12px;
-        display: inline-grid;
-        grid-template-columns: auto auto;
-        /* width: 100%; */
-        
-    }
 
-    .akij-text a {
-        padding: 34px 20px;
-       
-        
-    }
+}
 
-    .akij-text a img {
-        padding: 10px 10px;
-        background-color: rgba(255, 255, 255,0.48);
-        border-radius: 100px ;
-        width: 45px;
-        height: 45px;
-        border:none;
-        
-    }
-    .akij-box p {
-        font-size: 16px;
-       
-        line-height: 27.52px;
-    }
-    
-    .akij-box h3 {
-        font-size:48px;
-        line-height: 57.6px;
-        font-weight: 400;
-    }
-    
-    .akij-text {
-        padding-bottom: 50px;
-        font-size: 12px;
-    }
-    
+.akij-text {
+    font-size: 12px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    /* width: 100%; */
+
+}
+
+.akij-text a {
+    padding: 34px 20px;
+
+
+}
+
+.akij-text a img {
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    border: none;
+
+}
+
+.akij-box p {
+    font-size: 16px;
+
+    line-height: 27.52px;
+}
+
+.akij-box h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 400;
+}
+
+.akij-text {
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
 
 
 
@@ -385,8 +391,8 @@ color: #fff;
     position: relative;
     background: #F1F1F2;
     margin-top: 20px;
-    
-    
+
+
 }
 
 .our-projects p {
@@ -395,18 +401,19 @@ color: #fff;
     line-height: 2rem;
     padding-top: 10px;
 }
+
 /* 
 .card-img-top {
     /* width: 50%;
     height: 50%; */
-    /* width: 300px;
+/* width: 300px;
 height: 238px;
 
 
 }  */
 .pro-img {
     padding-top: 30px;
-    
+
 }
 
 .pro-img h5 {
@@ -424,11 +431,11 @@ height: 238px;
 
 /*Projects*/
 
-.p-img{
+.p-img {
     position: relative;
 }
 
- /* .p-img h5 {
+/* .p-img h5 {
     position: absolute;
     left: 10px;
     right: 0;
@@ -446,8 +453,8 @@ height: 238px;
 .projects {
     padding-top: 70px;
     color: black;
-    
-    
+
+
 }
 
 .projects p {
@@ -456,18 +463,19 @@ height: 238px;
     line-height: 2rem;
     padding-top: 10px;
 }
+
 /* 
 .card-img-top {
     /* width: 50%;
     height: 50%; */
-    /* width: 300px;
+/* width: 300px;
 height: 238px;
 
 
 }  */
 .p-img {
     padding-top: 30px;
-    
+
 }
 
 .p-img h5 {
@@ -495,16 +503,16 @@ height: 238px;
     border: none;
     color: white;
     background-color: #2A2F76;
-    border-radius:8px;
+    border-radius: 8px;
     /* margin: 50px 0; */
     font-family: 'DIN-Bold';
     align-items: center;
     justify-content: center;
     /* left: 0; */
-    right:0;
+    right: 0;
     margin-right: 600px;
     margin-top: 20px;
-    
+
 }
 
 .cost-calculator {
@@ -526,7 +534,8 @@ height: 238px;
     bottom: 0;
     /* background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%); */
 }
-.cost-calculator-txt{
+
+.cost-calculator-txt {
     position: absolute;
     left: 0;
     right: 0;
@@ -536,6 +545,7 @@ height: 238px;
     display: flex;
     align-items: center;
 }
+
 .cost-calculator-txt h1 {
     font-size: 70px;
     line-height: 84px;
@@ -563,7 +573,7 @@ height: 238px;
     top: 0;
     bottom: 0;
     /* margin-top: 50px; */
-    /* z-index: 9;
+/* z-index: 9;
     display: block;
     align-items: center;
     
@@ -588,35 +598,28 @@ footer {
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
-  }
+}
 
-  .footer-area .footer-p {
+.footer-area .footer-p {
     text-align: left;
-  }
-   .footer-content h4 {
-        font-size:24px;
-        padding-left: 25px;
-        line-height: 28.8px;
-        font-weight:500;
-        font-family: 'DIN-Bold';
-   }
-   .footer-content a {
+}
+
+.footer-content h4 {
+    font-size: 24px;
+    padding-left: 25px;
+    line-height: 28.8px;
+    font-weight: 500;
+    font-family: 'DIN-Bold';
+}
+
+.footer-content a {
     color: #DDDDE0;
     font-family: Mark Pro;
     font-size: 16px;
-   }
-
-  
+}
 
 
-  
-  
-  .col-md-3 {
-    flex: 1;
-    margin-right: 50px;
-  }
-  
-  
+
 
 .footer-area {
     background-color: #030419;
@@ -639,7 +642,7 @@ footer {
 .footer-area .icons {
     display: inline-grid;
     grid-template-columns: auto;
-    
+
     padding: 10px;
 }
 
@@ -669,43 +672,32 @@ footer {
 .footer-area .icons img {
     padding: 10px;
 }
+
 .footer-p {
     /* text-align: left; */
     /* padding-left: 50px; */
     line-height: 1.5em;
     padding-top: 20px;
-    
+
 }
 
 .follow-text {
-    text-align:left;
+    text-align: left;
     align-items: center;
     justify-content: center;
 }
 
 .follow-text li {
     list-style: none;
-    padding-top:20px;
+    padding-top: 20px;
 }
+
 .footer-text li {
     list-style: none;
-    padding-top:20px;
+    padding-top: 20px;
 }
 
-.footer-content {
-    position: relative;
-}
 
-.follow-text {
-    position: absolute;
-    left:80px;
-    
-}
-
-.footer-text {
-    position: absolute;
-    left:115px;
-}
 
 
 
@@ -736,25 +728,26 @@ footer {
 
     .fa-solid {
         position: absolute;
-        left:0;
-        right:0;
+        left: 0;
+        right: 0;
         padding-left: 500px;
-        top:19px;   
-        
+        top: 19px;
+
     }
 
-    .banner-txt h1{
+    .banner-txt h1 {
         font-size: 20px;
         line-height: 1.5rem;
         /* padding-left: 70px; */
     }
 
-    .sub-banner-txt h1{
+    .sub-banner-txt h1 {
         font-size: 16px;
         line-height: 1.5rem;
         /* padding-left: 70px; */
     }
-    .sub-banner-txt p{
+
+    .sub-banner-txt p {
         font-size: 12px;
         line-height: 1.5rem;
         /* padding-left: 70px; */
@@ -768,30 +761,31 @@ footer {
     }
 
     .about-box h3 {
-        font-size:18px;
+        font-size: 18px;
         line-height: 1rem;
         font-weight: 400;
         font-family: DIN-Bold;
         padding-top: 10px;
-        
-        
+
+
     }
 
     .about-box {
         position: absolute;
         max-height: 699px;
         max-width: 460px;
-    left: 50px;
-    right: 0;
-    top: -50px;
-    bottom: 0;
-    background: rgba(3, 4, 25, 0.7);
-    border-radius: 8px;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    color: #fff;
-        
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+
     }
+
     .middle-text {
         padding-bottom: 50px;
         font-size: 10px;
@@ -802,7 +796,7 @@ footer {
         padding: 0;
     }
 
-    
+
 }
 
 /* Construction cost Calculator */
@@ -811,7 +805,7 @@ footer {
 
 .sub-banner {
     position: relative;
-    
+
 }
 
 .sub-banner img {
@@ -828,7 +822,8 @@ footer {
     bottom: 0;
     background: linear-gradient(95.16deg, #030419 -4.63%, rgba(4, 5, 33, 0.32) 105.04%);
 }
-.sub-banner-txt{
+
+.sub-banner-txt {
     position: absolute;
     left: 0;
     right: 0;
@@ -838,6 +833,7 @@ footer {
     display: flex;
     align-items: center;
 }
+
 .sub-banner-txt h1 {
     font-size: 70px;
     line-height: 84px;
@@ -856,7 +852,7 @@ footer {
 
 /* Start Building Estimation Calculator */
 
-.radio{
+.radio {
     text-align: left;
     align-items: left;
     justify-content: flex-start;
@@ -866,7 +862,7 @@ footer {
 .radio-heading h5 {
     text-align: left;
     font-size: 20px;
-    line-height:24px;
+    line-height: 24px;
     font-weight: 500;
     font-family: 'DIN-Bold';
 }
@@ -876,12 +872,12 @@ footer {
     font-family: Mark Pro;
     font-weight: 400;
     font-size: 14px;
-    line-height:23.52px;
+    line-height: 23.52px;
     color: #4C4D5C;
 }
 
 .bec-txt h3 {
-    font-size:48px;
+    font-size: 48px;
     line-height: 57.6px;
     text-align: center;
     font-family: 'DIN Bold';
@@ -889,27 +885,27 @@ footer {
 }
 
 .bec-txt p {
-    font-size:24px;
+    font-size: 24px;
     line-height: 39.84px;
     text-align: center;
     font-family: Mark Pro;
     color: #030419;
-    font-weight:500;
+    font-weight: 500;
 }
 
 .bec button {
     font-family: 'DIN-Bold';
-    font-size:18px;
+    font-size: 18px;
     line-height: 19.8px;
-    font-weight:5;
+    font-weight: 5;
 }
 
 option {
     color: #4C4D5C;
-    font-family:Mark Pro;
-    font-weight:400;
+    font-family: Mark Pro;
+    font-weight: 400;
     font-size: 16px;
-    line-height:27.52px;
+    line-height: 27.52px;
 }
 
 .bec .form {
@@ -920,7 +916,3 @@ option {
 }
 
 /* End Building Estimation Calculator */
-
-
-
-
