@@ -600,6 +600,11 @@ footer {
         font-weight:500;
         font-family: 'DIN-Bold';
    }
+   .footer-content a {
+    color: #DDDDE0;
+    font-family: Mark Pro;
+    font-size: 16px;
+   }
 
   
 
@@ -657,6 +662,7 @@ footer {
 
 .footer-area .icons a {
     padding: 10px;
+    font-family: Mark Pro;
 }
 
 .footer-area .icons img {
