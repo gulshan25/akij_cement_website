@@ -861,7 +861,7 @@ option {
     line-height:27.52px;
 }
 
-.bec form {
+.bec .form {
     width: 90%;
     justify-content: center;
     align-items: center;
