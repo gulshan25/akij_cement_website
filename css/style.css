@@ -588,12 +588,18 @@ footer  {
 }
 
 .footer-area .icons a{
-    /* justify-content: space-between; */
+    justify-content: space-between;
     display: grid;
-    grid-template-columns: 30px 50px ;
+    grid-template-columns:20px 200px ;
+    grid-gap: 10px;
     
     
 }
+
+/* .footer-area .container {
+    display: grid;
+    grid-gap: 15px;
+} */
 
 
 /* .footer-area .icons {
@@ -801,6 +807,14 @@ footer  {
 
 /* Start Building Estimation Calculator */
 
+.bec .img {
+    width: 100%;
+    position: absolute;
+    top:-45px;
+    bottom:0;
+   
+}
+
 .radio {
     text-align: left;
     align-items: left;
@@ -825,12 +839,24 @@ footer  {
     color: #4C4D5C;
 }
 
+.bec-text img{
+    position: relative;
+}
+
+/* .bec-text h3 .bec-p{
+    position: absolute;
+    top: -100px;
+    bottom:0;
+    z-index: 1;
+} */
+
 .bec-txt h3 {
     font-size: 48px;
     line-height: 57.6px;
     text-align: center;
     font-family: 'DIN Bold';
     color: #030419;
+    
 }
 
 .bec-txt p {
