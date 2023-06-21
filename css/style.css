@@ -67,6 +67,8 @@ button:focus {
     position: absolute;
     left: 10px;
     top: 5px;
+    width: 10px;
+    height: 10px;
 }
 
 .fa-magnifying-glass {
@@ -847,12 +849,18 @@ footer  {
     font-weight: 5;
 }
 
-option {
+/* .bec .form-select {
     color: #4C4D5C;
     font-family: Mark Pro;
     font-weight: 400;
     font-size: 16px;
     line-height: 27.52px;
+} */
+
+.bec select {
+    background-color:#F1F1F2;
+    border: 1px solid #DDDDE0;
+border-radius: 8px;
 }
 
 /* .bec .form {
