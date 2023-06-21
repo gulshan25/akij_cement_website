@@ -1,0 +1,918 @@
+/* BASE-SETTINGS */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #4C4D5C;
+    line-height: normal;
+    text-align: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--link-txt);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus,
+input:focus,
+button:focus {
+    text-decoration: none !important;
+    outline: 0 !important;
+}
+
+.akj-container {
+    max-width: 1290px;
+}
+
+/* Top header */
+.top-hdr {
+    background-color: #030419;
+    height: 54px;
+    color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-search {
+    position: relative;
+}
+
+.top-search input {
+    max-width: 156px;
+    padding: 0 0 0 30px;
+    border-radius: 8px;
+}
+
+.top-search i {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+
+.fa-magnifying-glass {
+    color: #646471;
+
+}
+
+/* Main Header */
+.akj-nav {
+    padding: 7px 0;
+}
+
+.akj-nav ul {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.akj-nav ul li {
+    display: inline-block;
+    margin: 0 14px;
+}
+
+.akj-nav ul li a {
+    display: inline-block;
+    color: #4C4D5C;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 27.52px;
+    font-weight: 400;
+    font-family: Mark Pro;
+}
+
+.akj-nav ul li.current_page_selected a {
+    color: #030419;
+}
+
+.btn {
+    background-color: #2A2F76;
+    border: none;
+    font-family: 'DIN-Bold';
+    font-size: 18px;
+    line-height: 19.8px;
+}
+
+/* Banner */
+.banner {
+    position: relative;
+}
+
+.banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.banner-g {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
+}
+
+.banner-txt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+
+.banner-txt h1 {
+    font-size: 70px;
+    line-height: 84px;
+    color: #fff;
+}
+
+/* .right-text {
+    position: absolute;
+    right: 130px;
+    bottom: 60px;
+    color: #fff;
+} */
+/* our products */
+
+.our-products {
+    padding-top: 70px;
+    color: black;
+    position: relative;
+
+}
+
+.our-products p {
+    font-size: 16px;
+    color: #4C4D5C;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+/* 
+.card-img-top {
+    /* width: 50%;
+    height: 50%; */
+/* width: 300px;
+height: 238px;
+
+
+}  */
+.box-img {
+    padding-top: 30px;
+
+}
+
+.box-img h5 {
+    padding: 15px;
+    color: #030419;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* .middle-img {
+    position: relative;
+} */
+
+
+/* .our-products {
+    background-image: url('./images/invisible.png');
+    justify-content: center;
+    
+} */
+
+/* About Us */
+
+.about-us {
+    position: relative;
+}
+
+.about-us img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.about-box {
+    position: absolute;
+    max-height: 699px;
+    max-width: 660px;
+    left: 100px;
+    right: 0;
+    top: -50px;
+    bottom: 0;
+    background: rgba(3, 4, 25, 0.7);
+    border-radius: 8px;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+.middle-text {
+    font-size: 12px;
+}
+
+.about-box p {
+    font-size: 16px;
+    font-family: Mark Pro;
+    line-height: 27.52px;
+}
+
+.about-box h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 400;
+    font-family: DIN-Bold;
+}
+
+.middle-text {
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
+/* News & Events */
+
+/* .news h2, p{
+    padding-left: 10px;
+    color: black;
+    
+} */
+
+.news {
+    text-align: left;
+}
+
+.news h4 {
+    font-family: 'DIN-Bold';
+    color: black;
+    font-weight: 600;
+}
+
+.news-events {
+    padding-top: 50px;
+
+}
+
+.news-events h2 {
+    text-align: center;
+}
+
+.news-events p {
+    line-height: 1.5 rem;
+}
+
+
+.news-events button {
+    padding: 15px 12px;
+    border: none;
+    color: white;
+    background-color: #2A2F76;
+    border-radius: 8px;
+    margin-top: 50px;
+    font-family: 'DIN-Bold';
+
+}
+
+.read-text {
+    text-decoration: underline;
+    font-family: 'DIN-Bold';
+    font-weight: 600;
+}
+
+.p-text p {
+    text-align: left;
+}
+
+/* .news-events  {
+    text-align: center;
+} */
+
+/* why akij cement*/
+
+.why-akij {
+    position: relative;
+    padding: 50px 0;
+}
+
+.why-akij img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.akij-box {
+    position: absolute;
+    max-height: 699px;
+    max-width: 660px;
+    left: 100px;
+    right: 0;
+    top: 20px;
+    bottom: 50px;
+    background: rgba(3, 4, 25, 0.7);
+    border-radius: 8px;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+
+}
+
+.akij-text {
+    font-size: 12px;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    /* width: 100%; */
+
+}
+
+.akij-text a {
+    padding: 34px 20px;
+
+
+}
+
+.akij-text a img {
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, 0.48);
+    border-radius: 100px;
+    width: 45px;
+    height: 45px;
+    border: none;
+
+}
+
+.akij-box p {
+    font-size: 16px;
+
+    line-height: 27.52px;
+}
+
+.akij-box h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 400;
+}
+
+.akij-text {
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
+
+
+
+/* World of Building Solutions*/
+
+.our-projects {
+    padding-top: 70px;
+    color: black;
+    position: relative;
+    background: #F1F1F2;
+    margin-top: 20px;
+
+
+}
+
+.our-projects p {
+    font-size: 16px;
+    color: #4C4D5C;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+/* 
+.card-img-top {
+    /* width: 50%;
+    height: 50%; */
+/* width: 300px;
+height: 238px;
+
+
+}  */
+.pro-img {
+    padding-top: 30px;
+
+}
+
+.pro-img h5 {
+    padding: 15px;
+    color: #030419;
+    font-size: 20px;
+    font-family: 'DIN-Bold';
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.invisible-img img {
+    width: 100%;
+}
+
+/*Projects*/
+
+.p-img {
+    position: relative;
+}
+
+/* .p-img h5 {
+    position: absolute;
+    left: 10px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    display: flex; 
+    align-items: left; 
+    color: #fff;
+    
+
+} */
+
+
+.projects {
+    padding-top: 70px;
+    color: black;
+
+
+}
+
+.projects p {
+    font-size: 16px;
+    color: #4C4D5C;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+/* 
+.card-img-top {
+    /* width: 50%;
+    height: 50%; */
+/* width: 300px;
+height: 238px;
+
+
+}  */
+.p-img {
+    padding-top: 30px;
+
+}
+
+.p-img h5 {
+    padding: 15px;
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    right: 0;
+    /* top: 0; */
+    bottom: 0;
+    z-index: 9;
+    /* /* display: flex; */
+    align-items: left;
+    text-align: left;
+}
+
+
+
+
+/* Cost Calculator */
+
+.btn3 {
+    position: absolute;
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: #2A2F76;
+    border-radius: 8px;
+    /* margin: 50px 0; */
+    font-family: 'DIN-Bold';
+    align-items: center;
+    justify-content: center;
+    /* left: 0; */
+    right: 0;
+    margin-right: 600px;
+    margin-top: 20px;
+
+}
+
+.cost-calculator {
+    position: relative;
+    padding-top: 50px;
+}
+
+/* .banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+} */
+
+.cost-calculator-g {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%); */
+}
+
+.cost-calculator-txt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+
+.cost-calculator-txt h1 {
+    font-size: 70px;
+    line-height: 84px;
+    color: #fff;
+}
+
+/* .cost-calculator img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+} */
+
+/* .cost-calculator-g {
+    position: absolute;
+    left: 0;
+    right: 0;
+    
+    bottom: 0;
+    background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
+} */
+/* .cost-calculator-txt{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    /* margin-top: 50px; */
+/* z-index: 9;
+    display: block;
+    align-items: center;
+    
+    justify-content: center;
+} */
+/* .banner-txt h1 {
+    font-size: 70px;
+    line-height: 84px;
+    color: #fff;
+} */
+
+
+/*footer*/
+
+/* .footer {
+    width: 100%;
+} */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f0f0f0;
+    width: 100%;
+}
+
+.footer-area .footer-p {
+    text-align: left;
+}
+
+.footer-content h4 {
+    font-size: 24px;
+    padding-left: 25px;
+    line-height: 28.8px;
+    font-weight: 500;
+    font-family: 'DIN-Bold';
+}
+
+.footer-content a {
+    color: #DDDDE0;
+    font-family: Mark Pro;
+    font-size: 16px;
+}
+
+
+
+
+.footer-area {
+    background-color: #030419;
+    color: white;
+    margin: 0 auto;
+    padding: 7px 0;
+    display: block;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
+    /* gap: 6rem; */
+    /* position: absolute;
+    left:0;
+    right:0;
+    bottom:0; */
+}
+
+.follow-text {
+    display: block;
+}
+
+.footer-area .icons {
+    display: inline-grid;
+    grid-template-columns: auto;
+
+    padding: 10px;
+}
+
+.footer-area p {
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5rem;
+    color: #ADADB4;
+    margin-left: 5px;
+}
+
+.copy-right {
+    text-align: center;
+    font-size: 18px;
+    font-family: Mark Pro;
+    line-height: 29.88px;
+    font-weight: 400;
+    color: #DDDDE0;
+}
+
+.footer-area .icons a {
+    padding: 10px;
+    font-family: Mark Pro;
+}
+
+.footer-area .icons img {
+    padding: 10px;
+}
+
+.footer-p {
+    /* text-align: left; */
+    /* padding-left: 50px; */
+    line-height: 1.5em;
+    padding-top: 20px;
+
+}
+
+.follow-text {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+.follow-text li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+.footer-text li {
+    list-style: none;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .akj-nav ul {
+        margin: 20px 0;
+        padding-left: 0;
+    }
+
+    .akj-nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .top-hdr form i {
+        margin-right: 50px;
+
+    }
+
+    .fa-solid {
+        position: absolute;
+        left: 0;
+        right: 0;
+        padding-left: 500px;
+        top: 19px;
+
+    }
+
+    .banner-txt h1 {
+        font-size: 20px;
+        line-height: 1.5rem;
+        /* padding-left: 70px; */
+    }
+
+    .sub-banner-txt h1 {
+        font-size: 16px;
+        line-height: 1.5rem;
+        /* padding-left: 70px; */
+    }
+
+    .sub-banner-txt p {
+        font-size: 12px;
+        line-height: 1.5rem;
+        /* padding-left: 70px; */
+    }
+
+    .about-box p {
+        font-size: 12px;
+        font-family: Mark Pro;
+        line-height: 15px;
+        padding-top: 5px;
+    }
+
+    .about-box h3 {
+        font-size: 18px;
+        line-height: 1rem;
+        font-weight: 400;
+        font-family: DIN-Bold;
+        padding-top: 10px;
+
+
+    }
+
+    .about-box {
+        position: absolute;
+        max-height: 699px;
+        max-width: 460px;
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+
+    }
+
+    .middle-text {
+        padding-bottom: 50px;
+        font-size: 10px;
+        /* margin-bottom: 50px; */
+    }
+
+    .middle-text h3 {
+        padding: 0;
+    }
+
+
+}
+
+/* Construction cost Calculator */
+
+/* Start Sub-Banner */
+
+.sub-banner {
+    position: relative;
+
+}
+
+.sub-banner img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.sub-banner-g {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: linear-gradient(95.16deg, #030419 -4.63%, rgba(4, 5, 33, 0.32) 105.04%);
+}
+
+.sub-banner-txt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    /* bottom: 0; */
+    z-index: 9;
+    display: flex;
+    align-items: center;
+}
+
+.sub-banner-txt h1 {
+    font-size: 70px;
+    line-height: 84px;
+    color: #fff;
+    font-family: 'DIN-Bold';
+}
+
+.sub-banner-txt .sub-text {
+    color: #EDEDEE;
+    line-height: 1.5rem;
+    font-family: Mark Pro;
+}
+
+
+/* End Sub-Banner */
+
+/* Start Building Estimation Calculator */
+
+.radio {
+    text-align: left;
+    align-items: left;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.radio-heading h5 {
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'DIN-Bold';
+}
+
+.bec-txt .form-text {
+    text-align: left;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23.52px;
+    color: #4C4D5C;
+}
+
+.bec-txt h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    text-align: center;
+    font-family: 'DIN Bold';
+    color: #030419;
+}
+
+.bec-txt p {
+    font-size: 24px;
+    line-height: 39.84px;
+    text-align: center;
+    font-family: Mark Pro;
+    color: #030419;
+    font-weight: 500;
+}
+
+.bec button {
+    font-family: 'DIN-Bold';
+    font-size: 18px;
+    line-height: 19.8px;
+    font-weight: 5;
+}
+
+option {
+    color: #4C4D5C;
+    font-family: Mark Pro;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.52px;
+}
+
+.bec .form {
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+}
+
+/* End Building Estimation Calculator */
