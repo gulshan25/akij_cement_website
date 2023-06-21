@@ -776,7 +776,7 @@ footer  {
     right: 0;
     top: 50px;
     /* bottom: 0; */
-    z-index: 9;
+    z-index: 1;
     display: flex;
     align-items: center;
 }
