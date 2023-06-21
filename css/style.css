@@ -74,6 +74,11 @@ button:focus {
 
 }
 
+.top-hdr img {
+    width:20px;
+    height: 20px;
+}
+
 /* Main Header */
 .akj-nav {
     padding: 7px 0;
@@ -537,6 +542,7 @@ footer  {
 }
 
 
+
 .footer-area .footer-p {
     text-align: left;
     justify-content: center;
@@ -583,6 +589,7 @@ footer  {
     /* justify-content: space-between; */
     display: grid;
     grid-template-columns: 30px 50px ;
+    
     
 }
 
