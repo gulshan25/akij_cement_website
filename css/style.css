@@ -53,25 +53,30 @@ button:focus {
     align-items: center;
 }
 
-.top-hdr input {
-        padding: 0px ;
-        border-radius: 8px;
+.top-search {
+    position: relative;
 }
 
-.fa-solid {
+.top-search input {
+    max-width: 156px;
+    padding: 0 0 0 30px;
+    border-radius: 8px;
+}
+
+.top-search i {
     position: absolute;
-    left:0;
-    right:0;
-    padding-left: 890px;
-    top:19px;
-    
-    
-    
-    
+    left: 10px;
+    top: 5px;
 }
-.fa-magnifying-glass {
-    color:#646471;
 
+.fa-magnifying-glass {
+    color: #646471;
+
+}
+
+.top-hdr .img a{
+    width: 20px;
+    height: 20px;
 }
 
 /* Main Header */
@@ -94,7 +99,7 @@ button:focus {
     color: #4C4D5C;
     padding: 5px 10px;
     font-size: 16px;
-    line-height:27.52px;
+    line-height: 27.52px;
     font-weight: 400;
     font-family: Mark Pro;
 }
@@ -108,7 +113,7 @@ button:focus {
     border: none;
     font-family: 'DIN-Bold';
     font-size: 18px;
-    line-height:19.8px;
+    line-height: 19.8px;
 }
 
 /* Banner */
@@ -130,7 +135,8 @@ button:focus {
     bottom: 0;
     background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
 }
-.banner-txt{
+
+.banner-txt {
     position: absolute;
     left: 0;
     right: 0;
@@ -140,25 +146,21 @@ button:focus {
     display: flex;
     align-items: center;
 }
+
 .banner-txt h1 {
     font-size: 70px;
     line-height: 84px;
     color: #fff;
 }
 
-/* .right-text {
-    position: absolute;
-    right: 130px;
-    bottom: 60px;
-    color: #fff;
-} */
+
 /* our products */
 
 .our-products {
     padding-top: 70px;
     color: black;
-    position: relative;
     
+
 }
 
 .our-products p {
@@ -167,43 +169,37 @@ button:focus {
     line-height: 2rem;
     padding-top: 10px;
 }
-/* 
-.card-img-top {
-    /* width: 50%;
-    height: 50%; */
-    /* width: 300px;
-height: 238px;
 
 
-}  */
 .box-img {
-    padding-top: 30px;
-    
+    display: block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.box-img img {
+    width: 100%;
 }
 
 .box-img h5 {
+    
     padding: 15px;
     color: #030419;
     font-size: 12px;
     font-weight: bold;
 }
 
+.invisible-img {
+    width: 100%;
+}
 
-/* .middle-img {
-    position: relative;
-} */
 
 
-/* .our-products {
-    background-image: url('./images/invisible.png');
-    justify-content: center;
-    
-} */
 
 /* About Us */
 
 .about-us {
-position: relative;
+    position: relative;
 }
 
 .about-us img {
@@ -216,21 +212,22 @@ position: relative;
     position: absolute;
     max-height: 699px;
     max-width: 660px;
-left: 100px;
-right: 0;
-top: -50px;
-bottom: 0;
-background: rgba(3, 4, 25, 0.7);
-border-radius: 8px;
-padding: 60px 20px;
-margin-bottom: 30px;
-color: #fff;
-    
+    left: 100px;
+    right: 0;
+    top: -50px;
+    bottom: 0;
+    background: rgba(3, 4, 25, 0.7);
+    border-radius: 8px;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    color: #fff;
+
 }
 
 .middle-text {
     font-size: 12px;
 }
+
 .about-box p {
     font-size: 16px;
     font-family: Mark Pro;
@@ -238,7 +235,7 @@ color: #fff;
 }
 
 .about-box h3 {
-    font-size:48px;
+    font-size: 48px;
     line-height: 57.6px;
     font-weight: 400;
     font-family: DIN-Bold;
@@ -247,37 +244,49 @@ color: #fff;
 .middle-text {
     padding-bottom: 50px;
     font-size: 12px;
+    margin-top: 20px;
 }
 
 /* News & Events */
 
-/* .news h2, p{
-    padding-left: 10px;
+.news-events {
+    padding-top: 70px;
     color: black;
-    
-} */
+}
 
 .news {
     text-align: left;
 }
 
-.news h4 {
-    font-family: 'DIN-Bold';
-    color: black;
-    font-weight: 600;
+.news-img {
+    display: block;
+  width: 100%;
+  padding-top: 20px;
 }
 
-.news-events {
-    padding-top: 50px;
-    
+.news-img img {
+    width: 100%;
 }
-.news-events h2 {
-    text-align: center;
+
+.news-img h5 {
+    
+    padding: 15px;
+    color: #030419;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.read-text {
+    text-decoration: underline;
 }
 
 .news-events p {
-    line-height: 1.5 rem;
+    font-size: 16px;
+    color: #4C4D5C;
+    line-height: 2rem;
+    padding-top: 10px;
 }
+
 
 
 .news-events button {
@@ -285,226 +294,200 @@ color: #fff;
     border: none;
     color: white;
     background-color: #2A2F76;
-    border-radius:8px;
-    margin-top: 50px;
+    border-radius: 8px;
+    margin-top: 30px;
     font-family: 'DIN-Bold';
+
+}
+
+/* World of Building Solutions*/
+
+.wbs {
+    padding-top: 70px;
+    color: black;
+    background-color: #F1F1F2;
+    margin-top: 50px;
+    
+    
+
+}
+
+.wbs p {
+    font-size: 16px;
+    color: #4C4D5C;
+    line-height: 2rem;
+    padding-top: 10px;
+}
+
+
+.wbs-img {
+    display: block;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.wbs-img img {
+    width: 100%;
+}
+
+.wbs-img h5 {
+    
+    padding: 15px;
+    color: #030419;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.wbs-title .invisible-img {
+    width: 100%;
     
 }
 
-.read-text {
-    text-decoration: underline;
-    font-family: 'DIN-Bold';
-    font-weight:600;
-}
 
-.p-text p {
-    text-align: left;
-}
 
-/* .news-events  {
-    text-align: center;
-} */
+
 
 /* why akij cement*/
 
 .why-akij {
     position: relative;
-    padding: 50px 0;
-    }
-    
-    /* .why-akij img {
-        object-fit: cover;
-        width: 100%;
-        max-height: 460px;
-    } */
-    
-    .akij-box {
-        position: absolute;
-        max-height: 699px;
-        max-width: 660px;
+}
+
+.why-akij img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.akij-box {
+    position: absolute;
+    max-height: 699px;
+    max-width: 660px;
     left: 100px;
     right: 0;
-    top: 20px;
-    bottom: 50px;
+    top: -50px;
+    bottom: 0;
     background: rgba(3, 4, 25, 0.7);
     border-radius: 8px;
     padding: 60px 20px;
     margin-bottom: 30px;
     color: #fff;
-        
-    }
-    
-    .akij-text {
-        font-size: 12px;
-        display: inline-grid;
-        grid-template-columns: auto auto;
-        /* width: 100%; */
-        
-    }
 
-    .akij-text a {
-        padding: 34px 20px;
-       
-        
-    }
-
-    .akij-text a img {
-        padding: 10px 10px;
-        background-color: rgba(255, 255, 255,0.48);
-        border-radius: 100px ;
-        width: 45px;
-        height: 45px;
-        border:none;
-        
-    }
-    .akij-box p {
-        font-size: 16px;
-       
-        line-height: 27.52px;
-    }
-    
-    .akij-box h3 {
-        font-size:48px;
-        line-height: 57.6px;
-        font-weight: 400;
-    }
-    
-    .akij-text {
-        padding-bottom: 50px;
-        font-size: 12px;
-    }
-    
-
-
-
-/* World of Building Solutions*/
-
-.our-projects {
-    padding-top: 70px;
-    color: black;
-    position: relative;
-    background: #F1F1F2;
-    margin-top: 20px;
-    
-    
 }
 
-.our-projects p {
+.akij-text {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 80px 200px ;
+    /* grid-gap: 10px; */
+    
+
+}
+
+.akij-text a {
+    background: #4C4D5C;
+    opacity: 0.48;
+    border-radius: 50px;
+    width: 70px;
+height: 70px;
+    padding: 15px 15px;
+}
+
+.akij-text img {
+    width: 38.75px;
+    height: 38.36px;
+}
+
+.akij-box p {
     font-size: 16px;
-    color: #4C4D5C;
-    line-height: 2rem;
-    padding-top: 10px;
+    font-family: Mark Pro;
+    line-height: 27.52px;
+    padding: 15px 0;
 }
-/* 
-.card-img-top {
-    /* width: 50%;
-    height: 50%; */
-    /* width: 300px;
-height: 238px;
 
+.akij-box h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-weight: 400;
+    font-family: DIN-Bold;
+}
 
-}  */
-.pro-img {
-    padding-top: 30px;
+.akij-text {
+    padding-bottom: 50px;
+    font-size: 12px;
     
 }
 
-.pro-img h5 {
-    padding: 15px;
-    color: #030419;
-    font-size: 20px;
-    font-family: 'DIN-Bold';
-    line-height: 24px;
-    font-weight: bold;
-}
-
-.invisible-img img {
-    width: 100%;
-}
 
 /*Projects*/
 
-.p-img{
-    position: relative;
-}
-
- /* .p-img h5 {
-    position: absolute;
-    left: 10px;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 9;
-    display: flex; 
-    align-items: left; 
-    color: #fff;
-    
-
-} */
-
-
-.projects {
+.our-project {
     padding-top: 70px;
     color: black;
     
-    
+
 }
 
-.projects p {
+.our-project p {
     font-size: 16px;
     color: #4C4D5C;
     line-height: 2rem;
     padding-top: 10px;
 }
-/* 
-.card-img-top {
-    /* width: 50%;
-    height: 50%; */
-    /* width: 300px;
-height: 238px;
 
 
-}  */
-.p-img {
-    padding-top: 30px;
+.project-img {
+    display: block;
+  width: 100%;
+  padding-top: 20px;
+  position: relative;
+}
+
+.project-img img {
+    width: 100%;
     
 }
 
-.p-img h5 {
-    padding: 15px;
-    color: #fff;
+.project-img h5 {
     position: absolute;
-    left: 10px;
-    right: 0;
-    /* top: 0; */
-    bottom: 0;
-    z-index: 9;
-    /* /* display: flex; */
-    align-items: left;
+    /* top:0; */
+    bottom:0;
+    left:0;
+    right:0;
+    z-index: 1;
+    padding: 15px;
+    color: #FFFFFF;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 140%;
+letter-spacing: -1px;
     text-align: left;
 }
-
-
 
 
 /* Cost Calculator */
 
 .btn3 {
     position: absolute;
-    padding: 15px;
+    padding: 14px 24px;
     border: none;
     color: white;
-    background-color: #2A2F76;
-    border-radius:8px;
-    /* margin: 50px 0; */
+    background: #2A2F76;
+border-radius: 8px;
+    margin: 0 auto;
     font-family: 'DIN-Bold';
     align-items: center;
     justify-content: center;
-    /* left: 0; */
-    right:0;
-    margin-right: 600px;
-    margin-top: 20px;
-    
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 174px;
+height: 48px;
+   margin-top: 20px;
+
 }
 
 .cost-calculator {
@@ -512,11 +495,11 @@ height: 238px;
     padding-top: 50px;
 }
 
-/* .banner img {
+.cost-calculator img {
     object-fit: cover;
     width: 100%;
     max-height: 460px;
-} */
+}
 
 .cost-calculator-g {
     position: absolute;
@@ -524,9 +507,10 @@ height: 238px;
     right: 0;
     top: 0;
     bottom: 0;
-    /* background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%); */
+    background: (0deg, rgba(3, 4, 25, 0.6), rgba(3, 4, 25, 0.6));
 }
-.cost-calculator-txt{
+
+.cost-calculator-txt {
     position: absolute;
     left: 0;
     right: 0;
@@ -536,112 +520,84 @@ height: 238px;
     display: flex;
     align-items: center;
 }
+
 .cost-calculator-txt h1 {
     font-size: 70px;
     line-height: 84px;
     color: #fff;
+    text-align: center;
 }
 
-/* .cost-calculator img {
-    object-fit: cover;
-    width: 100%;
-    max-height: 460px;
-} */
-
-/* .cost-calculator-g {
-    position: absolute;
-    left: 0;
-    right: 0;
-    
-    bottom: 0;
-    background: linear-gradient(90.41deg, #030419 -15.83%, rgba(4, 5, 33, 0.04) 101.39%);
-} */
-/* .cost-calculator-txt{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    /* margin-top: 50px; */
-    /* z-index: 9;
-    display: block;
-    align-items: center;
-    
-    justify-content: center;
-} */
-/* .banner-txt h1 {
-    font-size: 70px;
-    line-height: 84px;
-    color: #fff;
-} */
+/* footer */
 
 
-/*footer*/
 
-/* .footer {
-    width: 100%;
-} */
-
-footer {
+footer  {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
-  }
+    
+}
 
-  .footer-area .footer-p {
+
+.footer-area .footer-p {
     text-align: left;
-  }
-   .footer-content h4 {
-        font-size:24px;
-        padding-left: 25px;
-        line-height: 28.8px;
-        font-weight:500;
-        font-family: 'DIN-Bold';
-   }
-   .footer-content a {
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-area ul li {
+    padding: 7px 0;
+}
+
+.footer-area h4 {
+    font-size: 24px;
+    /* padding-l: 25px; */
+    line-height: 28.8px;
+    font-weight: 500;
+    font-family: 'DIN-Bold';
+    align-items: center;
+    margin-left: 20px;
+}
+
+/* .footer-content a {
     color: #DDDDE0;
     font-family: Mark Pro;
     font-size: 16px;
-   }
-
-  
+} */
 
 
-  
-  
-  .col-md-3 {
-    flex: 1;
-    margin-right: 50px;
-  }
-  
-  
+
 
 .footer-area {
     background-color: #030419;
     color: white;
     margin: 0 auto;
-    padding: 7px 0;
+    padding: 20px 0;
     display: block;
-    /* grid-template-columns: repeat(auto-fit, minmax(200px, auto)); */
-    /* gap: 6rem; */
-    /* position: absolute;
-    left:0;
-    right:0;
-    bottom:0; */
+    
 }
 
 .follow-text {
     display: block;
 }
 
-.footer-area .icons {
+.footer-area .icons a {
+    /* justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 30px 50px ;
+    
+}
+
+
+/* .footer-area .icons {
     display: inline-grid;
     grid-template-columns: auto;
+
     
-    padding: 10px;
-}
+} */
 
 .footer-area p {
     font-family: Mark Pro;
@@ -662,50 +618,40 @@ footer {
 }
 
 .footer-area .icons a {
-    padding: 10px;
+    /* padding: 10px; */
     font-family: Mark Pro;
 }
 
 .footer-area .icons img {
-    padding: 10px;
+    /* padding: 10px; */
 }
+
 .footer-p {
     /* text-align: left; */
     /* padding-left: 50px; */
     line-height: 1.5em;
     padding-top: 20px;
-    
+
 }
 
 .follow-text {
-    text-align:left;
+    text-align: left;
     align-items: center;
     justify-content: center;
 }
 
 .follow-text li {
     list-style: none;
-    padding-top:20px;
-}
-.footer-text li {
-    list-style: none;
-    padding-top:20px;
-}
-
-.footer-content {
-    position: relative;
-}
-
-.follow-text {
-    position: absolute;
-    left:80px;
     
 }
 
-.footer-text {
-    position: absolute;
-    left:115px;
-}
+
+
+
+
+
+
+
 
 
 
@@ -736,25 +682,26 @@ footer {
 
     .fa-solid {
         position: absolute;
-        left:0;
-        right:0;
+        left: 0;
+        right: 0;
         padding-left: 500px;
-        top:19px;   
-        
+        top: 19px;
+
     }
 
-    .banner-txt h1{
+    .banner-txt h1 {
         font-size: 20px;
         line-height: 1.5rem;
         /* padding-left: 70px; */
     }
 
-    .sub-banner-txt h1{
+    .sub-banner-txt h1 {
         font-size: 16px;
         line-height: 1.5rem;
         /* padding-left: 70px; */
     }
-    .sub-banner-txt p{
+
+    .sub-banner-txt p {
         font-size: 12px;
         line-height: 1.5rem;
         /* padding-left: 70px; */
@@ -768,30 +715,31 @@ footer {
     }
 
     .about-box h3 {
-        font-size:18px;
+        font-size: 18px;
         line-height: 1rem;
         font-weight: 400;
         font-family: DIN-Bold;
         padding-top: 10px;
-        
-        
+
+
     }
 
     .about-box {
         position: absolute;
         max-height: 699px;
         max-width: 460px;
-    left: 50px;
-    right: 0;
-    top: -50px;
-    bottom: 0;
-    background: rgba(3, 4, 25, 0.7);
-    border-radius: 8px;
-    padding: 10px 20px;
-    margin-bottom: 20px;
-    color: #fff;
-        
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+
     }
+
     .middle-text {
         padding-bottom: 50px;
         font-size: 10px;
@@ -802,7 +750,7 @@ footer {
         padding: 0;
     }
 
-    
+
 }
 
 /* Construction cost Calculator */
@@ -811,7 +759,7 @@ footer {
 
 .sub-banner {
     position: relative;
-    
+
 }
 
 .sub-banner img {
@@ -828,7 +776,8 @@ footer {
     bottom: 0;
     background: linear-gradient(95.16deg, #030419 -4.63%, rgba(4, 5, 33, 0.32) 105.04%);
 }
-.sub-banner-txt{
+
+.sub-banner-txt {
     position: absolute;
     left: 0;
     right: 0;
@@ -838,6 +787,7 @@ footer {
     display: flex;
     align-items: center;
 }
+
 .sub-banner-txt h1 {
     font-size: 70px;
     line-height: 84px;
@@ -856,7 +806,7 @@ footer {
 
 /* Start Building Estimation Calculator */
 
-.radio{
+.radio {
     text-align: left;
     align-items: left;
     justify-content: flex-start;
@@ -866,7 +816,7 @@ footer {
 .radio-heading h5 {
     text-align: left;
     font-size: 20px;
-    line-height:24px;
+    line-height: 24px;
     font-weight: 500;
     font-family: 'DIN-Bold';
 }
@@ -876,12 +826,12 @@ footer {
     font-family: Mark Pro;
     font-weight: 400;
     font-size: 14px;
-    line-height:23.52px;
+    line-height: 23.52px;
     color: #4C4D5C;
 }
 
 .bec-txt h3 {
-    font-size:48px;
+    font-size: 48px;
     line-height: 57.6px;
     text-align: center;
     font-family: 'DIN Bold';
@@ -889,27 +839,27 @@ footer {
 }
 
 .bec-txt p {
-    font-size:24px;
+    font-size: 24px;
     line-height: 39.84px;
     text-align: center;
     font-family: Mark Pro;
     color: #030419;
-    font-weight:500;
+    font-weight: 500;
 }
 
 .bec button {
     font-family: 'DIN-Bold';
-    font-size:18px;
+    font-size: 18px;
     line-height: 19.8px;
-    font-weight:5;
+    font-weight: 5;
 }
 
 option {
     color: #4C4D5C;
-    font-family:Mark Pro;
-    font-weight:400;
+    font-family: Mark Pro;
+    font-weight: 400;
     font-size: 16px;
-    line-height:27.52px;
+    line-height: 27.52px;
 }
 
 .bec .form {
@@ -920,7 +870,3 @@ option {
 }
 
 /* End Building Estimation Calculator */
-
-
-
-
