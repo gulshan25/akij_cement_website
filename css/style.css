@@ -680,14 +680,7 @@ footer  {
 
     }
 
-    .fa-solid {
-        position: absolute;
-        left: 0;
-        right: 0;
-        padding-left: 500px;
-        top: 19px;
-
-    }
+   
 
     .banner-txt h1 {
         font-size: 20px;
@@ -862,11 +855,11 @@ option {
     line-height: 27.52px;
 }
 
-.bec .form {
+/* .bec .form {
     width: 90%;
     justify-content: center;
     align-items: center;
     padding-left: 150px;
-}
+} */
 
 /* End Building Estimation Calculator */
