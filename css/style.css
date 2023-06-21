@@ -585,7 +585,7 @@ footer  {
     display: block;
 }
 
-.footer-area .icons a {
+.footer-area .icons a{
     /* justify-content: space-between; */
     display: grid;
     grid-template-columns: 30px 50px ;
