@@ -807,13 +807,7 @@ footer  {
 
 /* Start Building Estimation Calculator */
 
-.bec .img {
-    width: 100%;
-    position: absolute;
-    top:-45px;
-    bottom:0;
-   
-}
+
 
 .radio {
     text-align: left;
@@ -839,9 +833,6 @@ footer  {
     color: #4C4D5C;
 }
 
-.bec-text img{
-    position: relative;
-}
 
 
 
@@ -851,6 +842,7 @@ footer  {
     text-align: center;
     font-family: 'DIN Bold';
     color: #030419;
+    
     
 }
 
