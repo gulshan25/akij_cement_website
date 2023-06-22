@@ -48,6 +48,11 @@ button:focus {
     max-width: 1290px;
 }
 
+/* .container {
+    max-width: 1290px;
+    
+} */
+
 /* Top header */
 .top-hdr {
     background-color: #030419;
@@ -172,6 +177,16 @@ button:focus {
 
 }
 
+.our-products h2 {
+    font-family: 'DIN-Bold';
+}
+
+.our-products h5 {
+    font-family: 'DIN-Bold';
+    font-size: 20px;
+    line-height:24px;
+}
+
 .our-products p {
     font-size: 16px;
     color: #4C4D5C;
@@ -247,7 +262,7 @@ button:focus {
     font-size: 48px;
     line-height: 57.6px;
     font-weight: 400;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
 }
 
 .middle-text {
@@ -287,12 +302,25 @@ button:focus {
 
 .read-text {
     text-decoration: underline;
+    font-family: 'DIN-Bold';
+    line-height: 19.8px;
+    font-size: 18px;
+}
+
+.news-events h4 {
+    font-family:'DIN-Bold';
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.news-events h3 {
+    font-family:'DIN-Bold';
 }
 
 .news-events p {
     font-size: 16px;
     color: #4C4D5C;
-    line-height: 2rem;
+    line-height: 1.5rem;
     padding-top: 10px;
 }
 
@@ -317,8 +345,10 @@ button:focus {
     background-color: #F1F1F2;
     margin-top: 50px;
     
-    
+}
 
+.wbs h3 {
+    font-family: 'DIN-Bold';
 }
 
 .wbs p {
@@ -340,11 +370,12 @@ button:focus {
 }
 
 .wbs-img h5 {
-    
+    font-family: 'DIN-Bold';
     padding: 15px;
     color: #030419;
-    font-size: 12px;
+    font-size: 20px;
     font-weight: bold;
+    align-items: center;
 }
 
 
@@ -389,7 +420,10 @@ button:focus {
     font-size: 12px;
     display: grid;
     grid-template-columns: 80px 200px ;
+   
     /* grid-gap: 10px; */
+    
+    
     
 
 }
@@ -419,7 +453,7 @@ height: 70px;
     font-size: 48px;
     line-height: 57.6px;
     font-weight: 400;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
 }
 
 .akij-text {
@@ -436,6 +470,10 @@ height: 70px;
     color: black;
     
 
+}
+
+.our-project h3 {
+    font-family: 'DIN-Bold';
 }
 
 .our-project p {
@@ -467,11 +505,11 @@ height: 70px;
     z-index: 1;
     padding: 15px;
     color: #FFFFFF;
-    font-family: 'Poppins';
+    font-family: 'Poppins-Regular';
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
-line-height: 140%;
+line-height: 33.6px;
 letter-spacing: -1px;
     text-align: left;
 }
@@ -495,7 +533,7 @@ border-radius: 8px;
     right: 0;
     width: 174px;
 height: 48px;
-   margin-top: 20px;
+   /* margin-top: 20px; */
 
 }
 
@@ -530,11 +568,12 @@ height: 48px;
     align-items: center;
 }
 
-.cost-calculator-txt h1 {
-    font-size: 70px;
+.cost-calculator-txt h3 {
+    font-size: 48px;
     line-height: 84px;
     color: #fff;
     text-align: center;
+    font-family: 'DIN-Bold';
 }
 
 /* footer */
@@ -543,7 +582,8 @@ height: 48px;
 
 footer  {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    /* flex-wrap: wrap; */
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
@@ -806,6 +846,11 @@ footer  {
     align-items: center;
 }
 
+.sub-banner-txt img {
+    position: relative;
+    
+} 
+
 .sub-banner-txt h1 {
     font-size: 70px;
     line-height: 84px;
@@ -824,19 +869,22 @@ footer  {
 
 /* Start Building Estimation Calculator */
 
-.bec {
-    background-image: url('./images/invisible-image2.jpg');
-    background-repeat: no-repeat;
-    width: 100%;
 
-}
 
-.radio {
+.radio-box {
     text-align: left;
     align-items: left;
     justify-content: flex-start;
     padding-top: 10px;
 }
+
+input[type=radio] {
+    accent-color:#2A2F76;
+}
+
+
+
+
 
 .radio-heading h5 {
     text-align: left;
@@ -855,10 +903,22 @@ footer  {
     color: #4C4D5C;
 }
 
+.bec {
+    background-image: url("../images/invisible-image3.png");
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-position: center; */
+}
 
+.form-text {
+    font-size:24px;
+    line-height: 23.52px;
+    font-family: 'Mark-Pro';
+    font-weight: 400;
+    /* margin: 50px 0; */
+}
 
-
-.bec-txt h3 {
+.bec-h3 {
     font-size: 48px;
     line-height: 57.6px;
     text-align: center;
@@ -867,6 +927,18 @@ footer  {
     
     
 }
+
+/* .bec-txt .bec-h3 {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    
+} */
+
+
 
 .bec-txt p {
     font-size: 24px;

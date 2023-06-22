@@ -37,3 +37,15 @@
         url(../fonts/MarkPro-Medium.ttf) format('truetype'),
         url(../fonts/MarkPro-Medium.svg#MarkPro-Medium) format('svg');
 }
+
+@font-face {
+    font-family: 'Poppins-Regular';
+    src: url(./Poppins-Regular.eot);
+    src: url(./Poppins-Regular.eot?#iefix) format('embedded-opentype'),
+         url(./Poppins-Regular.otf) format('otf'),
+         url(./Poppins-Regular.svg#Poppins-Regular) format('svg'),
+         url(./Poppins-Regular.ttf) format('truetype'),
+         url(./Poppins-Regular.woff) format('woff'),
+         url(./Poppins-Regular.woff2) format('woff2');
+  }
+  

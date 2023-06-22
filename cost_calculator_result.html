@@ -51,7 +51,7 @@
     <nav class="navbar navbar-expand-lg sticky-top bg-light akj-nav">
       <div class="container">
         <a class="navbar-brand hdr-logo" href="#">
-          <img class="img p-lg-2" src="./images/logo.png" alt="" />
+          <img class="img-fluid p-lg-2" src="./images/logo.png" alt="" />
         </a>
         <button
           class="navbar-toggler"
@@ -112,11 +112,12 @@
     <div class="bec">
       <div class="bec-txt text-center">
         <div class="container p-5">
-          <h3>Building Estimation Calculator</h3>
+          <h3 class="bec-h3">Building Estimation Calculator</h3>
           <p class="bec-p">Location & Area</p>
+
           <div class="row">
             <div class="col-md-8 offset-2">
-              <form class="form">
+              <form class="form-box">
                 <fieldset>
                   <!-- <legend>Disabled fieldset example</legend> -->
 
@@ -135,13 +136,13 @@
                   </div>
                   <div class="radio-heading">
                     <h5>Area of Construction</h5>
-                    <div class="radio">
+                    <div class="radio-box">
                       <div class="form-check form-check-inline">
                         <input
                           class="form-check-input"
                           type="radio"
                           name="inlineRadioOptions"
-                          id="inlineRadio1 "
+                          id="inlineRadio1 radio1"
                           value="option1"
                         />
                         <label class="form-check-label" for="inlineRadio1"
@@ -154,7 +155,7 @@
                           class="form-check-input"
                           type="radio"
                           name="inlineRadioOptions"
-                          id="inlineRadio2"
+                          id="inlineRadio2 radio2"
                           value="option2"
                         />
                         <label
@@ -188,6 +189,10 @@
             </div>
           </div>
         </div>
+        <img
+          class="img justify-content-center w-100"
+          src="./images/invisible-image.jpg"
+        />
       </div>
     </div>
 
@@ -198,71 +203,85 @@
       <div class="container">
         <div class="row pt-5">
           <div class="col-md-3">
-            <a class="navbar-brand hdr-logo" href="#">
-              <img class="img-fluid p-lg-2" src="./images/logo.png" alt="" />
-            </a>
-            <p class="footer-p">
-              Akij House, 198 Bir Uttam Mir <br />Shawkat Sarak, Gulshan Link
-              <br />Road, Tejgaon, Dhaka-1208.<br />
-              info@akijcement.com<br />
-              08000555777
-            </p>
-          </div>
-          <div class="col-md-3">
-            <h4 class="h1">Quick Links</h4>
-            <div class="follow-text">
-              <ul>
-                <li><a>Company</a></li>
-                <li><a>Why Akij Cement</a></li>
-                <li><a>Products</a></li>
-                <li><a>Media</a></li>
-                <li><a>Contact Us</a></li>
-                <li><a>Careers</a></li>
-              </ul>
+            <div class="logo-box">
+              <a class="navbar-brand hdr-logo" href="#">
+                <img class="img-fluid p-lg-2" src="./images/logo.png" alt="" />
+              </a>
+              <p class="footer-p">
+                Akij House, 198 Bir Uttam Mir <br />Shawkat Sarak, Gulshan Link
+                <br />Road, Tejgaon, Dhaka-1208.<br />
+                info@akijcement.com<br />
+                08000555777
+              </p>
             </div>
           </div>
           <div class="col-md-3">
-            <h4 class="h2">Legal</h4>
-            <div class="follow-text">
-              <ul>
-                <li><a>Privacy Policy</a></li>
-                <li><a>Terms of Use</a></li>
-              </ul>
+            <div class="footer-title">
+              <h4 class="h1">Quick Links</h4>
+              <div class="follow-text">
+                <ul>
+                  <li><a>Company</a></li>
+                  <li><a>Why Akij Cement</a></li>
+                  <li><a>Products</a></li>
+                  <li><a>Media</a></li>
+                  <li><a>Contact Us</a></li>
+                  <li><a>Careers</a></li>
+                </ul>
+              </div>
             </div>
           </div>
           <div class="col-md-3">
-            <h4 class="h3">Follow Us</h4>
-            <div class="follow-text icons">
-              <a>
-                <img
-                  class="img"
-                  src="./images/facebook.png"
-                  alt=""
-                />Facebook</a
-              >
-              <a>
-                <img
-                  class="img"
-                  src="./images/instagram.png"
-                  alt=""
-                />Instagram</a
-              >
-              <a>
-                <img class="img" src="./images/twitter.png" alt="" />Twitter</a
-              >
-              <a>
-                <img
-                  class="img"
-                  src="./images/whatsapp.png"
-                  alt=""
-                />Whatsapp</a
-              >
+            <div class="footer-title">
+              <h4 class="h2">Legal</h4>
+              <div class="follow-text">
+                <ul>
+                  <li><a>Privacy Policy</a></li>
+                  <li><a>Terms of Use</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer-title">
+              <h4 class="h3">Follow Us</h4>
+              <div class="follow-text icons">
+                <a>
+                  <img
+                    class="img"
+                    src="./images/facebook.png"
+                    alt=""
+                  />Facebook</a
+                >
+                <a>
+                  <img
+                    class="img"
+                    src="./images/instagram.png"
+                    alt=""
+                  />Instagram</a
+                >
+                <a>
+                  <img
+                    class="img"
+                    src="./images/twitter.png"
+                    alt=""
+                  />Twitter</a
+                >
+                <a>
+                  <img
+                    class="img"
+                    src="./images/whatsapp.png"
+                    alt=""
+                  />Whatsapp</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
       <hr />
-      <p class="copy-right">&copy;2023 Akij Cement. All rights reserved.</p>
+      <p class="copy-right pt-3">
+        &copy;2023 Akij Cement. All rights reserved.
+      </p>
     </footer>
     <!--End Footer-->
 
