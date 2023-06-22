@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'DIN-Regular';
+    src: url(../fonts/DIN-Regular.eot);
+    src: url(../fonts/DIN-Regular.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/DIN-Regular.woff) format('woff'),
+        url(../fonts/DIN-Regular.woff2) format('woff2'),
+        url(../fonts/DIN-Regular.ttf) format('truetype'),
+        url(../fonts/DIN-Regular.svg#DIN-Regular) format('svg');
+}
+
+@font-face {
+    font-family: 'DIN-Bold';
+    src: url(../fonts/DIN-Bold.eot);
+    src: url(../fonts/DIN-Bold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/DIN-Bold.ttf) format('truetype'),
+        url(../fonts/DIN-Bold.woff) format('woff'),
+        url(../fonts/DIN-Bold.woff2) format('woff2'),
+        url(../fonts/DIN-Bold.svg#DIN-Bold) format('svg');
+}
+
+@font-face {
+    font-family: 'MarkPro';
+    src: url(../fonts/MarkPro.eot);
+    src: url(../fonts/MarkPro.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/MarkPro.woff2) format('woff2'),
+        url(../fonts/MarkPro.woff) format('woff'),
+        url(../fonts/MarkPro.ttf) format('truetype'),
+        url(../fonts/MarkPro.svg#MarkPro) format('svg');
+}
+
+@font-face {
+    font-family: 'MarkPro-Medium';
+    src: url(../fonts/MarkPro-Medium.eot);
+    src: url(../fonts/MarkPro-Medium.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/MarkPro-Medium.woff2) format('woff2'),
+        url(../fonts/MarkPro-Medium.woff) format('woff'),
+        url(../fonts/MarkPro-Medium.ttf) format('truetype'),
+        url(../fonts/MarkPro-Medium.svg#MarkPro-Medium) format('svg');
+}

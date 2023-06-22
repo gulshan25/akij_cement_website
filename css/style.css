@@ -1,6 +1,9 @@
+/* Fonts */
+@import "./fonts.css";
+
 /* BASE-SETTINGS */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'MarkPro';
     font-size: 16px;
     color: #4C4D5C;
     line-height: normal;
@@ -150,9 +153,11 @@ button:focus {
 }
 
 .banner-txt h1 {
+    font-family: 'DIN-Bold';
     font-size: 70px;
     line-height: 84px;
     color: #fff;
+    font-weight: normal;
 }
 
 
