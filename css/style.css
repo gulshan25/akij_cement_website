@@ -810,13 +810,13 @@ footer  {
     font-size: 70px;
     line-height: 84px;
     color: #fff;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
 }
 
 .sub-banner-txt .sub-text {
     color: #EDEDEE;
     line-height: 1.5rem;
-    font-family: akijfonts2;
+    font-family: 'Mark-Pro';
 }
 
 
@@ -843,12 +843,12 @@ footer  {
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
 }
 
 .bec-txt .form-text {
     text-align: left;
-    font-family: akijfonts2;
+    font-family: 'Mark-Pro';
     font-weight: 400;
     font-size: 14px;
     line-height: 23.52px;
@@ -862,7 +862,7 @@ footer  {
     font-size: 48px;
     line-height: 57.6px;
     text-align: center;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
     color: #030419;
     
     
@@ -872,13 +872,13 @@ footer  {
     font-size: 24px;
     line-height: 39.84px;
     text-align: center;
-    font-family: akijfonts2;
+    font-family: 'Mark-Pro';
     color: #030419;
     font-weight: 500;
 }
 
 .bec button {
-    font-family: akijfonts1;
+    font-family:'DIN-Bold';
     font-size: 18px;
     line-height: 19.8px;
     font-weight: 5;
