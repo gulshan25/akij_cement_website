@@ -807,7 +807,12 @@ footer  {
 
 /* Start Building Estimation Calculator */
 
+.bec {
+    background-image: url('./images/invisible-image2.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
 
+}
 
 .radio {
     text-align: left;
