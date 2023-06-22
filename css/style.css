@@ -10,23 +10,9 @@ body {
     text-align: left;
 }
 
-@font-face {
-    font-family: akijfonts1;
-    src: url('fonts/DIN-Bold.ttf');
-    
-}
 
 
-    
-@font-face {
-        font-family: akijfonts2;
-        src: url('fonts/MarkPro-Medium.otf');
-        
-    }
-    
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *,
 *::before,
