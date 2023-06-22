@@ -547,7 +547,7 @@ footer  {
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
-    font-family: 'MarkPro-Medium';
+    font-family: 'MarkPro';
     
 }
 
@@ -620,7 +620,7 @@ footer  {
 
 
 .footer-area p {
-    font-family: 'MarkPro-Medium';
+    font-family: 'MarkPro';
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5rem;
@@ -631,8 +631,7 @@ footer  {
 .copy-right {
     text-align: center;
     font-size: 18px;
-    font-family: 'MarkPro-Medium';
-    
+    font-family: 'MarkPro';
     line-height: 29.88px;
     font-weight: 400;
     color: #DDDDE0;
