@@ -7,6 +7,12 @@ body {
     text-align: left;
 }
 
+@font-face {
+    font-family: akijfonts;
+    src: url('fonts/DIN-Bold.ttf');
+    src: url('fonts/MarkPro-Medium.otf');
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *,
@@ -540,6 +546,7 @@ footer  {
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
+    font-family: akijfonts;
     
 }
 
@@ -560,7 +567,7 @@ footer  {
     /* padding-l: 25px; */
     line-height: 28.8px;
     font-weight: 500;
-    font-family: 'DIN-Bold';
+    /* font-family: 'DIN-Bold'; */
     align-items: center;
     margin-left: 20px;
 }
@@ -627,10 +634,10 @@ footer  {
     color: #DDDDE0;
 }
 
-.footer-area .icons a {
-    /* padding: 10px; */
+/* .footer-area .icons a {
+    padding: 10px;
     font-family: Mark Pro;
-}
+} */
 
 
 
