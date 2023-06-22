@@ -10,6 +10,22 @@ body {
     text-align: left;
 }
 
+@font-face {
+    font-family: akijfonts1;
+    src: url('fonts/DIN-Bold.ttf');
+    
+}
+
+
+    
+@font-face {
+        font-family: akijfonts2;
+        src: url('fonts/MarkPro-Medium.otf');
+        
+    }
+    
+
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *,
@@ -106,7 +122,7 @@ button:focus {
     font-size: 16px;
     line-height: 27.52px;
     font-weight: 400;
-    font-family: Mark Pro;
+    font-family: akijfonts2;
 }
 
 .akj-nav ul li.current_page_selected a {
@@ -116,7 +132,7 @@ button:focus {
 .btn {
     background-color: #2A2F76;
     border: none;
-    font-family: 'DIN-Bold';
+    font-family: akijfonts1;
     font-size: 18px;
     line-height: 19.8px;
 }
@@ -237,7 +253,7 @@ button:focus {
 
 .about-box p {
     font-size: 16px;
-    font-family: Mark Pro;
+    font-family: akijfonts2;
     line-height: 27.52px;
 }
 
@@ -245,7 +261,7 @@ button:focus {
     font-size: 48px;
     line-height: 57.6px;
     font-weight: 400;
-    font-family: DIN-Bold;
+    font-family: akijfonts1;
 }
 
 .middle-text {
@@ -303,7 +319,7 @@ button:focus {
     background-color: #2A2F76;
     border-radius: 8px;
     margin-top: 30px;
-    font-family: 'DIN-Bold';
+    font-family: akijfonts1;
 
 }
 
@@ -408,7 +424,7 @@ height: 70px;
 
 .akij-box p {
     font-size: 16px;
-    font-family: Mark Pro;
+    font-family: akijfonts1;
     line-height: 27.52px;
     padding: 15px 0;
 }
@@ -417,7 +433,7 @@ height: 70px;
     font-size: 48px;
     line-height: 57.6px;
     font-weight: 400;
-    font-family: DIN-Bold;
+    font-family: akijfonts1;
 }
 
 .akij-text {
@@ -485,7 +501,7 @@ letter-spacing: -1px;
     background: #2A2F76;
 border-radius: 8px;
     margin: 0 auto;
-    font-family: 'DIN-Bold';
+    font-family: akijfonts1;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -545,6 +561,7 @@ footer  {
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
+    font-family: akijfonts2;
     
 }
 
@@ -565,7 +582,7 @@ footer  {
     /* padding-l: 25px; */
     line-height: 28.8px;
     font-weight: 500;
-    font-family: 'DIN-Bold';
+    /* font-family: 'DIN-Bold'; */
     align-items: center;
     margin-left: 20px;
 }
@@ -615,7 +632,7 @@ footer  {
 } */
 
 .footer-area p {
-    font-family: Mark Pro;
+    font-family: akijfonts2;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.5rem;
@@ -632,10 +649,10 @@ footer  {
     color: #DDDDE0;
 }
 
-.footer-area .icons a {
-    /* padding: 10px; */
+/* .footer-area .icons a {
+    padding: 10px;
     font-family: Mark Pro;
-}
+} */
 
 
 
@@ -715,7 +732,7 @@ footer  {
 
     .about-box p {
         font-size: 12px;
-        font-family: Mark Pro;
+        font-family: akijfonts2;
         line-height: 15px;
         padding-top: 5px;
     }
@@ -724,7 +741,7 @@ footer  {
         font-size: 18px;
         line-height: 1rem;
         font-weight: 400;
-        font-family: DIN-Bold;
+        font-family: akijfonts1;
         padding-top: 10px;
 
 
@@ -798,13 +815,13 @@ footer  {
     font-size: 70px;
     line-height: 84px;
     color: #fff;
-    font-family: 'DIN-Bold';
+    font-family: akijfonts1;
 }
 
 .sub-banner-txt .sub-text {
     color: #EDEDEE;
     line-height: 1.5rem;
-    font-family: Mark Pro;
+    font-family: akijfonts2;
 }
 
 
@@ -831,12 +848,12 @@ footer  {
     font-size: 20px;
     line-height: 24px;
     font-weight: 500;
-    font-family: 'DIN-Bold';
+    font-family: akijfonts1;
 }
 
 .bec-txt .form-text {
     text-align: left;
-    font-family: Mark Pro;
+    font-family: akijfonts2;
     font-weight: 400;
     font-size: 14px;
     line-height: 23.52px;
@@ -850,7 +867,7 @@ footer  {
     font-size: 48px;
     line-height: 57.6px;
     text-align: center;
-    font-family: 'DIN Bold';
+    font-family: akijfonts1;
     color: #030419;
     
     
@@ -860,13 +877,13 @@ footer  {
     font-size: 24px;
     line-height: 39.84px;
     text-align: center;
-    font-family: Mark Pro;
+    font-family: akijfonts2;
     color: #030419;
     font-weight: 500;
 }
 
 .bec button {
-    font-family: 'DIN-Bold';
+    font-family: akijfonts1;
     font-size: 18px;
     line-height: 19.8px;
     font-weight: 5;
