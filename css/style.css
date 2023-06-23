@@ -417,6 +417,7 @@ button:focus {
 }
 
 .akij-text {
+   
     font-size: 12px;
     display: grid;
     grid-template-columns: 80px 200px ;
@@ -763,6 +764,11 @@ footer  {
         /* padding-left: 70px; */
     }
 
+    .footer-title {
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
     .sub-banner-txt h1 {
         font-size: 16px;
         line-height: 1.5rem;
@@ -808,10 +814,19 @@ footer  {
 
     }
 
-    .middle-text {
-        padding-bottom: 50px;
+    .middle-text h3 p{
+        
+        display: inline-block;
+        width: 100%;
+        padding: 20px 20px;
+        position: absolute;
+        bottom:0;
+        top:0;
+        left:0;
+        right:0;
+        /* padding-bottom: 50px; */
         font-size: 10px;
-        /* margin-bottom: 50px; */
+        
     }
 
     .middle-text h3 {
@@ -821,7 +836,7 @@ footer  {
 
     .akij-box p {
         font-size: 12px;
-        font-family: akijfonts2;
+        font-family: 'MarkPro';
         line-height: 15px;
         padding-top: 5px;
     }
@@ -853,6 +868,9 @@ footer  {
     }
 
     .akij-text {
+        position: absolute;
+        top:100px;
+        bottom:0;
         padding-bottom: 50px;
         font-size: 10px;
         /* margin-bottom: 50px; */
@@ -893,7 +911,7 @@ footer  {
 
 .btn3 {
     position: absolute;
-    padding: 14px 24px;
+    padding: 14px 20px;
     border: none;
     color: white;
     background: #2A2F76;
@@ -904,6 +922,7 @@ border-radius: 8px;
     justify-content: center;
     text-align: center;
     left: 0;
+    top:100px;
     right: 0;
     width: 174px;
 height: 48px;
@@ -911,19 +930,18 @@ height: 48px;
 
 }
 
-.akij-text {
+/* .akij-text {
     font-size: 12px;
     display: grid;
     grid-template-columns: 80px 200px ;
    width: 100%;
    row-gap: 20px;
-   /* flex-direction: column; */
-    /* grid-gap: 10px; */
+   
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     
-}
+} */
 
 .akij-text a {
     display:grid;
@@ -933,9 +951,9 @@ height: 48px;
     opacity: 0.48;
     border-radius: 50px;
     width: 50px;
-height: 50px;
+    height: auto;
     padding: 15px 15px;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
     
 }
@@ -1054,6 +1072,16 @@ input[type=radio] {
     font-weight: 400;
     /* margin: 50px 0; */
 }
+
+/* .bec-txt::after {
+    content: url("../images/invisible-image.png") no-repeat bottom;
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    
+    margin-right: 200px;
+   
+  } */
 
 .bec-h3 {
     font-size: 48px;
