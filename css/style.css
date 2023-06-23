@@ -123,7 +123,7 @@ button:focus {
 .btn {
     background-color: #2A2F76;
     border: none;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
     font-size: 18px;
     line-height: 19.8px;
 }
@@ -254,7 +254,7 @@ button:focus {
 
 .about-box p {
     font-size: 16px;
-    font-family: akijfonts2;
+    font-family: 'MarkPro';
     line-height: 27.52px;
 }
 
@@ -333,7 +333,7 @@ button:focus {
     background-color: #2A2F76;
     border-radius: 8px;
     margin-top: 30px;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
 
 }
 
@@ -420,8 +420,12 @@ button:focus {
     font-size: 12px;
     display: grid;
     grid-template-columns: 80px 200px ;
-   
+   width: 100%;
+   row-gap: 20px;
+   /* flex-direction: column; */
     /* grid-gap: 10px; */
+    justify-content: space-between;
+    align-items: center;
     
     
     
@@ -429,12 +433,18 @@ button:focus {
 }
 
 .akij-text a {
+    display:grid;
+    grid-template-columns: 80px 200px;
+    
     background: #4C4D5C;
     opacity: 0.48;
     border-radius: 50px;
     width: 70px;
 height: 70px;
     padding: 15px 15px;
+    align-items: center;
+    justify-content: space-between;
+    
 }
 
 .akij-text img {
@@ -444,7 +454,7 @@ height: 70px;
 
 .akij-box p {
     font-size: 16px;
-    font-family: akijfonts1;
+    font-family: 'MarkPro';
     line-height: 27.52px;
     padding: 15px 0;
 }
@@ -525,7 +535,7 @@ letter-spacing: -1px;
     background: #2A2F76;
 border-radius: 8px;
     margin: 0 auto;
-    font-family: akijfonts1;
+    font-family: 'DIN-Bold';
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -809,6 +819,98 @@ footer  {
     }
 
 
+    .akij-box p {
+        font-size: 12px;
+        font-family: akijfonts2;
+        line-height: 15px;
+        padding-top: 5px;
+    }
+
+    .akij-box h3 {
+        font-size: 18px;
+        line-height: 1rem;
+        font-weight: 400;
+        font-family: akijfonts1;
+        padding-top: 10px;
+
+
+    }
+
+    .akij-box {
+        position: absolute;
+        max-height: 699px;
+        max-width: 460px;
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+
+    }
+
+    .akij-text {
+        padding-bottom: 50px;
+        font-size: 10px;
+        /* margin-bottom: 50px; */
+    }
+
+    .akij-text h3 {
+        padding: 0;
+    }
+
+    .akij-text {
+        margin-bottom: 100px;
+        font-size: 10px;
+        
+    }
+
+    .wbs p {
+        font-size: 12px;
+        color: #4C4D5C;
+        line-height: 1rem;
+        padding-top: 10px;
+    }
+
+    .cost-calculator-txt h3 {
+        font-size: 18px;
+        line-height: 84px;
+        color: #fff;
+        text-align: center;
+        font-family: 'DIN-Bold';
+        padding-top: 10px;
+    }
+
+    .our-project p {
+        font-size: 12px;
+        color: #4C4D5C;
+        line-height: 1rem;
+        padding-top: 10px;
+    }
+
+.btn3 {
+    position: absolute;
+    padding: 14px 24px;
+    border: none;
+    color: white;
+    background: #2A2F76;
+border-radius: 8px;
+    margin: 0 auto;
+    font-family: 'DIN-Bold';
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    left: 0;
+    right: 0;
+    width: 174px;
+height: 48px;
+   margin-bottom: 50px;
+
+}
+
 }
 
 /* Construction cost Calculator */
@@ -861,7 +963,7 @@ footer  {
 .sub-banner-txt .sub-text {
     color: #EDEDEE;
     line-height: 1.5rem;
-    font-family: 'Mark-Pro';
+    font-family: 'MarkPro';
 }
 
 
@@ -896,7 +998,7 @@ input[type=radio] {
 
 .bec-txt .form-text {
     text-align: left;
-    font-family: 'Mark-Pro';
+    font-family: 'MarkPro';
     font-weight: 400;
     font-size: 14px;
     line-height: 23.52px;
@@ -913,7 +1015,7 @@ input[type=radio] {
 .form-text {
     font-size:24px;
     line-height: 23.52px;
-    font-family: 'Mark-Pro';
+    font-family: 'MarkPro';
     font-weight: 400;
     /* margin: 50px 0; */
 }
@@ -944,7 +1046,7 @@ input[type=radio] {
     font-size: 24px;
     line-height: 39.84px;
     text-align: center;
-    font-family: 'Mark-Pro';
+    font-family: 'MarkPro';
     color: #030419;
     font-weight: 500;
 }
