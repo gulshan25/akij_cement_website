@@ -719,17 +719,6 @@ footer  {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {}
 
@@ -772,20 +761,17 @@ footer  {
     } */
 
     .sub-banner-txt h1 {
-        font-size: 16px;
-        line-height: 1.5rem;
-        /* padding-left: 70px; */
+        font-size: 12px;
+        line-height: 1rem;
+        color: #fff;
+        font-family: 'DIN-Bold';
     }
 
-    .sub-banner-txt p {
-        font-size: 12px;
-        line-height: 1.5rem;
-        /* padding-left: 70px; */
-    }
+    
 
     .about-box p {
         font-size: 12px;
-        font-family: akijfonts2;
+        font-family: 'MarkPro';
         line-height: 15px;
         padding-top: 5px;
     }
@@ -794,7 +780,7 @@ footer  {
         font-size: 18px;
         line-height: 1rem;
         font-weight: 400;
-        font-family: akijfonts1;
+        font-family: 'DIN-Bold';
         padding-top: 10px;
 
 
@@ -847,7 +833,7 @@ footer  {
         font-size: 18px;
         line-height: 1rem;
         font-weight: 400;
-        font-family: akijfonts1;
+        font-family: 'DIN-Bold';
         padding-top: 10px;
 
 
