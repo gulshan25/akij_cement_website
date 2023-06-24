@@ -113,7 +113,7 @@ button:focus {
     font-size: 16px;
     line-height: 27.52px;
     font-weight: 400;
-    font-family: akijfonts2;
+    font-family: 'MarkPro';
 }
 
 .akj-nav ul li.current_page_selected a {
@@ -402,7 +402,6 @@ button:focus {
 
 .akij-box {
     position: absolute;
-    max-height: 699px;
     max-width: 660px;
     left: 100px;
     right: 0;
@@ -418,7 +417,7 @@ button:focus {
 
 .akij-text {
    
-    font-size: 12px;
+    
     display: grid;
     grid-template-columns: 80px 200px ;
    width: 100%;
@@ -432,10 +431,10 @@ button:focus {
 
 .akij-text a {
     display:grid;
-    grid-template-columns: 60px 200px;
-    
+    grid-template-columns: 60px 316px;
+    font-size: 24px;
     background: #4C4D5C;
-    opacity: 0.48;
+   
     border-radius: 50px;
     width: 70px;
 height: 70px;
@@ -590,8 +589,7 @@ height: 48px;
 
 footer  {
     display: flex;
-    /* justify-content: flex-end; */
-    /* flex-wrap: wrap; */
+
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
@@ -600,7 +598,6 @@ footer  {
 }
 
 .footer-title {
-    margin-left: 120px;
     margin-bottom: 20px;
 }
 
@@ -839,21 +836,7 @@ footer  {
 
     }
 
-    .akij-box {
-        position: absolute;
-        max-height: 699px;
-        max-width: 460px;
-        left: 50px;
-        right: 0;
-        top: -50px;
-        bottom: 0;
-        background: rgba(3, 4, 25, 0.7);
-        border-radius: 8px;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        color: #fff;
-
-    }
+    
 
     .akij-text {
         position: absolute;
