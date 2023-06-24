@@ -234,7 +234,7 @@ button:focus {
 
 .about-box {
     position: absolute;
-    max-height: 699px;
+
     max-width: 660px;
     left: 100px;
     right: 0;
@@ -248,9 +248,17 @@ button:focus {
 
 }
 
+.about-middle {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+}
+
 .middle-text {
     font-size: 12px;
 }
+
+
 
 .about-box p {
     font-size: 16px;
@@ -265,11 +273,7 @@ button:focus {
     font-family: 'DIN-Bold';
 }
 
-.middle-text {
-    padding-bottom: 50px;
-    font-size: 12px;
-    margin-top: 20px;
-}
+
 
 /* News & Events */
 
@@ -361,8 +365,8 @@ button:focus {
 
 .wbs-img {
     display: block;
-  width: 100%;
-  padding-top: 20px;
+    width: 100%;
+    padding-top: 20px;
 }
 
 .wbs-img img {
@@ -383,9 +387,6 @@ button:focus {
     width: 100%;
     
 }
-
-
-
 
 
 /* why akij cement*/
@@ -413,40 +414,41 @@ button:focus {
     margin-bottom: 30px;
     color: #fff;
 
+
 }
 
 .akij-text {
-   
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 60px;
+    max-width: 100%;
     
-    display: grid;
-    grid-template-columns: 80px 200px ;
-   width: 100%;
-   row-gap: 20px;
-   
-    justify-content: space-between;
-    align-items: center;
- 
-
+  
+    
 }
 
 .akij-text a {
-    display:grid;
-    grid-template-columns: 60px 316px;
+   
     font-size: 24px;
     background: #4C4D5C;
-   
     border-radius: 50px;
     width: 70px;
-height: 70px;
-    padding: 15px 15px;
+    height: 70px;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 32px;
+    
     
 }
 
+
+
 .akij-text img {
-    width: 38.75px;
-    height: 38.36px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    
 }
 
 .akij-box p {
@@ -513,35 +515,37 @@ height: 70px;
     padding: 15px;
     color: #FFFFFF;
     font-family: 'Poppins-Regular';
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 33.6px;
-letter-spacing: -1px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33.6px;
+    letter-spacing: -1px;
     text-align: left;
 }
 
 
 /* Cost Calculator */
 
-.btn3 {
-    position: absolute;
-    padding: 14px 24px;
-    border: none;
-    color: white;
+
+.cost-calculator .btn3 {
+display: flex;
+padding: 14px 24px;
+margin: 0 468px;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+font-family: DIN-Bold;
+line-height: 110%;
+gap: 8px;
+font-family: 'DIN-Bold';
+color: white;
     background: #2A2F76;
 border-radius: 8px;
-    margin: 0 auto;
-    font-family: 'DIN-Bold';
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    left: 0;
-    right: 0;
-    width: 174px;
-height: 48px;
-   /* margin-top: 20px; */
+   
+}
 
+.cost-calculator p{
+    font-family: 'DIN-Bold';
 }
 
 .cost-calculator {
@@ -589,7 +593,6 @@ height: 48px;
 
 footer  {
     display: flex;
-
     padding: 20px;
     background-color: #f0f0f0;
     width: 100%;
@@ -622,14 +625,6 @@ footer  {
     margin-left: 20px;
     width: 100%;
 }
-
-/* .footer-content a {
-    color: #DDDDE0;
-    font-family: Mark Pro;
-    font-size: 16px;
-} */
-
-
 
 
 .footer-area {
@@ -717,10 +712,26 @@ footer  {
 
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .top-hdr .img {
+        margin-top: 5px;
+        width:15px;
+        height:15px;
+        
+    }
 
+    .top-hdr span{
+        font-size: 12px;
+        padding-top: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    
+}
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -744,25 +755,9 @@ footer  {
     .banner-txt h1 {
         font-size: 20px;
         line-height: 1.5rem;
-        /* padding-left: 70px; */
+        
     }
 
-    /* .footer-title {
-        position:absolute;
-        display: grid;
-        grid-template-columns: auto auto auto;
-        column-gap: 20px;
-    
-        font-size: 12px;
-        width: 100%;
-    } */
-
-    .sub-banner-txt h1 {
-        font-size: 12px;
-        line-height: 1rem;
-        color: #fff;
-        font-family: 'DIN-Bold';
-    }
 
     
 
@@ -799,63 +794,11 @@ footer  {
 
     }
 
-    .middle-text h3 p{
-        
-        display: inline-block;
-        width: 100%;
-        padding: 20px 20px;
-        position: absolute;
-        bottom:0;
-        top:0;
-        left:0;
-        right:0;
-        /* padding-bottom: 50px; */
-        font-size: 10px;
-        
-    }
-
-    .middle-text h3 {
-        padding: 0;
-    }
-
-
-    .akij-box p {
-        font-size: 12px;
-        font-family: 'MarkPro';
-        line-height: 15px;
-        padding-top: 5px;
-    }
-
-    .akij-box h3 {
-        font-size: 18px;
-        line-height: 1rem;
-        font-weight: 400;
-        font-family: 'DIN-Bold';
-        padding-top: 10px;
-
-
-    }
-
     
 
-    .akij-text {
-        position: absolute;
-        top:100px;
-        bottom:0;
-        padding-bottom: 50px;
-        font-size: 10px;
-        /* margin-bottom: 50px; */
-    }
+   
 
-    .akij-text h3 {
-        padding: 0;
-    }
-
-    .akij-text {
-        margin-bottom: 100px;
-        font-size: 10px;
-        
-    }
+  
 
     .wbs p {
         font-size: 12px;
@@ -880,59 +823,10 @@ footer  {
         padding-top: 10px;
     }
 
-.btn3 {
-    position: absolute;
-    padding: 14px 20px;
-    border: none;
-    color: white;
-    background: #2A2F76;
-border-radius: 8px;
-    margin: 0 auto;
-    font-family: 'DIN-Bold';
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    left: 0;
-    top:100px;
-    right: 0;
-    width: 174px;
-height: 48px;
-   margin-bottom: 50px;
 
-}
 
-/* .akij-text {
-    font-size: 12px;
-    display: grid;
-    grid-template-columns: 80px 200px ;
-   width: 100%;
-   row-gap: 20px;
-   
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 80px;
-    
-} */
 
-.akij-text a {
-    display:grid;
-    grid-template-columns: 40px 200px;
-    
-    background: #4C4D5C;
-    opacity: 0.48;
-    border-radius: 50px;
-    width: 50px;
-    height: auto;
-    padding: 15px 15px;
-    align-items: left;
-    justify-content: space-between;
-    
-}
 
-.akij-text img {
-    width: 20px;
-    height: 20px;
-}
 
 
 }
