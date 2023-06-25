@@ -428,7 +428,7 @@ button:focus {
     display: inline-flex;
     align-items: center;
     width: 50%;
-    padding: 20px;
+    padding: 15px 0;
   
 
 }
@@ -651,13 +651,17 @@ border-radius: 8px;
     width: 100%;
 } */
 
-
+.footer-area .icons a img{
+    justify-content: space-between;
+        margin: 0 20px;
+    }
 
 .footer-area .icons a {
     display: flex;
     align-items: center;
+    text-align: start;
     width: 80%;
-    justify-content: space-between;
+    justify-content: flex-start;
    
 }
 
@@ -727,6 +731,10 @@ border-radius: 8px;
         align-items: center;
     }
 
+    
+
+
+
     .footer-area {
         display: flex;
         flex-direction: column;
@@ -766,16 +774,43 @@ border-radius: 8px;
         padding-left: 200px;
       }
 
-     
-   
-}
-    
+      .about-middle {
+        position: absolute;
+        top: 70%;
+        bottom: 0;
+      }
 
-    
+      .middle-text p{
+         position: absolute;
+         top: -12px
+         
+      }
+
+      .akij-box {
+        position: relative;
+      }
+
+      .akij-box h3 {
+        font-size:16px;
+        
+      }
+      .akij-box p {
+        position: absolute;
+        top: 55px;
+        font-size:16px;
+      }
+      
+      
+
+
+}
 
     
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+ 
+
+   
     
 }
 
@@ -796,11 +831,10 @@ border-radius: 8px;
 
     }
 
-   
 
     .banner-txt h1 {
-        font-size: 20px;
-        line-height: 1.5rem;
+        font-size: 40px;
+        line-height: 2.5rem;
         
     }
 
@@ -826,7 +860,7 @@ border-radius: 8px;
 
     .about-box {
         position: absolute;
-        max-height: 699px;
+       
         max-width: 460px;
         left: 50px;
         right: 0;
@@ -840,9 +874,66 @@ border-radius: 8px;
 
     }
 
+    .akij-box p {
+        font-size: 12px;
+        font-family: 'MarkPro';
+        line-height: 15px;
+        padding-top: 10px;
+    }
+
+    .akij-text {
+        position:absolute;
+        top: 100px;
+        padding: 0;
+        left:20px;
+        right:0;
+    }
+
+    .akij-text a {
+        
+        font-size: 12px;
+        line-height: 1rem;
+        font-weight: 400;
+        font-family: 'DIN-Bold';
+        /* padding-top: 10px; */
+        width: 50%;
+
+
+    }
+
+    .akij-box {
+        position: absolute;
+        max-width: 460px;
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        justify-content: flex-start;
+
+    }
+
+    .akij-box h3 {
+        font-size: 18px;
+        line-height: 1rem;
+        font-weight: 400;
+        font-family: 'DIN-Bold';
+        padding-top: 20px;
+
+
+    }
+
+    .footer-area .icons a img{
+        justify-content: space-between;
+        margin: 0 20px;
+      }
     
 
-   
+      
 
   
 
