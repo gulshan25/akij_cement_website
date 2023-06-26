@@ -1223,8 +1223,25 @@ border-radius: 8px;
 /* Start News & Events */
 
 .events {
-    padding-top: 20px;
+    padding: 20px;
 }
+
+
+
+.events-img img {
+    width: 200px;
+border-radius: 8px 0px 0px 8px;
+
+}
+
+.events-img {
+    display: inline-flex;
+    width: 500px;
+    
+    
+    
+}
+
 
 
 /* End News & Events */
