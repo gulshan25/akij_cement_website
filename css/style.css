@@ -533,9 +533,9 @@ button:focus {
 
 
 .cost-calculator .btn3 {
-display: flex;
+display: table;
 padding: 14px 24px;
-margin: 0 468px;
+margin: 0 auto;
 justify-content: center;
 align-items: center;
 font-size: 18px;
@@ -735,45 +735,7 @@ border-radius: 8px;
 
 
 
-    .footer-area {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        padding: 20px;
-        background-color: #030419;
-        width: 100%;
-        font-family: 'MarkPro';
-      }
     
-      .footer-area .footer-p {
-        text-align: left;
-      }
-    
-      
-
-      .footer-area h4 {
-        text-align: right;
-        margin-right: auto;
-        margin-top: 0;
-      }
-    
-      .footer-area .follow-text {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        text-align: right;
-        
-      }
-    
-      .footer-area .icons a {
-        margin-top: 10px;
-        
-      }
-
-      .footer-area .icons img {
-        padding-left: 200px;
-      }
-
       .about-middle {
         position: absolute;
         top: 70%;
