@@ -1231,7 +1231,7 @@ border-radius: 8px;
 } */
 
 .events-img img {
-    width: 300px;
+    width: 100%;
     border-radius: 8px 0px 0px 8px;
     padding-top: 20px;
 
