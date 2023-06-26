@@ -541,11 +541,12 @@ align-items: center;
 font-size: 18px;
 font-family: DIN-Bold;
 line-height: 110%;
-gap: 8px;
+/* gap: 8px; */
 font-family: 'DIN-Bold';
 color: white;
     background: #2A2F76;
 border-radius: 8px;
+border: none;
    
 }
 
@@ -935,7 +936,7 @@ border-radius: 8px;
         font-size: 12px;
     }
     
-    
+   
    
     
 
@@ -968,6 +969,15 @@ border-radius: 8px;
 }
 
 .sub-banner-txt {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50px;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}.sub-banner-txt {
     position: absolute;
     left: 0;
     right: 0;
