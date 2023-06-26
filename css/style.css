@@ -761,6 +761,8 @@ border-radius: 8px;
         top: 55px;
         font-size:16px;
       }
+
+     
       
       
 
@@ -923,8 +925,19 @@ border-radius: 8px;
     }
 
 
+    .sub-banner-txt h3  {
+       
+        font-size: 12px;
+    }
 
-
+    .sub-banner-txt p  {
+       
+        font-size: 12px;
+    }
+    
+    
+   
+    
 
 
 
@@ -959,7 +972,7 @@ border-radius: 8px;
     left: 0;
     right: 0;
     top: 50px;
-    /* bottom: 0; */
+    bottom: 0;
     z-index: 1;
     display: flex;
     align-items: center;
@@ -971,16 +984,25 @@ border-radius: 8px;
 } 
 
 .sub-banner-txt h1 {
-    font-size: 70px;
-    line-height: 84px;
+    font-size: 60px;
+    line-height: 2.5rem;
     color: #fff;
     font-family: 'DIN-Bold';
+    
+}
+
+.sub-banner-txt p {
+  
+    font-size: 14px;
+    padding-top: 20px;
 }
 
 .sub-banner-txt .sub-text {
     color: #EDEDEE;
     line-height: 1.5rem;
     font-family: 'MarkPro';
+    width: 100%;
+    
 }
 
 
@@ -1022,12 +1044,8 @@ input[type=radio] {
     color: #4C4D5C;
 }
 
-.bec {
-    background-image: url("../images/invisible-image3.png");
-    background-repeat: no-repeat;
-    /* background-size: cover;
-    background-position: center; */
-}
+
+
 
 .form-text {
     font-size:24px;
@@ -1037,15 +1055,13 @@ input[type=radio] {
     /* margin: 50px 0; */
 }
 
-/* .bec-txt::after {
-    content: url("../images/invisible-image.png") no-repeat bottom;
-    position: absolute;
-    bottom: 0;
-    right: 16px;
-    
-    margin-right: 200px;
-   
-  } */
+.bec {
+    background-image: url("../images/invisible-image3.png");
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-position: center; */
+}
+
 
 .bec-h3 {
     font-size: 48px;
@@ -1056,17 +1072,6 @@ input[type=radio] {
     
     
 }
-
-/* .bec-txt .bec-h3 {
-    position: absolute;
-    top: 0;
-    bottom:0;
-    left:0;
-    right:0;
-    
-    
-} */
-
 
 
 .bec-txt p {
@@ -1099,11 +1104,104 @@ input[type=radio] {
 border-radius: 8px;
 }
 
-/* .bec .form {
-    width: 90%;
-    justify-content: center;
-    align-items: center;
-    padding-left: 150px;
-} */
+
 
 /* End Building Estimation Calculator */
+
+/* Start Cost Calculator Result */
+
+.tec {
+    background-image: url("../images/invisible-image3.png");
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-position: center; */
+}
+
+
+.tec-h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    text-align: center;
+    font-family: 'DIN-Bold';
+    color: #030419;
+    
+    
+}
+
+
+.tec-txt p {
+    font-size: 24px;
+    line-height: 39.84px;
+    text-align: center;
+    font-family: 'MarkPro';
+    color: #030419;
+    font-weight: 500;
+}
+
+/* End Cost Calculator Result */
+
+/* Start cost-result */
+
+.cost-result {
+    
+    text-align: right;
+    font-family: 'DIN-Bold';
+
+}
+
+
+
+
+.cost-box img{
+    padding: 0 5px;
+    
+}
+
+.cost-box .icon-box{
+  
+   padding:15px 15px;
+   font-family: 'DIN-Bold';
+   border-radius: 8px;  
+   align-items: right;
+   border: none;
+   
+   
+   
+}
+
+.cost-box .icon1 {
+    background-color: #C5C5C9;
+    color: #4C4D5C;
+   
+
+}
+
+.cost-box .icon2 {
+    background-color: #2A2F76;
+    color: #fff;
+    margin-left: 10px;
+}
+
+
+
+
+/* End cost-result */
+
+/* Start cost-images */
+
+.cost-images img{
+    object-fit: cover;
+    width: 100%;
+    padding: 30px 0;
+    /* max-height: 460px; */
+    
+    
+}
+
+.cost-image-box {
+    padding: 20px 0;
+}
+
+
+
+/* End cost-images */
