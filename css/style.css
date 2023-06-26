@@ -547,6 +547,7 @@ color: white;
     background: #2A2F76;
 border-radius: 8px;
 border: none;
+vertical-align: middle;
    
 }
 
@@ -1224,25 +1225,37 @@ border-radius: 8px;
 
 .events {
     padding-top: 20px;
+    
 }
 
-.event-content {
+/* .event-content {
     padding-top: 20px;
-}
+} */
 
 .events-img img {
-    width: 200px;
+    width: 300px;
     border-radius: 8px 0px 0px 8px;
+    padding-top: 20px;
 
 }
 
-.events-img {
+/* .events-box{
+    width: 50%;
+} */
+
+/* .events .events-box {
     display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+   
+} */
 
-}
+/* .featured-img {
+    width: 64%;
+} */
 
-.featured-img {
-    width: 410px;
+.featured-img img {
+    width: 100%;
 }
 
 /* End News & Events */
