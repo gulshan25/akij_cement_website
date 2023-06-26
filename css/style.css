@@ -1222,7 +1222,9 @@ border-radius: 8px;
 
 /* Start News & Events */
 
-
+.events {
+    padding-top: 20px;
+}
 
 
 /* End News & Events */
