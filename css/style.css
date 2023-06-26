@@ -1223,25 +1223,26 @@ border-radius: 8px;
 /* Start News & Events */
 
 .events {
-    padding: 20px;
+    padding-top: 20px;
 }
 
-
+.event-content {
+    padding-top: 20px;
+}
 
 .events-img img {
     width: 200px;
-border-radius: 8px 0px 0px 8px;
+    border-radius: 8px 0px 0px 8px;
 
 }
 
 .events-img {
     display: inline-flex;
-    width: 500px;
-    
-    
-    
+
 }
 
-
+.featured-img {
+    width: 410px;
+}
 
 /* End News & Events */
