@@ -539,12 +539,10 @@ margin: 0 auto;
 justify-content: center;
 align-items: center;
 font-size: 18px;
-font-family: DIN-Bold;
 line-height: 110%;
-/* gap: 8px; */
 font-family: 'DIN-Bold';
 color: white;
-    background: #2A2F76;
+background: #2A2F76;
 border-radius: 8px;
 border: none;
 vertical-align: middle;
