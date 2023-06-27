@@ -1006,7 +1006,9 @@ color:#030419;
     font-size:18px;
     color:#4C4D5C;
     line-height:19.8px;
-    font-weight: 500;
+    text-decoration: underline;
+    font-family: 'DIN-Bold';
+     
 }
 
 .news-content h3 {
