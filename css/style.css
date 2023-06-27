@@ -116,9 +116,9 @@ button:focus {
     font-family: 'MarkPro';
 }
 
-/* .akj-nav ul li.current_page_selected a {
+.akj-nav ul li.current_page_selected a {
     color: #030419;
-} */
+}
 
 .btn {
     background-color: #2A2F76;
