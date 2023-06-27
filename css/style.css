@@ -1240,6 +1240,7 @@ border-radius: 8px;
 
 .events-img img {
     width: 50%;
+    height: auto;
     border-radius: 8px 0px 0px 8px;
     
     
