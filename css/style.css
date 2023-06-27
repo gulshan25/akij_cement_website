@@ -79,11 +79,7 @@ button:focus {
     top: 5px;
     width: 10px;
     height: 10px;
-}
-
-.fa-magnifying-glass {
     color: #646471;
-
 }
 
 .top-hdr .img {
@@ -218,9 +214,6 @@ button:focus {
     width: 100%;
 }
 
-
-
-
 /* About Us */
 
 .about-us {
@@ -275,8 +268,6 @@ button:focus {
     font-family: 'DIN-Bold';
 }
 
-
-
 /* News & Events */
 
 .news-events {
@@ -329,8 +320,6 @@ button:focus {
     line-height: 1.5rem;
     padding-top: 10px;
 }
-
-
 
 .news-events button {
     padding: 15px 12px;
@@ -386,8 +375,7 @@ button:focus {
 
 
 .wbs-title .invisible-img {
-    width: 100%;
-    
+    width: 100%;   
 }
 
 
@@ -445,8 +433,6 @@ button:focus {
    
     
 }
-
-
 
 .akij-text img {
     width: 20px;
@@ -595,8 +581,6 @@ vertical-align: middle;
 
 /* footer */
 
-
-
 .footer-area  {
     display: flex;
     padding: 20px;
@@ -605,9 +589,6 @@ vertical-align: middle;
     font-family: 'MarkPro';
     
 }
-
-
-
 
 .footer-area .footer-p {
     text-align: left;
@@ -630,7 +611,6 @@ vertical-align: middle;
     width: 100%;
 }
 
-
 .footer-area {
     background-color: #030419;
     color: white;
@@ -646,12 +626,6 @@ vertical-align: middle;
     line-height:28.8px;
 }
 
-
-/* .follow-text {
-    display: block;
-    width: 100%;
-} */
-
 .footer-area .icons a img{
     justify-content: space-between;
         margin: 0 20px;
@@ -666,13 +640,10 @@ vertical-align: middle;
    
 }
 
-
-
 .footer-area .icons img {
     margin-left: 20px;
     padding: 10px 0;
 }
-
 
 .footer-area p {
     font-family: 'MarkPro';
@@ -692,18 +663,12 @@ vertical-align: middle;
     color: #DDDDE0;
 }
 
-
-
-
-
 .footer-p {
    
     line-height: 1.5em;
     padding-top: 20px;
 
 }
-
-
 
 .follow-text a {
     width: 100%;
@@ -713,239 +678,6 @@ vertical-align: middle;
 .follow-text li {
     list-style: none;
     
-}
-
-
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .top-hdr .img {
-        margin-top: 5px;
-        width:15px;
-        height:15px;
-        
-    }
-
-    .top-hdr span{
-        font-size: 12px;
-        padding-top: 5px;
-        justify-content: center;
-        align-items: center;
-    }
-
-    
-
-
-
-    
-      .about-middle {
-        position: absolute;
-        top: 70%;
-        bottom: 0;
-      }
-
-      .middle-text p{
-         position: absolute;
-         top: -12px
-         
-      }
-
-      .akij-box {
-        position: relative;
-      }
-
-      .akij-box h3 {
-        font-size:16px;
-        
-      }
-      .akij-box p {
-        position: absolute;
-        top: 55px;
-        font-size:16px;
-      }
-
-      .events-img:first-child {
-        margin-top:15px
-    }
-     
-      
-      
-
-
-}
-
-    
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
- 
-
-   
-    
-}
-
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    .akj-nav ul {
-        margin: 20px 0;
-        padding-left: 0;
-    }
-
-    .akj-nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .top-hdr form i {
-        margin-right: 50px;
-
-    }
-
-
-    .banner-txt h1 {
-        font-size: 40px;
-        line-height: 2.5rem;
-        
-    }
-
-
-    
-
-    .about-box p {
-        font-size: 12px;
-        font-family: 'MarkPro';
-        line-height: 15px;
-        padding-top: 5px;
-    }
-
-    .about-box h3 {
-        font-size: 18px;
-        line-height: 1rem;
-        font-weight: 400;
-        font-family: 'DIN-Bold';
-        padding-top: 10px;
-
-
-    }
-
-    .about-box {
-        position: absolute;
-       
-        max-width: 460px;
-        left: 50px;
-        right: 0;
-        top: -50px;
-        bottom: 0;
-        background: rgba(3, 4, 25, 0.7);
-        border-radius: 8px;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        color: #fff;
-
-    }
-
-    .akij-box p {
-        font-size: 12px;
-        font-family: 'MarkPro';
-        line-height: 15px;
-        padding-top: 10px;
-    }
-
-    .akij-text {
-        position:absolute;
-        top: 100px;
-        padding: 0;
-        left:20px;
-        right:0;
-    }
-
-    .akij-text a {
-        
-        font-size: 12px;
-        line-height: 1rem;
-        font-weight: 400;
-        font-family: 'DIN-Bold';
-        /* padding-top: 10px; */
-        width: 50%;
-
-
-    }
-
-    .akij-box {
-        position: absolute;
-        max-width: 460px;
-        left: 50px;
-        right: 0;
-        top: -50px;
-        bottom: 0;
-        background: rgba(3, 4, 25, 0.7);
-        border-radius: 8px;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        color: #fff;
-        justify-content: flex-start;
-
-    }
-
-    .akij-box h3 {
-        font-size: 18px;
-        line-height: 1rem;
-        font-weight: 400;
-        font-family: 'DIN-Bold';
-        padding-top: 20px;
-
-
-    }
-
-    .footer-area .icons a img{
-        justify-content: space-between;
-        margin: 0 20px;
-      }
-    
-
-      
-
-  
-
-    .wbs p {
-        font-size: 12px;
-        color: #4C4D5C;
-        line-height: 1rem;
-        padding-top: 10px;
-    }
-
-    .cost-calculator-txt h3 {
-        font-size: 18px;
-        line-height: 84px;
-        color: #fff;
-        text-align: center;
-        font-family: 'DIN-Bold';
-        padding-top: 10px;
-    }
-
-    .our-project p {
-        font-size: 12px;
-        color: #4C4D5C;
-        line-height: 1rem;
-        padding-top: 10px;
-    }
-
-
-    .sub-banner-txt h3  {
-       
-        font-size: 12px;
-    }
-
-    .sub-banner-txt p  {
-       
-        font-size: 12px;
-    }
-    
-    
-   
-   
-    
-
-
-
 }
 
 /* Construction cost Calculator */
@@ -998,8 +730,8 @@ vertical-align: middle;
 } 
 
 .sub-banner-txt h1 {
-    font-size: 60px;
-    line-height: 2.5rem;
+    font-size: 70px;
+    line-height: 84px;
     color: #fff;
     font-family: 'DIN-Bold';
     
@@ -1024,8 +756,6 @@ vertical-align: middle;
 
 /* Start Building Estimation Calculator */
 
-
-
 .radio-box {
     text-align: left;
     align-items: left;
@@ -1036,10 +766,6 @@ vertical-align: middle;
 input[type=radio] {
     accent-color:#2A2F76;
 }
-
-
-
-
 
 .radio-heading h5 {
     text-align: left;
@@ -1057,9 +783,6 @@ input[type=radio] {
     line-height: 23.52px;
     color: #4C4D5C;
 }
-
-
-
 
 .form-text {
     font-size:24px;
@@ -1083,8 +806,7 @@ input[type=radio] {
     text-align: center;
     font-family: 'DIN-Bold';
     color: #030419;
-    
-    
+       
 }
 
 
@@ -1104,23 +826,14 @@ input[type=radio] {
     font-weight: 5;
 }
 
-/* .bec .form-select {
-    color: #4C4D5C;
-    font-family: Mark Pro;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 27.52px;
-} */
-
 .bec select {
     background-color:#F1F1F2;
     border: 1px solid #DDDDE0;
-border-radius: 8px;
+    border-radius: 8px;
 }
 
-
-
 /* End Building Estimation Calculator */
+
 
 /* Start Total Estimation Calculator */
 
@@ -1140,7 +853,6 @@ border-radius: 8px;
     text-align: center;
     font-family: 'DIN-Bold';
     color: #030419;
-    
     
 }
 
@@ -1165,9 +877,6 @@ border-radius: 8px;
 
 }
 
-
-
-
 .cost-box img{
     padding: 0 5px;
     
@@ -1180,15 +889,12 @@ border-radius: 8px;
    border-radius: 8px;  
    align-items: right;
    border: none;
-   
-   
-   
+      
 }
 
 .cost-box .icon1 {
     background-color: #C5C5C9;
     color: #4C4D5C;
-   
 
 }
 
@@ -1198,9 +904,6 @@ border-radius: 8px;
     margin-left: 10px;
 }
 
-
-
-
 /* End cost-result */
 
 /* Start cost-images */
@@ -1209,16 +912,12 @@ border-radius: 8px;
     object-fit: cover;
     width: 100%;
     padding: 30px 0;
-    /* max-height: 460px; */
-    
-    
+        
 }
 
 .cost-image-box {
     padding: 20px 0;
 }
-
-
 
 /* End cost-images */
 
@@ -1228,31 +927,7 @@ border-radius: 8px;
 
 .events {
     padding-top: 50px;
-    
-   
-    
-}
-
-.events-img:last-child {
-    margin-top:10px;
-}
-
-
-.events-img img {
-    width: 50%;
-    border-radius: 8px 0px 0px 8px;
-    
-    
-
-}
-
-.events-img h4 {
-    font-size:24px;
-}
-
-.events-img {
-    display: inline-flex;
-   
+        
 }
 
 .featured-img img {
@@ -1262,6 +937,7 @@ border-radius: 8px;
 
 .search-box {
     position: relative;
+    max-width: 322px;
     
 }
 
@@ -1280,10 +956,34 @@ border-radius: 8px;
     width: 10px;
     height: 10px;
     vertical-align: middle;
+    color: #646471;
 }
 
-.fa-magnifying-glass {
-    color: #646471;
+.event-block {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.events-img {
+    width: 50%; 
+}
+
+.events-img img {
+    width: 100%;
+    height: 242px;
+    border-radius: 8px 0px 0px 8px;
+    object-fit: cover;
+
+}
+
+.events-box {
+    width: 50%;
+    height:242px;
+}
+
+.events-box p {
+    height:84px;
+    overflow: hidden;
 }
 
 .top-content h3 {
@@ -1314,4 +1014,194 @@ border-radius: 8px;
     font-size: 20px;
     color: #030419;
 }
+
 /* End News & Events */
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .top-hdr .img {
+        margin-top: 5px;
+        width:15px;
+        height:15px;
+        
+    }
+
+    .top-hdr span{
+        font-size: 12px;
+        padding-top: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+      .about-middle {
+        position: absolute;
+        top: 70%;
+        bottom: 0;
+      }
+
+      .middle-text p{
+         position: absolute;
+         top: -12px
+         
+      }
+
+      .akij-box {
+        position: relative;
+      }
+
+      .akij-box h3 {
+        font-size:16px;
+        
+      }
+      .akij-box p {
+        position: absolute;
+        top: 55px;
+        font-size:16px;
+      }
+
+}
+
+    
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .top-hdr form i {
+        margin-right: 50px;
+    }
+
+    .akj-nav ul {
+        margin: 20px 0;
+        padding-left: 0;
+    }
+
+    .akj-nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .banner-txt h1 {
+        font-size: 40px;
+        line-height: 2.5rem;  
+    }
+
+    .about-box p {
+        font-size: 12px;
+        font-family: 'MarkPro';
+        line-height: 15px;
+        padding-top: 5px;
+    }
+
+    .about-box h3 {
+        font-size: 18px;
+        line-height: 1rem;
+        font-weight: 400;
+        font-family: 'DIN-Bold';
+        padding-top: 10px;
+    }
+
+    .about-box {
+        position: absolute;
+        max-width: 460px;
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+
+    }
+
+    .akij-box p {
+        font-size: 12px;
+        font-family: 'MarkPro';
+        line-height: 15px;
+        padding-top: 10px;
+    }
+
+    .akij-text {
+        position:absolute;
+        top: 100px;
+        padding: 0;
+        left:20px;
+        right:0;
+    }
+
+    .akij-text a {  
+        font-size: 12px;
+        line-height: 1rem;
+        font-weight: 400;
+        font-family: 'DIN-Bold';
+        /* padding-top: 10px; */
+        width: 50%;
+    }
+
+    .akij-box {
+        position: absolute;
+        max-width: 460px;
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        justify-content: flex-start;
+
+    }
+
+    .akij-box h3 {
+        font-size: 18px;
+        line-height: 1rem;
+        font-weight: 400;
+        font-family: 'DIN-Bold';
+        padding-top: 20px;
+
+
+    }
+
+    .footer-area .icons a img{
+        justify-content: space-between;
+        margin: 0 20px;
+      }
+    
+    .wbs p {
+        font-size: 12px;
+        color: #4C4D5C;
+        line-height: 1rem;
+        padding-top: 10px;
+    }
+
+    .cost-calculator-txt h3 {
+        font-size: 18px;
+        line-height: 84px;
+        color: #fff;
+        text-align: center;
+        font-family: 'DIN-Bold';
+        padding-top: 10px;
+    }
+
+    .our-project p {
+        font-size: 12px;
+        color: #4C4D5C;
+        line-height: 1rem;
+        padding-top: 10px;
+    }
+
+    .sub-banner-txt h1 {
+        font-size: 35px;
+        line-height: 42px;   
+    }
+
+    .sub-banner-txt p {
+        margin-bottom: 24px;
+    }
+
+}
