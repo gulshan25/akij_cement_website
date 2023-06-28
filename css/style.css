@@ -174,8 +174,11 @@ button:focus {
 
 }
 
-.our-products h2 {
+.our-products h3 {
     font-family: 'DIN-Bold';
+    font-size:48px;
+    line-height:57.6px;
+    color:#030419;
 }
 
 .our-products h5 {
@@ -187,7 +190,9 @@ button:focus {
 .our-products p {
     font-size: 16px;
     color: #4C4D5C;
-    line-height: 2rem;
+    line-height: 27.52px;
+    font-weight:400;
+    font-family: 'MarkPro';
     padding-top: 10px;
 }
 
@@ -312,12 +317,18 @@ button:focus {
 }
 .news-events h3 {
     font-family:'DIN-Bold';
+    line-height: 57.6px;
+    font-size:48px;
+    color:#030419;
+
 }
 
 .news-events p {
     font-size: 16px;
     color: #4C4D5C;
-    line-height: 1.5rem;
+    line-height: 27.52px;
+    font-family: 'MarkPro';
+    font-weight: 400;
     padding-top: 10px;
 }
 
@@ -344,12 +355,17 @@ button:focus {
 
 .wbs h3 {
     font-family: 'DIN-Bold';
+    line-height: 57.6px;
+    font-size:48px;
+    color:#030419;
 }
 
 .wbs p {
     font-size: 16px;
     color: #4C4D5C;
-    line-height: 2rem;
+    line-height: 27.52px;
+    font-weight: 400;
+    font-family: 'MarkPro';
     padding-top: 10px;
 }
 
@@ -475,18 +491,23 @@ button:focus {
 
 .our-project h3 {
     font-family: 'DIN-Bold';
+    font-size: 48px;
+    line-height:57.6px;
+    color: #030419;
 }
 
 .our-project p {
-    font-size: 16px;
+    font-size: 14px;
     color: #4C4D5C;
-    line-height: 2rem;
+    line-height: 23.52px;
+    font-weight:400;
+    font-family: 'MarkPro';
     padding-top: 10px;
 }
 
 
 .project-img {
-    display: block;
+ display: block;
   width: 100%;
   padding-top: 20px;
   position: relative;
@@ -499,7 +520,6 @@ button:focus {
 
 .project-img h5 {
     position: absolute;
-    /* top:0; */
     bottom:0;
     left:0;
     right:0;
@@ -602,7 +622,6 @@ vertical-align: middle;
 
 .footer-area h4 {
     font-size: 24px;
-    /* padding-l: 25px; */
     line-height: 28.8px;
     font-weight: 500;
     font-family: 'DIN-Bold';
@@ -645,15 +664,6 @@ vertical-align: middle;
     padding: 10px 0;
 }
 
-.footer-area p {
-    font-family: 'MarkPro';
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1.5rem;
-    color: #ADADB4;
-    margin-left: 5px;
-}
-
 .copy-right {
     text-align: center;
     font-size: 18px;
@@ -664,9 +674,12 @@ vertical-align: middle;
 }
 
 .footer-p {
-   
-    line-height: 1.5em;
+   font-size: 18px;
+    line-height: 29.88px;
     padding-top: 20px;
+    font-weight: 400;
+    font-family:'MarkPro';
+    color: #ADADB4;
 
 }
 
@@ -1101,24 +1114,11 @@ color:#030419;
         margin: 10px 0;
     }
 
-    .banner-txt h1 {
-        font-size: 40px;
-        line-height: 2.5rem;  
-    }
-
     .about-box p {
         font-size: 12px;
         font-family: 'MarkPro';
         line-height: 15px;
-        padding-top: 5px;
-    }
-
-    .about-box h3 {
-        font-size: 18px;
-        line-height: 1rem;
-        font-weight: 400;
-        font-family: 'DIN-Bold';
-        padding-top: 10px;
+        padding-top: 20px;
     }
 
     .about-box {
@@ -1145,19 +1145,10 @@ color:#030419;
 
     .akij-text {
         position:absolute;
-        top: 100px;
+        top: 150px;
         padding: 0;
         left:20px;
         right:0;
-    }
-
-    .akij-text a {  
-        font-size: 12px;
-        line-height: 1rem;
-        font-weight: 400;
-        font-family: 'DIN-Bold';
-        /* padding-top: 10px; */
-        width: 50%;
     }
 
     .akij-box {
@@ -1176,27 +1167,10 @@ color:#030419;
 
     }
 
-    .akij-box h3 {
-        font-size: 18px;
-        line-height: 1rem;
-        font-weight: 400;
-        font-family: 'DIN-Bold';
-        padding-top: 20px;
-
-
-    }
-
     .footer-area .icons a img{
         justify-content: space-between;
         margin: 0 20px;
       }
-    
-    .wbs p {
-        font-size: 12px;
-        color: #4C4D5C;
-        line-height: 1rem;
-        padding-top: 10px;
-    }
 
     .cost-calculator-txt h3 {
         font-size: 18px;
@@ -1204,13 +1178,6 @@ color:#030419;
         color: #fff;
         text-align: center;
         font-family: 'DIN-Bold';
-        padding-top: 10px;
-    }
-
-    .our-project p {
-        font-size: 12px;
-        color: #4C4D5C;
-        line-height: 1rem;
         padding-top: 10px;
     }
 
