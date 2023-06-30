@@ -1379,6 +1379,7 @@ color:#030419;
 
 .posts-images {
     display: block;
+    border-bottom: 1px soild #F2F3F4;
     
 }
 
@@ -1386,7 +1387,6 @@ color:#030419;
     display: flex;
     padding-top: 20px;
     align-items: center;
-    
 }
 
 .posts-block p {
