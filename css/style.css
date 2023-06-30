@@ -1398,6 +1398,12 @@ color:#030419;
    line-height: 29.88px;
 }
 
+.posts-block img {
+    width: 100px;
+    height:75px;
+    border-radius: 8px;
+}
+
 /* End Details Page */
 
 
