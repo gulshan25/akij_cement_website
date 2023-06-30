@@ -1363,6 +1363,109 @@ color:#030419;
     color: #4C4D5C;
 }
 
+.hollow {
+    padding-top:15px;
+}
+
+.hollow-title {
+    font-family: 'DIN-Bold';
+    font-size: 24px;
+    line-height: 28.8px;
+    color:#030419;
+}
+
+.hollow-p {
+    padding-top: 15px;
+    font-family: 'MarkPro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.52px;
+    color: #4C4D5C;
+}
+
+.sliding {
+    padding-top:15px;
+}
+
+.sliding-title {
+    font-family: 'DIN-Bold';
+    font-size: 24px;
+    line-height: 28.8px;
+    color:#030419;
+}
+
+.sliding-p {
+    padding-top: 15px;
+    font-family: 'MarkPro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.52px;
+    color: #4C4D5C;
+}
+
+.middle-container {
+    padding: 20px 0;
+    
+}
+
+.seismic-img {
+    padding-top: 20px;
+}
+
+.seismic-img img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.seismic-title {
+    padding-top: 20px;
+    color:#030419;
+    font-family: 'DIN-Bold';
+    font-size: 24px;
+    line-height:28.8px;
+}
+
+.seismic-p {
+    padding-top: 20px;
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color:#4C4D5C;
+
+}
+
+.share-content {
+    display: flex;
+    padding-top: 20px;
+    
+}
+
+.share-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height:27.52px;
+    font-family: 'MarkPro';
+    color:#030419;
+}
+
+.share-icons {
+    padding: 0 20px;
+}
+
+.share-icons a {
+    padding: 0 7px;
+}
+
+.share-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.share-content .share-icons {
+    align-items:center;
+}
 
 /* End middle-block */
 
