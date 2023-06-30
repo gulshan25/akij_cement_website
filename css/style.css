@@ -1471,15 +1471,22 @@ line-height:23.52px;
 
 /* Start Company */
 
-.about-block .about-container {
-    display:flex;
+.about-us {
+    padding-top: 20px;
+   
     
 }
 
-.about-video {
-    background-color: #F1F1F2;
-   
+.about-video img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
 }
+
+.about-video {
+    background-color: #F1F1F2; 
+}
+
 
 /* End Company */
 
