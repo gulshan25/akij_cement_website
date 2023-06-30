@@ -1335,8 +1335,48 @@ color:#030419;
 
 .earthquakes-block {
     display: flex;
-    
-    
+    flex-wrap: nowrap;
+    margin-left: 100px;
+     
+}
+
+
+.search-box{
+    position: relative;
+}
+
+.search-box input {
+    max-width: 156px;
+    padding: 20px 0 0 30px;
+    border-radius: 8px;
+}
+
+.search-box i {
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    width: 10px;
+    height: 10px;
+    color: #646471;
+}
+
+.search-title h4 {
+    color: #000F29;
+    font-size: 24px;
+    font-family: 'DIN-Bold';
+    line-height: 28.8px;
+}
+
+.search {
+    padding-top: 20px;
+}
+
+.recent-posts {
+    padding-top: 20px;
+    color: #000F29;
+    font-size: 24px;
+    font-family: 'DIN-Bold';
+    line-height: 28.8px;
 }
 
 /* End Details Page */
