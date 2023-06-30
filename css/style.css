@@ -804,8 +804,6 @@ input[type=radio] {
 .bec {
     background-image: url("../images/invisible-image3.png");
     background-repeat: no-repeat;
-    /* background-size: cover;
-    background-position: center; */
 }
 
 
@@ -1466,6 +1464,21 @@ line-height:23.52px;
 }
 
 /* End Details Page */
+
+/* Start Company */
+
+.about-block .about-container {
+    display:flex;
+    
+}
+
+.about-video {
+    background-color: #F1F1F2;
+    position: absolute;
+}
+
+/* End Company */
+
 
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
