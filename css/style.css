@@ -1404,6 +1404,67 @@ color:#030419;
     border-radius: 8px;
 }
 
+.top-block {
+    padding-top: 20px;
+}
+
+.top-title {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height:23.52px;
+    color: #030419;
+}
+
+.top-list ul li {
+    padding: 7px 0;
+}
+
+.top-list li {
+    color:#4C4D5C;
+}
+
+.top-list li a {
+color: #030419;
+font-size: 14px;
+font-family: 'MarkPro';
+font-weight: 400;
+line-height:23.52px;
+}
+
+.tags {
+    padding-top: 20px;
+}
+
+.tags-title {
+    color:#000F29;
+    font-weight: 600;
+    line-height: 33.6px;
+    font-size: 24px;
+    letter-spacing: -1px;
+    font-family: 'Poppins-Regular';
+}
+
+.tags-block {
+    display: block;
+    
+}
+
+.tags-flex {
+    display: flex;
+    color: #4C4D5C;
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23.52px;
+    
+}
+
+.tags-flex p {
+    padding: 10px 10px;
+    background-color:#E9E9EA
+}
+
 /* End Details Page */
 
 
