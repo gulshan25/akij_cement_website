@@ -1049,151 +1049,6 @@ color:#030419;
 
 /* End News & Events */
 
-
-/* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-    .top-hdr .img {
-        margin-top: 5px;
-        width:15px;
-        height:15px;
-        
-    }
-
-    .top-hdr span{
-        font-size: 12px;
-        padding-top: 5px;
-        justify-content: center;
-        align-items: center;
-    }
-    
-      .about-middle {
-        position: absolute;
-        top: 70%;
-        bottom: 0;
-      }
-
-      .middle-text p{
-         position: absolute;
-         top: -12px
-         
-      }
-
-      .akij-box {
-        position: relative;
-      }
-
-      .akij-box h3 {
-        font-size:16px;
-        
-      }
-      .akij-box p {
-        position: absolute;
-        top: 55px;
-        font-size:16px;
-      }
-
-}
-
-    
-/* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
-
-/* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    .top-hdr form i {
-        margin-right: 50px;
-    }
-
-    .akj-nav ul {
-        margin: 20px 0;
-        padding-left: 0;
-    }
-
-    .akj-nav ul li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    .about-box p {
-        font-size: 12px;
-        font-family: 'MarkPro';
-        line-height: 15px;
-        padding-top: 20px;
-    }
-
-    .about-box {
-        position: absolute;
-        max-width: 460px;
-        left: 50px;
-        right: 0;
-        top: -50px;
-        bottom: 0;
-        background: rgba(3, 4, 25, 0.7);
-        border-radius: 8px;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        color: #fff;
-
-    }
-
-    .akij-box p {
-        font-size: 12px;
-        font-family: 'MarkPro';
-        line-height: 15px;
-        padding-top: 10px;
-    }
-
-    .akij-text {
-        position:absolute;
-        top: 150px;
-        padding: 0;
-        left:20px;
-        right:0;
-    }
-
-    .akij-box {
-        position: absolute;
-        max-width: 460px;
-        left: 50px;
-        right: 0;
-        top: -50px;
-        bottom: 0;
-        background: rgba(3, 4, 25, 0.7);
-        border-radius: 8px;
-        padding: 10px 20px;
-        margin-bottom: 20px;
-        color: #fff;
-        justify-content: flex-start;
-
-    }
-
-    .footer-area .icons a img{
-        justify-content: space-between;
-        margin: 0 20px;
-      }
-
-    .cost-calculator-txt h3 {
-        font-size: 18px;
-        line-height: 84px;
-        color: #fff;
-        text-align: center;
-        font-family: 'DIN-Bold';
-        padding-top: 10px;
-    }
-
-    .sub-banner-txt h1 {
-        font-size: 35px;
-        line-height: 42px;   
-    }
-
-    .sub-banner-txt p {
-        margin-bottom: 50px;
-        padding:0;
-      
-    }
-
-}
-
 /* Start Details Page */
 
 /* Start details-block */
@@ -1478,5 +1333,156 @@ color:#030419;
     padding: 50px 0;
 }
 
+.earthquakes-block {
+    display: flex;
+    
+    
+}
 
 /* End Details Page */
+
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .top-hdr .img {
+        margin-top: 5px;
+        width:15px;
+        height:15px;
+        
+    }
+
+    .top-hdr span{
+        font-size: 12px;
+        padding-top: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+      .about-middle {
+        position: absolute;
+        top: 70%;
+        bottom: 0;
+      }
+
+      .middle-text p{
+         position: absolute;
+         top: -12px
+         
+      }
+
+      .akij-box {
+        position: relative;
+      }
+
+      .akij-box h3 {
+        font-size:16px;
+        
+      }
+      .akij-box p {
+        position: absolute;
+        top: 55px;
+        font-size:16px;
+      }
+
+}
+
+    
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .top-hdr form i {
+        margin-right: 50px;
+    }
+
+    .akj-nav ul {
+        margin: 20px 0;
+        padding-left: 0;
+    }
+
+    .akj-nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .about-box p {
+        font-size: 12px;
+        font-family: 'MarkPro';
+        line-height: 15px;
+        padding-top: 20px;
+    }
+
+    .about-box {
+        position: absolute;
+        max-width: 460px;
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+
+    }
+
+    .akij-box p {
+        font-size: 12px;
+        font-family: 'MarkPro';
+        line-height: 15px;
+        padding-top: 10px;
+    }
+
+    .akij-text {
+        position:absolute;
+        top: 150px;
+        padding: 0;
+        left:20px;
+        right:0;
+    }
+
+    .akij-box {
+        position: absolute;
+        max-width: 460px;
+        left: 50px;
+        right: 0;
+        top: -50px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+        justify-content: flex-start;
+
+    }
+
+    .footer-area .icons a img{
+        justify-content: space-between;
+        margin: 0 20px;
+      }
+
+    .cost-calculator-txt h3 {
+        font-size: 18px;
+        line-height: 84px;
+        color: #fff;
+        text-align: center;
+        font-family: 'DIN-Bold';
+        padding-top: 10px;
+    }
+
+    .sub-banner-txt h1 {
+        font-size: 35px;
+        line-height: 42px;   
+    }
+
+    .sub-banner-txt p {
+        margin-bottom: 50px;
+        padding:0;
+      
+    }
+
+}
+
