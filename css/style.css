@@ -1276,7 +1276,7 @@ color:#030419;
     padding-top: 20px;
 }
 
-.brand-p p {
+.brand-p  {
     font-family: 'MarkPro';
     font-size:16px;
     font-weight: 400;
@@ -1284,14 +1284,14 @@ color:#030419;
     color: #4C4D5C;
 }
 
-.brands-title h4 {
+.brands-title  {
     font-family: 'DIN-Bold';
     font-size: 24px;
     line-height:28.8px;
     color:#030419;
 }
 
-.brands-para p {
+.brands-para  {
     font-family: 'MarkPro';
     font-weight: 400;
     font-size: 16px;
@@ -1321,6 +1321,48 @@ color:#030419;
 .types-horizontal ul li {
     margin-left: 20px;
 }
+
+.waste {
+    padding-top:15px;
+}
+
+.waste-title  {
+    font-family: 'DIN-Bold';
+    font-size: 24px;
+    line-height: 28.8px;
+    color:#030419;
+}
+
+.waste-p  {
+    padding-top: 15px;
+    font-family: 'MarkPro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.52px;
+    color: #4C4D5C;
+}
+
+
+.haunches {
+    padding-top:15px;
+}
+
+.haunches-title {
+    font-family: 'DIN-Bold';
+    font-size: 24px;
+    line-height: 28.8px;
+    color:#030419;
+}
+
+.haunches-p {
+    padding-top: 15px;
+    font-family: 'MarkPro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.52px;
+    color: #4C4D5C;
+}
+
 
 /* End middle-block */
 
