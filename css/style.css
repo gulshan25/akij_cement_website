@@ -1334,20 +1334,23 @@ color:#030419;
 .earthquakes-block {
     display: flex;
     
+    margin: 0 100px;
+      
 }
 
-
-.search-box{
+.search-flex{
     position: relative;
 }
 
-.search-box input {
+.search-flex input {
     max-width: 156px;
     padding: 20px 0 0 30px;
     border-radius: 8px;
+    border: none;
+    background-color:#DDDDE0;
 }
 
-.search-box i {
+.search-flex i {
     position: absolute;
     left: 10px;
     top: 35px;
@@ -1373,6 +1376,7 @@ color:#030419;
     font-size: 24px;
     font-family: 'DIN-Bold';
     line-height: 28.8px;
+    padding-top: 20px;
 }
 
 .posts-images {
