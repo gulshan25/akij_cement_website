@@ -1469,5 +1469,14 @@ color:#030419;
 
 /* End middle-block */
 
+.related-title {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.related {
+    padding: 50px 0;
+}
+
 
 /* End Details Page */
