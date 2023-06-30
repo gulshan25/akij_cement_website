@@ -1272,7 +1272,7 @@ color:#030419;
 
 /* Start middle-block */
 
-.following-block {
+.following-block  {
     padding-top: 20px;
 }
 
@@ -1305,6 +1305,10 @@ color:#030419;
     line-height: 27.52px;
 }
 
+.horizontal-bands ul li {
+    margin-left: 20px;
+}
+
 .types-horizontal {
     padding-top: 15px;
     font-family: 'MarkPro';
@@ -1312,6 +1316,10 @@ color:#030419;
     font-size: 16px;
     line-height: 27.52px;
 
+}
+
+.types-horizontal ul li {
+    margin-left: 20px;
 }
 
 /* End middle-block */
