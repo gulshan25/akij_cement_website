@@ -1370,11 +1370,32 @@ color:#030419;
 }
 
 .recent-posts {
-    padding-top: 20px;
+    
     color: #000F29;
     font-size: 24px;
     font-family: 'DIN-Bold';
     line-height: 28.8px;
+}
+
+.posts-images {
+    display: block;
+}
+
+.posts-block {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+   
+   
+}
+
+.posts-block p {
+   padding: 0 16px;
+   color: #000F29;
+   font-weight: 500;
+   font-size: 18px;
+   font-family: 'MarkPro';
+   line-height: 29.88px;
 }
 
 /* End Details Page */
