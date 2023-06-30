@@ -1270,5 +1270,51 @@ color:#030419;
 
 /* Start earthquakes-block */
 
+/* Start middle-block */
+
+.following-block {
+    padding-top: 20px;
+}
+
+.brand-p p {
+    font-family: 'MarkPro';
+    font-size:16px;
+    font-weight: 400;
+    line-height:27.52px;
+    color: #4C4D5C;
+}
+
+.brands-title h4 {
+    font-family: 'DIN-Bold';
+    font-size: 24px;
+    line-height:28.8px;
+    color:#030419;
+}
+
+.brands-para p {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.52px;
+}
+
+.horizontal-bands {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.52px;
+}
+
+.types-horizontal {
+    padding-top: 15px;
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27.52px;
+
+}
+
+/* End middle-block */
+
 
 /* End Details Page */
