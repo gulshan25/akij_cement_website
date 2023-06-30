@@ -1379,14 +1379,14 @@ color:#030419;
 
 .posts-images {
     display: block;
+    
 }
 
 .posts-block {
     display: flex;
     padding-top: 20px;
     align-items: center;
-   
-   
+    
 }
 
 .posts-block p {
