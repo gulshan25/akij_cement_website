@@ -1476,12 +1476,13 @@ line-height:23.52px;
 
 .about-us {
     padding-top: 20px;
+    display: inline-flex;
     
 }
 
 .about-video img {
     object-fit: cover;
-    width: 100%;
+    width: 50%;
     max-height: 460px;
 }
 
