@@ -1380,15 +1380,15 @@ color:#030419;
 }
 
 .posts-images {
-    display: block;
-    border-bottom: 1px soild #F2F3F4;
-   
+    display: block;  
+    
 }
 
 .posts-block {
     display: flex;
     padding-top: 20px;
     align-items: center;
+    border-bottom: 1px soild #F2F3F4;
 }
 
 .posts-block p {
@@ -1420,8 +1420,9 @@ color:#030419;
 
 .top-list ul li {
     padding: 7px 0;
-    
+    border-bottom: 1px solid #E9E9EA;   
 }
+
 
 .top-list li {
     color:#4C4D5C;
