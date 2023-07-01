@@ -233,7 +233,6 @@ button:focus {
 
 .about-box {
     position: absolute;
-
     max-width: 660px;
     left: 100px;
     right: 0;
@@ -249,13 +248,13 @@ button:focus {
 
 .about-middle {
     display: flex;
-    align-items: flex-start;
-    gap: 60px;
-    margin-top: 20px;
+
+    
 }
 
 .middle-text {
     font-size: 12px;
+    padding: 0 10px 0 10px;
 }
 
 
@@ -959,7 +958,7 @@ input[type=radio] {
 }
 
 .search-box input {
-    max-width: 200px;
+    width: 100%;
     border-radius: 8px;
     border: 1px solid #DDDDE0;
     background-color: #DDDDE0;
@@ -1343,7 +1342,7 @@ color:#030419;
 }
 
 .search-flex input {
-    max-width: 156px;
+    width: 100%;
     padding: 20px 0 0 30px;
     border-radius: 8px;
     border: none;
@@ -1388,7 +1387,7 @@ color:#030419;
     display: flex;
     padding-top: 20px;
     align-items: center;
-    border-bottom: 1px soild #F2F3F4;
+    border-bottom: 1px solid #F2F3F4;
 }
 
 .posts-block p {
@@ -1417,14 +1416,18 @@ color:#030419;
     line-height:23.52px;
     color: #030419;
 }
+.top-list ul{
+list-style: disc;
+list-style-position: inside;
+
+
+}
 
 .top-list ul li {
     padding: 7px 0;
-    border-bottom: 1px solid #E9E9EA;   
-}
-
-.top-list li {
-    color:#4C4D5C;
+    border-bottom: 1px solid #E9E9EA;  
+    color:#4C4D5C; 
+    
 }
 
 .top-list li a {
@@ -1478,10 +1481,24 @@ line-height:23.52px;
 
 /* Start Company */
 
-.about-us {
-    padding-top: 20px;
-    display: flex;
-    justify-content: space-between;    
+.about-block {
+    padding-top: 50px;  
+
+}
+.about-block h3 {
+    color: #030419;
+    font-family: 'DIN-Bold';
+    font-size: 48px;
+    line-height:57.8px;
+    
+}
+
+.about-block p {
+    color: #030419;
+    font-family: 'MarkPro';
+    font-size: 16px;
+    line-height:27.52px;
+    font-weight: 400;
 }
 
 .about-video img {
@@ -1530,6 +1547,48 @@ line-height:23.52px;
     font-family: 'DIN-Bold';
     font-size: 48px;
     line-height:57.6px;
+}
+
+.akij-group {
+    padding-top: 50px;
+    position: relative;
+}
+
+.akij-group img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+}
+
+.group-box {
+    position: absolute;
+    max-width: 660px;
+    left: 90px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(3, 4, 25, 0.7);
+    border-radius: 8px;
+    padding: 60px 20px;
+    margin: 20px;
+
+}
+
+.group-box h3 {
+    color: #FFFFFF;
+    font-family: 'DIN-Bold';
+    font-size: 48px;
+    line-height: 57.6px;
+}
+
+.group-box p {
+    padding-top: 5px;
+    font-family: 'MarkPro';
+    font-size: 18px;
+    font-weight: 400;
+    color: #DDDDE0;
+    width:600px;
+    
 }
 
 /* End Company */
