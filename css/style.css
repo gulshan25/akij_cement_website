@@ -1467,7 +1467,11 @@ line-height:23.52px;
 .tags-box {
     padding: 10px 10px;
     background-color:#E9E9EA;
-    margin:7px;
+    margin:10px 10px 0 0;
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23.52px;
 }
 
 /* End Details Page */
@@ -1490,6 +1494,14 @@ line-height:23.52px;
     background-color: #F1F1F2; 
 }
 
+.about-akij {
+    display:flex;
+}
+
+.akij-flex {
+    display:inline-block;
+    padding: 0 10px 0 0;
+}
 
 /* End Company */
 
