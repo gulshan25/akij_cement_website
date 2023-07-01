@@ -1480,8 +1480,8 @@ line-height:23.52px;
 
 .about-us {
     padding-top: 20px;
-    display: inline-flex;
-    
+    display: flex;
+    justify-content: space-between;    
 }
 
 .about-video img {
@@ -1491,7 +1491,8 @@ line-height:23.52px;
 }
 
 .about-video {
-    background-color: #F1F1F2; 
+    background-color: #F1F1F2;
+ 
 }
 
 .about-akij {
