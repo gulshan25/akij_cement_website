@@ -1464,9 +1464,10 @@ line-height:23.52px;
     
 }
 
-.tags-flex p{
+.tags-box {
     padding: 10px 10px;
-    background-color:#E9E9EA
+    background-color:#E9E9EA;
+    margin:7px;
 }
 
 /* End Details Page */
