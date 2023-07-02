@@ -386,6 +386,7 @@ button:focus {
     font-size: 20px;
     font-weight: bold;
     align-items: center;
+    text-align: center;
 }
 
 
