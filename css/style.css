@@ -1590,15 +1590,39 @@ line-height:23.52px;
 
 /*Start Post Construction Details*/
 
-.conclusion-title {
+.post-construction-img img{
+object-fit: cover;
+width: 100%;
+max-height: 460px;
+}
+
+.construction-text h2 {
+    padding: 20px 0;
+    color:#030419;
+    font-size: 56px;
+    line-height:67.2px;
+    font-family: 'DIN-Bold';
+}
+
+.construction-text p {
+
+    color:#4C4D5C;
+    font-size: 16px;
+    line-height:27.52px;
+    font-family: 'MarkPro';
+    font-weight: 400;
+}
+
+.construction-title {
+    padding-top: 10px;
     font-family: 'DIN-Bold';
     font-size: 24px;
     line-height: 28.8px;
     color:#030419;
 }
 
-.conclusion-block {
-    padding-top: 15px;
+.construction-p {
+    padding-top: 10px;
     font-family: 'MarkPro';
     font-size: 16px;
     font-weight: 400;
@@ -1851,6 +1875,8 @@ line-height:23.52px;
 }
 
 /*End Products details page*/
+
+
 
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
