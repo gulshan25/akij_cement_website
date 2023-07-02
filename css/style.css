@@ -1608,7 +1608,129 @@ line-height:23.52px;
 
 /*End Post Construction Details*/
 
+/*Start WHy Akij Cement*/
 
+.assurance {
+    padding: 50px;
+   
+}
+
+.assurance img {
+    object-fit: cover;
+        width: 100%;
+        max-height: 460px;
+    }
+
+.assurance-block {
+   padding: 100px 0;
+}
+
+.assurance-block h3 {
+    font-family: 'DIN-Bold';
+    color:#030419;
+    font-size: 48px;
+    line-height:57.6px;
+}
+
+.assurance-block p {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color:#4C4D5C;
+}
+
+.test-reports {
+    padding: 50px;
+   
+}
+
+.test-reports img {
+    object-fit: cover;
+        width: 100%;
+        max-height: 460px;
+    }
+
+.test-reports-block {
+   padding: 100px 0;
+}
+
+.test-reports-block h3 {
+    font-family: 'DIN-Bold';
+    color:#030419;
+    font-size: 48px;
+    line-height:57.6px;
+}
+
+.test-reports p {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color:#4C4D5C;
+}
+
+.go-green {
+    padding: 50px;
+   
+}
+
+.go-green img {
+    object-fit: cover;
+        width: 100%;
+        max-height: 460px;
+    }
+
+.go-green-block {
+   padding: 100px 0;
+}
+
+.go-green-block h3 {
+    font-family: 'DIN-Bold';
+    color:#030419;
+    font-size: 48px;
+    line-height:57.6px;
+}
+
+.go-green p {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color:#4C4D5C;
+}
+
+.certificates {
+    padding: 50px;
+   
+}
+
+.certificates img {
+    object-fit: cover;
+        width: 100%;
+        max-height: 460px;
+    }
+
+.certificates-block {
+   padding: 100px 0;
+}
+
+.certificates-block h3 {
+    font-family: 'DIN-Bold';
+    color:#030419;
+    font-size: 48px;
+    line-height:57.6px;
+}
+
+.certificates p {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color:#4C4D5C;
+}
+
+/*End WHy Akij Cement*/
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -1653,6 +1775,8 @@ line-height:23.52px;
       }
 
 }
+
+
 
     
 /* `md` applies to small devices (landscape phones, less than 768px) */
