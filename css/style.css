@@ -1760,21 +1760,119 @@ max-height: 460px;
 /*Start products*/
 
 .composite {
-    background-color: #676B9D;
+    background-color:#676B9D;
     margin: 100px;
-    padding: 50px;
-    height: 498px;
+    padding: 20px;
     border-radius: 8px;
-    justify-content: space-around;
 }
 
-.cement-img {
+.cement-img img{
+    width: 100%;
+    max-height: 460px;
     object-fit: cover;
-    width: 353px;
-        max-height: 460px;
-        border-radius: 8px;
+    border-radius: 8px;
+}
+
+.composite-img img {
+    width: 100%;
+    max-height: 460px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.cement-block{
+    padding-top: 20px;
+}
+
+.cement-block button {
+padding: 20px 24px 20px 24px;
+border: none;
+border-radius: 8px;
+color:#030419;
+font-family: 'DIN-Bold';
+font-size: 18px;
+line-height:19.8px;
+}
+
+.cement-block a {
+    padding: 20px 24px 20px 24px;
+border: 1px solid #C5C5C9;
+border-radius: 8px;
+font-family: 'DIN-Bold';
+font-size: 18px;
+line-height:19.8px;
+color: #FFFFFF;
+}
+
+.cement-block p {
+    font-size: 16px;
+    line-height: 27.52px;
+    font-weight: 400;
+    font-family: 'MarkPro';
+    color: #EDEDEE;
+   
+}
+
+.cement-block h3 {
+    font-size: 48px;
+    line-height: 57.6px;
+    font-family: 'DIN-Bold';
+    color: #FFFFFF;
+}
+
+.composite-second {
+    background-color:#F1F1F2;
+    margin: 100px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cement-second-box {
+    display: flex;
+}
+
+
+    
+    .cement-second-block{
+        padding-top: 20px;
     }
     
+    .composite-second button {
+    padding: 20px 24px 20px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color:#030419;
+    color: #FFFFFF;
+    font-family: 'DIN-Bold';
+    font-size: 18px;
+    line-height:19.8px;
+    }
+    
+    .composite-second a {
+    padding: 20px 24px 20px 24px;
+    border: 1px solid #C5C5C9;
+    border-radius: 8px;
+    font-family: 'DIN-Bold';
+    font-size: 18px;
+    line-height:19.8px;
+    color: #030419;
+    }
+    
+    .composite-second p {
+        font-size: 16px;
+        line-height: 27.52px;
+        font-weight: 400;
+        font-family: 'MarkPro';
+        color: #4C4D5C;
+    }
+    
+    .composite-second h3 {
+        font-size: 48px;
+        line-height: 57.6px;
+        font-family: 'DIN-Bold';
+        color: #030419;
+    }
 
 /*End Products*/
 
