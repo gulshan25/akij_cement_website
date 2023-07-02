@@ -1732,6 +1732,127 @@ line-height:23.52px;
 
 /*End WHy Akij Cement*/
 
+/*Start products*/
+
+.composite {
+    background-color: #676B9D;
+    margin: 100px;
+    padding: 50px;
+    height: 498px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.cement-img {
+    object-fit: cover;
+    width: 353px;
+        max-height: 460px;
+        border-radius: 8px;
+    }
+    
+
+/*End Products*/
+
+/*Start Products details page*/
+
+.product-block img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 460px;
+    position: relative;
+    
+}
+.product-block button {
+    align-items: center;
+    position: absolute;
+    top: 62%;
+    left: 70%;
+    z-index: 1;
+    padding: 20px, 24px, 20px, 24px;
+    border:none;
+    background-color:#2A2F76;
+    border-radius: 8px;
+    
+}
+
+.product-block button  a {
+    color:#FFFFFF;
+    font-family: 'DIN-Bold';
+    font-size: 18px;
+    line-height: 19.8px;
+    
+}
+
+.download-button img {
+    width: 20px;
+    height: 20px;
+}
+
+.portland {
+    padding: 20px 0;
+}
+
+.portland-text h2 {
+    font-family: 'DIN-Bold';
+    font-size: 48px;
+    line-height:57.6px;
+    color: #030419;
+}
+
+.portland-text p {
+    padding: 10px 0;
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color: #4C4D5C;
+}
+
+.portland-block {
+    padding: 20px 0;
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color: #4C4D5C;
+}
+
+.portland-bands ul li{
+    padding: 7px 0;
+}
+
+.portland-bands li a {
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    color: #4C4D5C;
+}
+
+.portland-bands h4 {
+    font-family: 'DIN-Bold';
+    font-size: 24px;
+    line-height:28.8px;
+    color: #030419;
+}
+
+.portland-box {
+    padding: 20px 0;
+}
+
+.portland-p {
+    padding: 20px 0;
+    font-family: 'MarkPro';
+    font-weight: 400;
+    font-size: 16px;
+    line-height:27.52px;
+    
+
+}
+
+/*End Products details page*/
+
+
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .top-hdr .img {
