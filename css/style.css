@@ -1646,7 +1646,7 @@ max-height: 460px;
     }
 
 .assurance-block {
-   padding: 100px 0;
+   padding: 20px 0;
 }
 
 .assurance-block h3 {
@@ -1676,7 +1676,7 @@ max-height: 460px;
     }
 
 .test-reports-block {
-   padding: 100px 0;
+   padding: 20px 0;
 }
 
 .test-reports-block h3 {
@@ -1706,7 +1706,7 @@ max-height: 460px;
     }
 
 .go-green-block {
-   padding: 100px 0;
+   padding: 20px 0;
 }
 
 .go-green-block h3 {
@@ -1736,7 +1736,7 @@ max-height: 460px;
     }
 
 .certificates-block {
-   padding: 100px 0;
+   padding: 20px 0;
 }
 
 .certificates-block h3 {
@@ -1833,11 +1833,11 @@ color: #FFFFFF;
 
 
     
-    .cement-second-block{
-        padding-top: 20px;
-    }
+.cement-second-block{
+    padding-top: 20px;
+}
     
-    .composite-second button {
+.composite-second button {
     padding: 20px 24px 20px 24px;
     border: none;
     border-radius: 8px;
@@ -1846,9 +1846,9 @@ color: #FFFFFF;
     font-family: 'DIN-Bold';
     font-size: 18px;
     line-height:19.8px;
-    }
+}
     
-    .composite-second a {
+.composite-second a {
     padding: 20px 24px 20px 24px;
     border: 1px solid #C5C5C9;
     border-radius: 8px;
@@ -1856,22 +1856,22 @@ color: #FFFFFF;
     font-size: 18px;
     line-height:19.8px;
     color: #030419;
-    }
+}
     
-    .composite-second p {
+.composite-second p {
         font-size: 16px;
         line-height: 27.52px;
         font-weight: 400;
         font-family: 'MarkPro';
         color: #4C4D5C;
-    }
+}
     
-    .composite-second h3 {
+.composite-second h3 {
         font-size: 48px;
         line-height: 57.6px;
         font-family: 'DIN-Bold';
         color: #030419;
-    }
+}
 
 /*End Products*/
 
@@ -2076,13 +2076,17 @@ color: #FFFFFF;
         font-size:16px;
       }
 
+
+
 }
-
-
-
     
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+    .product-block button {
+        top: 26%;
+        left:64%;
+    }
+}
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
@@ -2178,5 +2182,159 @@ color: #FFFFFF;
       
     }
 
-}
+    .cement-block h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .cement-block p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .cement-block a {
+        font-size: 16px;
+        padding: 10px;
+    }
+    .cement-block button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .composite-second h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .composite-second button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .composite-second a {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .portland-text h2 {
+        font-size: 28px;
+    }
+
+    .assurance-block h3 {
+        font-size: 20px;
+      
+    }
+
+    .assurance-block p {
+        font-size:12px;
+        line-height: 20px;
+    }
+
+    .go-green-block h3 {
+        font-size: 20px;
+      
+    }
+
+    .go-green-block p {
+        font-size:12px;
+        line-height: 20px;
+    }
+
+    .test-reports-block h3 {
+        font-size: 20px;
+      
+    }
+
+    .test-reports-block p {
+        font-size:12px;
+        line-height: 20px;
+    }
+
+    .certificates-block h3 {
+        font-size: 20px;
+      
+    }
+
+    .certificates-block p {
+        font-size:12px;
+        line-height: 20px;
+    }
+
+    .composite-second p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .product-block button a{
+        font-size: 12px;
+    }
+
+    .product-block button {
+        top: 76%;
+        left:64%;
+    }
+
+    .download-button img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .group-box {
+        position: absolute;
+        left: 50px;
+        right: 0;
+        top: -10px;
+        bottom: 0;
+        background: rgba(3, 4, 25, 0.7);
+        border-radius: 8px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+
+    .group-box p {
+        font-size: 16px;
+    }
+
+    .about-block h3{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .about-block p {
+        font-size:16px;
+        line-height: 20px;
+    }
+
+    .posts-block p {
+        font-size:12px;
+        line-height: 15px;
+    }
+
+    .events-box h4 {
+        font-size:12px;
+        line-height: 20px;
+    }
+
+    .events-box p {
+        font-size:12px;
+        line-height: 15px;
+    }
+
+    .events-box .read-text {
+        font-size: 12px;
+
+    }
+
+    .events-img img {
+        height:210px;
+    }
+
+    .events-box {
+        height:210px;
+    }
+
+}  
+
+
 
