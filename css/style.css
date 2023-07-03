@@ -1876,6 +1876,16 @@ color: #FFFFFF;
 
 /*End Products*/
 
+/* Start World of Building Solution */ 
+
+.wbs-block {
+    background-image: url("../images/invisible-image3.png");
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+/* End World of Building Solution */ 
+
 /*Start Products details page*/
 
 .product-block img{
@@ -1975,7 +1985,54 @@ color: #FFFFFF;
 
 /*End Products details page*/
 
+/*Start Contact Us*/
 
+.contact {
+    background-image: url("../images/invisible-image3.png");
+    background-repeat: no-repeat;
+    padding: 50px 0;
+}
+
+.contact .btn4{
+    text-align: center;
+    
+}
+
+.name input {
+    background-color: #DDDDE0;
+    padding: 20px;   
+}
+
+.mobile input {
+    background-color: #DDDDE0;
+    padding: 20px;   
+}
+
+.email input {
+    background-color: #DDDDE0;
+    padding: 20px;   
+}
+
+.subject input {
+    background-color: #DDDDE0;
+    padding: 20px;   
+}
+
+.textarea textarea {
+    background-color: #DDDDE0;
+    padding: 20px;   
+
+}
+
+.contact-check label {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'MarkPro';
+    line-height: 27.52px;
+    color:#666F7F;
+}
+
+/*End Contact Us*/
 
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
