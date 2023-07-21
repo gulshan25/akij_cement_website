@@ -224,7 +224,9 @@ header {
 }
 
 
-/* Banner */
+/*============ 
+# Banner 
+==============*/
 .dm-banner {
     position: relative;
 }
@@ -246,47 +248,47 @@ header {
 
 .dm-banner__title {
     position: absolute;
-    left: 0;
+    left: 20px;
     right: 0;
-    top: 100px;
+    top: 200px;
     bottom: 0;
     z-index: 9;
     display: flex;
     align-items: center;
-}
-
-.dm-banner__title {
     font-family: 'DIN-Bold';
     font-size: 70px;
     line-height: 84px;
     color: #fff;
     font-weight: normal;
+    max-width: 700px;
+    
 }
 
+/*===========
+# our products 
+=============*/
 
-/* our products */
 
-.our-products {
+
+.product-area {
     padding-top: 70px;
     color: black;
-    
-
 }
 
-.our-products h3 {
+.section-heading h2 {
     font-family: 'DIN-Bold';
     font-size:48px;
     line-height:57.6px;
     color:#030419;
 }
 
-.our-products h5 {
+.dm-product__title a {
     font-family: 'DIN-Bold';
     font-size: 20px;
     line-height:24px;
 }
 
-.our-products p {
+.section-heading__description p {
     font-size: 16px;
     color: #4C4D5C;
     line-height: 27.52px;
@@ -296,17 +298,17 @@ header {
 }
 
 
-.box-img {
-    display: block;
+.dm-product__image {
+  display: block;
   width: 100%;
   padding-top: 20px;
 }
 
-.box-img img {
-    width: 100%;
+.dm-product__image img {
+    max-width: 100%;
 }
 
-.box-img h5 {
+.dm-product__image a {
     
     padding: 15px;
     color: #030419;
