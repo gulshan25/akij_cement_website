@@ -1,0 +1,10 @@
+.DS_Store
+.sass-cache
+.publish
+public
+desktop.ini
+node_modules
+**/generated/_icons.sass
+npm-debug.log
+.jsbeautifyrc
+.idea/
