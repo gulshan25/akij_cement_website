@@ -2151,14 +2151,14 @@ color: #FFFFFF;
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-    .top-hdr .img {
+    .dm-topbar img {
         margin-top: 5px;
         width:15px;
         height:15px;
         
     }
 
-    .top-hdr span{
+    .dm-topbar span{
         font-size: 12px;
         padding-top: 5px;
         justify-content: center;
