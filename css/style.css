@@ -11,7 +11,7 @@
 =======================*/
 
 /*=====================
-# Fonts 
+# Fonts
 =======================*/
 @import "./fonts.css";
 
@@ -23,11 +23,11 @@ body {
     background-color: #fff;
 }
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
     font-family: "DIN-Bold";
     font-weight: 400;
@@ -141,7 +141,7 @@ header {
 }
 
 /*==============
-# Top header 
+# Top header
 ================*/
 
 .dm-topbar {
@@ -191,8 +191,8 @@ header {
     list-style: none;
 }
 
-/*=================== 
-# Main Header 
+/*===================
+# Main Header
 =====================*/
 .dm-navbar {
     padding: 7px 0;
@@ -224,8 +224,8 @@ header {
 }
 
 
-/*============ 
-# Banner 
+/*============
+# Banner
 ==============*/
 .dm-banner {
     position: relative;
@@ -261,34 +261,42 @@ header {
     color: #fff;
     font-weight: normal;
     max-width: 700px;
-    
+
 }
 
 /*===========
-# our products 
+# our products
 =============*/
 
 
 
-.product-area {
-    padding-top: 70px;
+.dm-product-area {
+    padding-top: 50px;
     color: black;
+	background: url("../images/invisible-image.jpg") no-repeat bottom center;
+
+
 }
 
-.section-heading h2 {
+.section-heading {
+	margin: 450px 0px 0px 0px;
+	text-align: center;
+}
+
+.section-heading__title {
     font-family: 'DIN-Bold';
     font-size:48px;
     line-height:57.6px;
     color:#030419;
 }
 
-.dm-product__title a {
+.dm-product__title {
     font-family: 'DIN-Bold';
     font-size: 20px;
     line-height:24px;
 }
 
-.section-heading__description p {
+.section-heading__description {
     font-size: 16px;
     color: #4C4D5C;
     line-height: 27.52px;
@@ -308,36 +316,39 @@ header {
     max-width: 100%;
 }
 
-.dm-product__image a {
-    
+.dm-product__content {
+
     padding: 15px;
     color: #030419;
-    font-size: 12px;
-    font-weight: bold;
+    font-size: 20px;
+    font-style: normal;
+	font-weight: 400;
+	line-height: 120%;
+	text-align: center;
 }
 
-.invisible-img {
-    width: 100%;
-}
 
-/* About Us */
+/*==========
+# About Us
+============*/
 
-.about-us {
+.dm-about-us {
     position: relative;
+
 }
 
-.about-us img {
+.dm-about-us-img img {
     object-fit: cover;
     width: 100%;
     max-height: 460px;
 }
 
-.about-box {
+.dm-about-box {
     position: absolute;
     max-width: 660px;
     left: 100px;
     right: 0;
-    top: -50px;
+    top: -20px;
     bottom: 0;
     background: rgba(3, 4, 25, 0.7);
     border-radius: 8px;
@@ -347,15 +358,19 @@ header {
 
 }
 
-.about-middle {
+.dm-about-middle {
     display: flex;
+	align-items: start;
 
-    
+
+
 }
 
-.middle-text {
+.dm-middle-text {
     font-size: 12px;
-    padding: 0 10px 0 10px;
+	margin: 20px;
+
+
 }
 
 
@@ -373,127 +388,56 @@ header {
     font-family: 'DIN-Bold';
 }
 
-/* News & Events */
+/*==============
+# News & Events
+================*/
 
-.news-events {
-    padding-top: 70px;
-    color: black;
+.news-heading {
+    text-align: center;
+	padding-top: 20px;
 }
 
-.news {
-    text-align: left;
-}
+.dm-btn {
+	margin: 50px 450px 0px 450px;
 
-.news-img {
-    display: block;
-  width: 100%;
-  padding-top: 20px;
 }
+.dm-news__image img{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 25px;
+	max-width: 100%;
 
-.news-img img {
-    width: 100%;
-}
-
-.news-img h5 {
-    
-    padding: 15px;
-    color: #030419;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.read-text {
-    text-decoration: underline;
-    font-family: 'DIN-Bold';
-    line-height: 19.8px;
-    font-size: 18px;
-}
-
-.news-events h4 {
-    font-family:'DIN-Bold';
-    font-weight: 500;
-    font-size: 20px;
-    
-}
-.news-events h3 {
-    font-family:'DIN-Bold';
-    line-height: 57.6px;
-    font-size:48px;
-    color:#030419;
 
 }
 
-.news-events p {
-    font-size: 16px;
-    color: #4C4D5C;
-    line-height: 27.52px;
-    font-family: 'MarkPro';
-    font-weight: 400;
-    padding-top: 10px;
+.dm-news__content {
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #4C4D5C;
+	border-radius: 0px 0px 8px 8px;
 }
 
-.news-events button {
-    padding: 15px 12px;
-    border: none;
-    color: white;
-    background-color: #2A2F76;
-    border-radius: 8px;
-    margin-top: 30px;
-    font-family: 'DIN-Bold';
-
+.news__link {
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 /* World of Building Solutions*/
 
-.wbs {
+.dm-wbs-area {
     padding-top: 70px;
     color: black;
     background-color: #F1F1F2;
     margin-top: 50px;
-    
+	background: url("../images/invisible-image.png") no-repeat bottom center;
+
+
 }
 
-.wbs h3 {
-    font-family: 'DIN-Bold';
-    line-height: 57.6px;
-    font-size:48px;
-    color:#030419;
+.wbs-heading {
+	text-align: center;
 }
 
-.wbs p {
-    font-size: 16px;
-    color: #4C4D5C;
-    line-height: 27.52px;
-    font-weight: 400;
-    font-family: 'MarkPro';
-    padding-top: 10px;
-}
-
-
-.wbs-img {
-    display: block;
-    width: 100%;
-    padding-top: 20px;
-}
-
-.wbs-img img {
-    width: 100%;
-}
-
-.wbs-img h5 {
-    font-family: 'DIN-Bold';
-    padding: 15px;
-    color: #030419;
-    font-size: 20px;
-    font-weight: bold;
-    align-items: center;
-    text-align: center;
-}
-
-
-.wbs-title .invisible-img {
-    width: 100%;   
-}
 
 
 /* why akij cement*/
@@ -513,7 +457,7 @@ header {
     max-width: 660px;
     left: 100px;
     right: 0;
-    top: -50px;
+	top: -20px;
     bottom: 0;
     background: rgba(3, 4, 25, 0.7);
     border-radius: 8px;
@@ -527,7 +471,7 @@ header {
 .akij-text {
     display: flex;
     flex-wrap: wrap;
-   
+
 }
 
 .akij-text a {
@@ -535,20 +479,20 @@ header {
     align-items: center;
     width: 50%;
     padding: 15px 0;
-  
+
 
 }
 
 .akij-text a img{
-   
+
     font-size: 24px;
     background: #4C4D5C;
     border-radius: 50px;
     width: 50px;
     height: 50px;
     margin: 6px;
-   
-    
+
+
 }
 
 .akij-text img {
@@ -556,8 +500,8 @@ header {
     height: 20px;
     padding: 10px;
     justify-content: center;
-    
-    
+
+
 }
 
 .akij-box p {
@@ -577,7 +521,7 @@ header {
 .akij-text {
     padding-bottom: 50px;
     font-size: 12px;
-    
+
 }
 
 
@@ -586,7 +530,7 @@ header {
 .our-project {
     padding-top: 70px;
     color: black;
-    
+
 
 }
 
@@ -616,7 +560,7 @@ header {
 
 .project-img img {
     width: 100%;
-    
+
 }
 
 .project-img h5 {
@@ -637,7 +581,9 @@ header {
 }
 
 
-/* Cost Calculator */
+/*=============
+# Cost Calculator
+=============*/
 
 
 .cost-calculator .btn3 {
@@ -654,7 +600,7 @@ background: #2A2F76;
 border-radius: 8px;
 border: none;
 vertical-align: middle;
-   
+
 }
 
 .cost-calculator p{
@@ -700,7 +646,9 @@ vertical-align: middle;
     font-family: 'DIN-Bold';
 }
 
-/* footer */
+/*============
+# footer
+============*/
 
 .footer-area  {
     display: flex;
@@ -708,7 +656,7 @@ vertical-align: middle;
     background-color: #f0f0f0;
     width: 100%;
     font-family: 'MarkPro';
-    
+
 }
 
 .footer-area .footer-p {
@@ -737,7 +685,7 @@ vertical-align: middle;
     margin: 0 auto;
     padding: 20px 0;
     display: block;
-    
+
 }
 
 .footer-area a {
@@ -746,7 +694,15 @@ vertical-align: middle;
     line-height:28.8px;
 }
 
-.footer-area .icons a img{
+.dm-footer__icons ul li {
+	list-style: none;
+}
+
+.dm-footer__icons a{
+	margin: 0 auto;
+}
+
+/* .footer-area .icons a img{
     justify-content: space-between;
         margin: 0 20px;
     }
@@ -757,13 +713,13 @@ vertical-align: middle;
     text-align: start;
     width: 80%;
     justify-content: flex-start;
-   
+
 }
 
 .footer-area .icons img {
     margin-left: 20px;
     padding: 10px 0;
-}
+} */
 
 .copy-right {
     text-align: center;
@@ -786,12 +742,12 @@ vertical-align: middle;
 
 .follow-text a {
     width: 100%;
-    
+
 }
 
 .follow-text li {
     list-style: none;
-    
+
 }
 
 /* Construction cost Calculator */
@@ -840,15 +796,15 @@ vertical-align: middle;
 
 .sub-banner-txt img {
     position: relative;
-    
-} 
+
+}
 
 .sub-banner-txt h1 {
     font-size: 70px;
     line-height: 84px;
     color: #fff;
     font-family: 'DIN-Bold';
-    
+
 }
 
 .sub-banner-txt p {
@@ -903,8 +859,9 @@ input[type=radio] {
 }
 
 .bec {
-    background-image: url("../images/invisible-image3.png");
+    background-image: url("../images/invisible-image3.png"), url("../images/invisible-image.png");
     background-repeat: no-repeat;
+	background-position: top center, bottom center;
 }
 
 
@@ -914,7 +871,7 @@ input[type=radio] {
     text-align: center;
     font-family: 'DIN-Bold';
     color: #030419;
-       
+
 }
 
 
@@ -960,7 +917,7 @@ input[type=radio] {
     text-align: center;
     font-family: 'DIN-Bold';
     color: #030419;
-    
+
 }
 
 
@@ -978,7 +935,7 @@ input[type=radio] {
 /* Start cost-result */
 
 .cost-result {
-    
+
     text-align: right;
     font-family: 'DIN-Bold';
 
@@ -986,17 +943,17 @@ input[type=radio] {
 
 .cost-box img{
     padding: 0 5px;
-    
+
 }
 
 .cost-box .icon-box{
-  
+
    padding:15px 15px;
    font-family: 'DIN-Bold';
-   border-radius: 8px;  
+   border-radius: 8px;
    align-items: right;
    border: none;
-      
+
 }
 
 .cost-box .icon1 {
@@ -1019,7 +976,7 @@ input[type=radio] {
     object-fit: cover;
     width: 100%;
     padding: 30px 0;
-        
+
 }
 
 .cost-image-box {
@@ -1034,7 +991,7 @@ input[type=radio] {
 
 .events {
     padding-top: 50px;
-        
+
 }
 
 
@@ -1053,7 +1010,7 @@ input[type=radio] {
     max-width: 322px;
     padding: 0px 0px 16px 0px;
     margin-top: 10px;
-    
+
 }
 
 .search-box input {
@@ -1079,7 +1036,7 @@ input[type=radio] {
 }
 
 .events-img {
-    width: 50%; 
+    width: 50%;
 }
 
 .events-img img {
@@ -1118,7 +1075,7 @@ color:#030419;
     line-height:19.8px;
     text-decoration: underline;
     font-family: 'DIN-Bold';
-     
+
 }
 
 .news-content h3 {
@@ -1154,7 +1111,7 @@ color:#030419;
     object-fit: cover;
     width: 100%;
     max-height: 460px;
-    
+
 }
 
 /* End details-block */
@@ -1189,7 +1146,7 @@ color:#030419;
     display: flex;
     padding-top: 40px;
     margin: 0 100px;
-      
+
 }
 .p-block {
     font-family: 'MarkPro';
@@ -1359,7 +1316,7 @@ color:#030419;
 
 .middle-container {
     padding: 20px 0;
-    
+
 }
 
 .seismic-img {
@@ -1393,7 +1350,7 @@ color:#030419;
 .share-content {
     display: flex;
     padding-top: 20px;
-    
+
 }
 
 .share-title {
@@ -1465,7 +1422,7 @@ color:#030419;
 }
 
 .recent-posts {
-    
+
     color: #000F29;
     font-size: 24px;
     font-family: 'DIN-Bold';
@@ -1474,8 +1431,8 @@ color:#030419;
 }
 
 .posts-images {
-    display: block;  
-    
+    display: block;
+
 }
 
 .posts-block {
@@ -1520,9 +1477,9 @@ list-style-position: inside;
 
 .top-list ul li {
     padding: 7px 0;
-    border-bottom: 1px solid #E9E9EA;  
-    color:#4C4D5C; 
-    
+    border-bottom: 1px solid #E9E9EA;
+    color:#4C4D5C;
+
 }
 
 .top-list li a {
@@ -1549,7 +1506,7 @@ line-height:23.52px;
 
 .tags-block {
     display: block;
-    
+
 }
 
 .tags-flex {
@@ -1559,7 +1516,7 @@ line-height:23.52px;
     font-weight: 400;
     font-size: 14px;
     line-height: 23.52px;
-    
+
 }
 
 .tags-box {
@@ -1577,7 +1534,7 @@ line-height:23.52px;
 /* Start Company */
 
 .about-block {
-    padding-top: 50px;  
+    padding-top: 50px;
 
 }
 .about-block h3 {
@@ -1585,7 +1542,7 @@ line-height:23.52px;
     font-family: 'DIN-Bold';
     font-size: 48px;
     line-height:57.8px;
-    
+
 }
 
 .about-block p {
@@ -1678,7 +1635,7 @@ line-height:23.52px;
     font-weight: 400;
     color: #DDDDE0;
     width:600px;
-    
+
 }
 
 /* End Company */
@@ -1731,8 +1688,8 @@ max-height: 460px;
 
 .assurance {
     padding: 50px;
-    
-   
+
+
 }
 
 .assurance .row {
@@ -1766,7 +1723,7 @@ max-height: 460px;
 
 .test-reports {
     padding: 50px;
-   
+
 }
 
 .test-reports .row {
@@ -1800,7 +1757,7 @@ max-height: 460px;
 
 .go-green {
     padding: 50px;
-   
+
 }
 
 .go-green .row {
@@ -1834,7 +1791,7 @@ max-height: 460px;
 
 .certificates {
     padding: 50px;
-   
+
 }
 
 .certificates .row {
@@ -1922,7 +1879,7 @@ color: #FFFFFF;
     font-weight: 400;
     font-family: 'MarkPro';
     color: #EDEDEE;
-   
+
 }
 
 .cement-block h3 {
@@ -1944,11 +1901,11 @@ color: #FFFFFF;
 }
 
 
-    
+
 .cement-second-block{
     padding-top: 20px;
 }
-    
+
 .composite-second button {
     padding: 20px 24px 20px 24px;
     border: none;
@@ -1959,7 +1916,7 @@ color: #FFFFFF;
     font-size: 18px;
     line-height:19.8px;
 }
-    
+
 .composite-second a {
     padding: 20px 24px 20px 24px;
     border: 1px solid #C5C5C9;
@@ -1969,7 +1926,7 @@ color: #FFFFFF;
     line-height:19.8px;
     color: #030419;
 }
-    
+
 .composite-second p {
         font-size: 16px;
         line-height: 27.52px;
@@ -1977,7 +1934,7 @@ color: #FFFFFF;
         font-family: 'MarkPro';
         color: #4C4D5C;
 }
-    
+
 .composite-second h3 {
         font-size: 48px;
         line-height: 57.6px;
@@ -1987,7 +1944,7 @@ color: #FFFFFF;
 
 /*End Products*/
 
-/* Start World of Building Solution */ 
+/* Start World of Building Solution */
 
 .wbs-block {
     background-image: url("../images/invisible-image3.png");
@@ -1995,7 +1952,7 @@ color: #FFFFFF;
     padding-top: 100px;
 }
 
-/* End World of Building Solution */ 
+/* End World of Building Solution */
 
 /*Start Products details page*/
 
@@ -2007,7 +1964,7 @@ color: #FFFFFF;
     object-fit: cover;
     width: 100%;
     max-height: 460px;
-    
+
 }
 .product-block button {
     align-items: center;
@@ -2019,7 +1976,7 @@ color: #FFFFFF;
     border:none;
     background-color:#2A2F76;
     border-radius: 8px;
-    
+
 }
 
 .product-block button  a {
@@ -2027,7 +1984,7 @@ color: #FFFFFF;
     font-family: 'DIN-Bold';
     font-size: 18px;
     line-height: 19.8px;
-    
+
 }
 
 .download-button img {
@@ -2093,7 +2050,7 @@ color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
     line-height:27.52px;
-    
+
 
 }
 
@@ -2109,32 +2066,32 @@ color: #FFFFFF;
 
 .contact .btn4{
     text-align: center;
-    
+
 }
 
 .name input {
     background-color: #DDDDE0;
-    padding: 20px;   
+    padding: 20px;
 }
 
 .mobile input {
     background-color: #DDDDE0;
-    padding: 20px;   
+    padding: 20px;
 }
 
 .email input {
     background-color: #DDDDE0;
-    padding: 20px;   
+    padding: 20px;
 }
 
 .subject input {
     background-color: #DDDDE0;
-    padding: 20px;   
+    padding: 20px;
 }
 
 .textarea textarea {
     background-color: #DDDDE0;
-    padding: 20px;   
+    padding: 20px;
 
 }
 
@@ -2155,7 +2112,7 @@ color: #FFFFFF;
         margin-top: 5px;
         width:15px;
         height:15px;
-        
+
     }
 
     .dm-topbar span{
@@ -2164,7 +2121,7 @@ color: #FFFFFF;
         justify-content: center;
         align-items: center;
     }
-    
+
       .about-middle {
         position: absolute;
         top: 70%;
@@ -2174,7 +2131,7 @@ color: #FFFFFF;
       .middle-text p{
          position: absolute;
          top: -12px
-         
+
       }
 
       .akij-box {
@@ -2183,7 +2140,7 @@ color: #FFFFFF;
 
       .akij-box h3 {
         font-size:16px;
-        
+
       }
       .akij-box p {
         position: absolute;
@@ -2194,7 +2151,7 @@ color: #FFFFFF;
 
 
 }
-    
+
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
     .product-block button {
@@ -2288,13 +2245,13 @@ color: #FFFFFF;
 
     .sub-banner-txt h1 {
         font-size: 35px;
-        line-height: 42px;   
+        line-height: 42px;
     }
 
     .sub-banner-txt p {
         margin-bottom: 50px;
         padding:0;
-      
+
     }
 
     .cement-block h3 {
@@ -2337,7 +2294,7 @@ color: #FFFFFF;
 
     .assurance-block h3 {
         font-size: 20px;
-      
+
     }
 
     .assurance-block p {
@@ -2347,7 +2304,7 @@ color: #FFFFFF;
 
     .go-green-block h3 {
         font-size: 20px;
-      
+
     }
 
     .go-green-block p {
@@ -2357,7 +2314,7 @@ color: #FFFFFF;
 
     .test-reports-block h3 {
         font-size: 20px;
-      
+
     }
 
     .test-reports-block p {
@@ -2367,7 +2324,7 @@ color: #FFFFFF;
 
     .certificates-block h3 {
         font-size: 20px;
-      
+
     }
 
     .certificates-block p {
@@ -2415,7 +2372,7 @@ color: #FFFFFF;
         font-size: 18px;
         line-height: 20px;
     }
-    
+
     .about-block p {
         font-size:16px;
         line-height: 20px;
@@ -2451,10 +2408,10 @@ color: #FFFFFF;
 
     .earthquakes-block {
         margin: 0 124px;
-          
+
     }
 
-}  
+}
 
 
 
