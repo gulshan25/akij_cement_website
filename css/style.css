@@ -424,13 +424,14 @@ header {
 
 /* World of Building Solutions*/
 
-.dm-wbs-area {
+#dm-wbs-area {
     padding-top: 70px;
     color: black;
-    background-color: #F1F1F2;
+    background-color: #4C4D5C;
     margin-top: 50px;
-	background: url("../images/invisible-image.png") no-repeat bottom center;
-
+	background: url("../images/invisible-image.png");
+	background-repeat: no-repeat;
+	background-position: bottom center;
 
 }
 
@@ -586,7 +587,7 @@ header {
 =============*/
 
 
-.cost-calculator .btn3 {
+/* .cost-calculator .btn3 {
 display: table;
 padding: 14px 24px;
 margin: 0 auto;
@@ -601,7 +602,7 @@ border-radius: 8px;
 border: none;
 vertical-align: middle;
 
-}
+} */
 
 .cost-calculator p{
     font-family: 'DIN-Bold';
@@ -618,7 +619,7 @@ vertical-align: middle;
     max-height: 460px;
 }
 
-.cost-calculator-g {
+ .cost-calculator-g {
     position: absolute;
     left: 0;
     right: 0;
@@ -628,14 +629,8 @@ vertical-align: middle;
 }
 
 .cost-calculator-txt {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 9;
-    display: flex;
-    align-items: center;
+  align-items: center;
+  margin: 100px 0px;
 }
 
 .cost-calculator-txt h3 {
@@ -698,8 +693,8 @@ vertical-align: middle;
 	list-style: none;
 }
 
-.dm-footer__icons a{
-	margin: 0 auto;
+.dm--footer--icon--list a i{
+padding: 5px
 }
 
 /* .footer-area .icons a img{
@@ -907,7 +902,14 @@ input[type=radio] {
 .tec {
     background-image: url("../images/invisible-image3.png");
     background-repeat: no-repeat;
+	background-position: top center;
 
+}
+
+.cost-images {
+	background-image: url("../images/invisible-image.jpg");
+    background-repeat: no-repeat;
+	background-position: bottom center;
 }
 
 
