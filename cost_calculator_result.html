@@ -18,97 +18,83 @@
 	</head>
 	<body>
 		<!--Start Top Header-->
-		<div class="top-hdr">
-			<div class="container">
-				<div class="d-flex justify-content-end gap-3">
-					<span>Akij Building Solutions</span>
-					<div class="d-flex top-search">
-						<input type="search" aria-label="Search" />
-						<i class="fa-solid fa-magnifying-glass"></i>
-						<!-- <button class="btn btn-outline-success" type="submit">
-              Search
-            </button> -->
-					</div>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/facebook.png"
-							alt=""
-					/></a>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/instagram.png"
-							alt=""
-					/></a>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/twitter.png"
-							alt=""
-					/></a>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/whatsapp.png"
-							alt=""
-					/></a>
+		<header class="dm-site-header">
+			<div class="dm-topbar">
+				<span>Akij Building Solutions</span>
+				<div class="dm-searchbar">
+					<form action="#">
+						<input class="form__input" type="text" />
+					</form>
+					<img src="./images/Research.svg" alt="searchbar" />
+				</div>
+				<div class="dm-icons">
+					<ul>
+						<li class="dm--icon--list">
+							<a href="https://www.facebook.com"
+								><i class="fa-brands fa-square-facebook"></i
+							></a>
+						</li>
+						<li class="dm--icon--list">
+							<a href="https://www.instagram.com"
+								><i class="fa-brands fa-square-instagram"></i
+							></a>
+						</li>
+						<li class="dm--icon--list">
+							<a href="https://www.twitter.com"
+								><i class="fa-brands fa-twitter"></i
+							></a>
+						</li>
+						<li class="dm--icon--list">
+							<a href="https://www.whatsapp.com"
+								><i class="fa-brands fa-square-whatsapp"></i
+							></a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
-		<!--End Top Header-->
-		<!-- Start Nav -->
-		<nav class="navbar navbar-expand-lg sticky-top bg-light akj-nav">
-			<div class="container">
-				<a class="navbar-brand hdr-logo" href="index.html">
-					<img
-						class="img-fluid p-lg-2"
-						src="./images/logo.png"
-						alt=""
-					/>
-				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+
+			<nav class="navbar navbar-expand-lg sticky-top bg-light akj-nav">
+				<div class="dm-logo-img">
+					<img src="./images/ACCl_Logos-01.svg" alt="logo-img" />
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
 				<div
-					class="collapse navbar-collapse"
+					class="collapse dm-menu navbar-collapse"
 					id="navbarSupportedContent"
 				>
 					<ul>
-						<li class="current_page_selected">
-							<a href="constructioncost_calculator.html"
-								>World of Building solution</a
-							>
+						<li>
+							<a href="#">World Building Solutions</a>
 						</li>
 						<li>
-							<a href="why-akij-cement.html">Why Akij Cement</a>
+							<a href="#">Why Akij Cement</a>
 						</li>
 						<li>
-							<a href="company.html">Company</a>
+							<a href="#">Company</a>
 						</li>
 						<li>
-							<a href="products.html">Products</a>
+							<a href="#">Products</a>
 						</li>
 					</ul>
-					<button
-						onclick="window.location.href = 'construction_cost_calculator.html' ;"
-						type="button"
-						class="btn btn-primary"
-					>
-						Cost Calculator
-					</button>
 				</div>
-			</div>
-			<!-- </div> -->
-		</nav>
+				<div class="dm-button">
+					<a href="#">Cost Calculator</a>
+				</div>
+			</nav>
+		</header>
+		<!--End Top Header-->
+		<!-- Start Nav -->
+
 		<!-- End Nav -->
 
 		<!-- Start Sub-Banner -->
@@ -147,12 +133,12 @@
 			<div class="cost-result">
 				<div class="container">
 					<div class="cost-box">
-						<button class="icon1 icon-box">
-							<img src="./images/calculator-icon.png" />Reset
-						</button>
-						<button class="icon2 icon-box">
-							<img src="./images/print-icon.png" />Print
-						</button>
+						<a class="icon1 icon-box">
+							<i class="fa-solid fa-calculator"></i>Reset
+						</a>
+						<a class="icon2 icon-box">
+							<i class="fa-solid fa-print"></i>Print
+						</a>
 					</div>
 				</div>
 			</div>
@@ -177,7 +163,7 @@
 						<div class="logo-box">
 							<a class="navbar-brand hdr-logo" href="#">
 								<img
-									class="img p-lg-2"
+									class="img-fluid p-lg-2"
 									src="./images/logo.png"
 									alt=""
 								/>
@@ -228,35 +214,39 @@
 					<div class="col-md-2">
 						<div class="footer-title">
 							<h4 class="h3">Follow Us</h4>
-							<div class="follow-text icons">
-								<a href="">
-									<img
-										class="img"
-										src="./images/facebook.png"
-										alt=""
-									/>Facebook</a
-								>
-								<a href="">
-									<img
-										class="img"
-										src="./images/instagram.png"
-										alt=""
-									/>Instagram</a
-								>
-								<a href="">
-									<img
-										class="img"
-										src="./images/twitter.png"
-										alt=""
-									/>Twitter</a
-								>
-								<a href="">
-									<img
-										class="img"
-										src="./images/whatsapp.png"
-										alt=""
-									/>Whatsapp</a
-								>
+							<div class="dm-footer__icons">
+								<ul>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.facebook.com"
+											><i
+												class="fa-brands fa-square-facebook"
+											></i
+											>Facebook</a
+										>
+									</li>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.instagram.com"
+											><i
+												class="fa-brands fa-square-instagram"
+											></i
+											>Instagram</a
+										>
+									</li>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.twitter.com"
+											><i class="fa-brands fa-twitter"></i
+											>Twitter</a
+										>
+									</li>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.whatsapp.com"
+											><i
+												class="fa-brands fa-square-whatsapp"
+											></i
+											>Whatsapp</a
+										>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>

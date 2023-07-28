@@ -693,8 +693,8 @@ vertical-align: middle;
 	list-style: none;
 }
 
-.dm--footer--icon--list a i{
-padding: 5px
+.dm--footer--icon--list i{
+padding: 10px;
 }
 
 /* .footer-area .icons a img{
@@ -817,24 +817,35 @@ padding: 5px
 
 /* Start Building Estimation Calculator */
 
-.radio-box {
+input[type="text"], select {
+    width: 800px;
+    background: #f5f5f5;
+    border: 1px solid #DDDDE0;
+    background: #F1F1F2;
+    padding: 16px 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    outline: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #333;
+}
+
+
+
+/* .dm--radio {
     text-align: left;
-    align-items: left;
-    justify-content: flex-start;
+
     padding-top: 10px;
-}
+} */
 
-input[type=radio] {
+input[type="radio"] {
     accent-color:#2A2F76;
+
 }
 
-.radio-heading h5 {
-    text-align: left;
-    font-size: 20px;
-    line-height: 24px;
-    font-weight: 500;
-    font-family: 'DIN-Bold';
-}
 
 .bec-txt .form-text {
     text-align: left;
@@ -943,7 +954,7 @@ input[type=radio] {
 
 }
 
-.cost-box img{
+.cost-box i{
     padding: 0 5px;
 
 }

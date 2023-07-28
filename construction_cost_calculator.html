@@ -93,7 +93,6 @@
 			</nav>
 		</header>
 		<!--End Top Header-->
-		
 
 		<!-- Start Sub-Banner -->
 		<main class="dm-main" role="main">
@@ -120,12 +119,58 @@
 			<!--Start Building Estimation Calculator-->
 
 			<section class="bec">
-				<div class="bec-txt text-center">
-					<div class="container p-5">
+				<div class="container p-5">
+					<div class="bec-txt text-center">
 						<h3 class="bec-h3">Building Estimation Calculator</h3>
 						<p class="bec-p">Location & Area</p>
 
-						<div class="row">
+						<div class="dm--form">
+							<form action="">
+								<select id="country" name="country">
+									<option value="Select City">
+										Select City
+									</option>
+									<option value="dhaka">Dhaka</option>
+								</select>
+
+								<select id="area" name="area">
+									<option value="Select Area">
+										Select Area
+									</option>
+									<option value="Mirpur 1">
+										Mirpur 1
+									</option></select
+								><br />
+
+								Area of Construction<br />
+								<input type="radio" />Square Feet
+								<input type="radio" />Square Meter<br />
+
+								<select id="area" name="area">
+									<option value="Total Area">
+										Total Area
+									</option>
+									<option value="2000">2000</option>
+								</select>
+
+								<div class="dm-button dm-btn">
+									<a href="#">Next</a>
+								</div>
+								<p class="form-text pt-5">
+									Disclaimer: The costs indicated are
+									approximate costs for each resource. Actual
+									cost estimates may vary for your city.
+									Please check with your contractor or visit
+									our nearest UBS store for a custom cost
+									estimate as per your requirement. This
+									amount is an approximate amount for
+									construction area & it does not include
+									compound wall area.
+								</p>
+							</form>
+						</div>
+
+						<!-- <div class="row">
 							<div class="col-md-12">
 								<div class="cost-form">
 									<form
@@ -135,9 +180,9 @@
 										target="_blank"
 									>
 										<fieldset>
-											<!-- <legend>Disabled fieldset example</legend> -->
+											 <legend>Disabled fieldset example</legend> -->
 
-											<div class="mb-3">
+						<!-- <div class="mb-3">
 												<label
 													for="disabledSelect"
 													class="form-label"
@@ -231,23 +276,7 @@
 											>
 												Next
 											</button>
-										</fieldset>
-										<p class="form-text pt-5">
-											Disclaimer: The costs indicated are
-											approximate costs for each resource.
-											Actual cost estimates may vary for
-											your city. Please check with your
-											contractor or visit our nearest UBS
-											store for a custom cost estimate as
-											per your requirement. This amount is
-											an approximate amount for
-											construction area & it does not
-											include compound wall area.
-										</p>
-									</form>
-								</div>
-							</div>
-						</div>
+										</fieldset> -->
 					</div>
 				</div>
 			</section>
