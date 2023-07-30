@@ -273,6 +273,7 @@ header {
 .dm-product-area {
     padding-top: 50px;
     color: black;
+	background-color: #4C4D5C;
 	background: url("../images/invisible-image.jpg") no-repeat bottom center;
 
 
@@ -422,18 +423,23 @@ header {
 	font-weight: bold;
 }
 
+.dm-news-heading {
+	text-align: left;
+}
+
 /* World of Building Solutions*/
 
 #dm-wbs-area {
     padding-top: 70px;
     color: black;
     background-color: #4C4D5C;
-    margin-top: 50px;
-	background: url("../images/invisible-image.png");
+    /* margin-top: 50px; */
+	background: url("../images/invisible-image.png"), url("../images/invisible-image2.jpg");
 	background-repeat: no-repeat;
-	background-position: bottom center;
+	background-position:bottom center, top center;
 
 }
+
 
 .wbs-heading {
 	text-align: center;
@@ -812,6 +818,8 @@ padding: 10px;
     font-family: 'MarkPro';
 
 }
+
+
 
 /* End Sub-Banner */
 
@@ -1407,7 +1415,7 @@ color:#030419;
 }
 
 .search-flex input {
-    width: 100%;
+    width: 50%;
     padding: 20px 0 0 30px;
     border-radius: 8px;
     border: none;
@@ -1979,26 +1987,24 @@ color: #FFFFFF;
     max-height: 460px;
 
 }
-.product-block button {
+.product-block a {
     align-items: center;
     position: absolute;
-    top: 82%;
+    top: 20px;
     left: 70%;
     z-index: 1;
     padding: 20px, 24px, 20px, 24px;
     border:none;
     background-color:#2A2F76;
     border-radius: 8px;
-
-}
-
-.product-block button  a {
-    color:#FFFFFF;
+	color:#FFFFFF;
     font-family: 'DIN-Bold';
     font-size: 18px;
     line-height: 19.8px;
 
+
 }
+
 
 .download-button img {
     width: 20px;
