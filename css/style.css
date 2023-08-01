@@ -2125,6 +2125,34 @@ color: #FFFFFF;
 /*End Contact Us*/
 
 
+/*=========
+# Error
+==========*/
+
+.dm-error__content{
+	align-items: center;
+}
+
+.dm-error__image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.dm-error {
+	text-align: center;
+}
+
+.dm-product__title h3 {
+font-family: 'DIN-Bold';
+font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+color: #001224;
+}
+
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .dm-topbar img {
