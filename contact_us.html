@@ -18,74 +18,64 @@
 	</head>
 	<body>
 		<!--Start Top Header-->
-		<div class="top-hdr">
-			<div class="container">
-				<div class="d-flex justify-content-end gap-3">
-					<span>Akij Building Solutions</span>
-					<div class="d-flex top-search">
-						<input type="search" aria-label="Search" />
-						<i class="fa-solid fa-magnifying-glass"></i>
-						<!-- <button class="btn btn-outline-success" type="submit">
-              Search
-            </button> -->
-					</div>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/facebook.png"
-							alt=""
-					/></a>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/instagram.png"
-							alt=""
-					/></a>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/twitter.png"
-							alt=""
-					/></a>
-					<a>
-						<img
-							class="img-fluid"
-							src="./images/whatsapp.png"
-							alt=""
-					/></a>
+		<header class="dm-site-header">
+			<div class="dm-topbar">
+				<span>Akij Building Solutions</span>
+				<div class="dm-searchbar">
+					<form action="#">
+						<input class="form__input" type="text" />
+					</form>
+					<img src="./images/Research.svg" alt="searchbar" />
+				</div>
+				<div class="dm-icons">
+					<ul>
+						<li class="dm--icon--list">
+							<a href="https://www.facebook.com"
+								><i class="fa-brands fa-square-facebook"></i
+							></a>
+						</li>
+						<li class="dm--icon--list">
+							<a href="https://www.instagram.com"
+								><i class="fa-brands fa-square-instagram"></i
+							></a>
+						</li>
+						<li class="dm--icon--list">
+							<a href="https://www.twitter.com"
+								><i class="fa-brands fa-twitter"></i
+							></a>
+						</li>
+						<li class="dm--icon--list">
+							<a href="https://www.whatsapp.com"
+								><i class="fa-brands fa-square-whatsapp"></i
+							></a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</div>
-		<!--End Top Header-->
-		<!-- Start Nav -->
-		<nav class="navbar navbar-expand-lg sticky-top bg-light akj-nav">
-			<div class="container">
-				<a class="navbar-brand hdr-logo" href="index.html">
-					<img
-						class="img-fluid p-lg-2"
-						src="./images/logo.png"
-						alt=""
-					/>
-				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent"
-					aria-controls="navbarSupportedContent"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+
+			<nav class="navbar navbar-expand-lg sticky-top bg-light akj-nav">
+				<div class="dm-logo-img">
+					<img src="./images/ACCl_Logos-01.svg" alt="logo-img" />
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
 				<div
-					class="collapse navbar-collapse"
+					class="collapse dm-menu navbar-collapse"
 					id="navbarSupportedContent"
 				>
 					<ul>
-						<li class="current_page_selected">
+						<li>
 							<a href="constructioncost_calculator.html"
-								>World of Building solution</a
+								>World Building Solutions</a
 							>
 						</li>
 						<li>
@@ -98,18 +88,15 @@
 							<a href="products.html">Products</a>
 						</li>
 					</ul>
-					<button
-						onclick="window.location.href = 'construction_cost_calculator.html';"
-						type="button"
-						class="btn btn-primary"
-					>
-						Cost Calculator
-					</button>
 				</div>
-			</div>
-			<!-- </div> -->
-		</nav>
-		<!-- End Nav -->
+				<div class="dm-button">
+					<a href="construction_cost_calculator.html"
+						>Cost Calculator</a
+					>
+				</div>
+			</nav>
+		</header>
+		<!--End Top Header-->
 
 		<!-- Start Sub-Banner -->
 
@@ -242,55 +229,74 @@
 
 			<section class="bec">
 				<div class="container p-5">
-					<div class="bec-txt text-center">
-						<h3 class="bec-h3">Building Estimation Calculator</h3>
-						<p class="bec-p">Location & Area</p>
-
-						<div class="dm--form">
-							<form action="">
-								<select id="country" name="country">
-									<option value="Select City">
-										Select City
-									</option>
-									<option value="dhaka">Dhaka</option>
-								</select>
-
-								<select id="area" name="area">
-									<option value="Select Area">
-										Select Area
-									</option>
-									<option value="Mirpur 1">
-										Mirpur 1
-									</option></select
-								><br />
-
-								Area of Construction<br />
-								<input type="radio" />Square Feet
-								<input type="radio" />Square Meter<br />
-
-								<select id="area" name="area">
-									<option value="Total Area">
-										Total Area
-									</option>
-									<option value="2000">2000</option>
-								</select>
-
-								<div class="dm-button dm-btn">
-									<a href="#">Next</a>
+					<div class="dm--form">
+						<form action="">
+							<div class="row">
+								<div class="mb-3">
+									<input
+										type="text"
+										class="form-control"
+										id="formGroupExampleInput"
+										placeholder="Full Name"
+									/>
 								</div>
-								<p class="form-text pt-5">
-									Disclaimer: The costs indicated are
-									approximate costs for each resource. Actual
-									cost estimates may vary for your city.
-									Please check with your contractor or visit
-									our nearest UBS store for a custom cost
-									estimate as per your requirement. This
-									amount is an approximate amount for
-									construction area & it does not include
-									compound wall area.
-								</p>
-							</form>
-						</div>
+
+								<div class="col-md-6">
+									<input
+										type="number"
+										class="form-control"
+										placeholder="Mobile Number"
+										aria-label="Mobile Number"
+									/>
+								</div>
+								<div class="col-md-6">
+									<input
+										type="email"
+										class="form-control"
+										placeholder="Email"
+										aria-label="Email"
+									/>
+								</div>
+							</div>
+
+							<div class="mb-3">
+								<input
+									type="text"
+									class="form-control"
+									id="formGroupExampleInput2"
+									placeholder="Subject"
+								/>
+							</div>
+							<div class="form-floating">
+								<textarea
+									class="form-control"
+									placeholder="Leave a comment here"
+									id="floatingTextarea"
+								></textarea>
+								<label for="floatingTextarea">Message</label>
+							</div>
+
+							<div class="form-check">
+								<input
+									class="form-check-input"
+									type="checkbox"
+									value=""
+									id="flexCheckChecked"
+									checked
+								/>
+								<label
+									class="form-check-label"
+									for="flexCheckChecked"
+								>
+									By submitting this form you are authorizing
+									Akij Cement to contact you.
+								</label>
+							</div>
+
+							<div class="dm-button dm-btn">
+								<a href="#">Order Now</a>
+							</div>
+						</form>
 					</div>
 				</div>
 			</section>
@@ -304,7 +310,7 @@
 						<div class="logo-box">
 							<a class="navbar-brand hdr-logo" href="#">
 								<img
-									class="img p-lg-2"
+									class="img-fluid p-lg-2"
 									src="./images/logo.png"
 									alt=""
 								/>
@@ -332,11 +338,11 @@
 									<li>
 										<a href="products.html">Products</a>
 									</li>
-									<li><a href="">Media</a></li>
+									<li><a href="#">Media</a></li>
 									<li>
 										<a href="contact_us.html">Contact Us</a>
 									</li>
-									<li><a href="">Careers</a></li>
+									<li><a href="#">Careers</a></li>
 								</ul>
 							</div>
 						</div>
@@ -355,35 +361,39 @@
 					<div class="col-md-2">
 						<div class="footer-title">
 							<h4 class="h3">Follow Us</h4>
-							<div class="follow-text icons">
-								<a href="">
-									<img
-										class="img"
-										src="./images/facebook.png"
-										alt=""
-									/>Facebook</a
-								>
-								<a href="">
-									<img
-										class="img"
-										src="./images/instagram.png"
-										alt=""
-									/>Instagram</a
-								>
-								<a href="">
-									<img
-										class="img"
-										src="./images/twitter.png"
-										alt=""
-									/>Twitter</a
-								>
-								<a href="">
-									<img
-										class="img"
-										src="./images/whatsapp.png"
-										alt=""
-									/>Whatsapp</a
-								>
+							<div class="dm-footer__icons">
+								<ul>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.facebook.com"
+											><i
+												class="fa-brands fa-square-facebook"
+											></i
+											>Facebook</a
+										>
+									</li>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.instagram.com"
+											><i
+												class="fa-brands fa-square-instagram"
+											></i
+											>Instagram</a
+										>
+									</li>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.twitter.com"
+											><i class="fa-brands fa-twitter"></i
+											>Twitter</a
+										>
+									</li>
+									<li class="dm--footer--icon--list">
+										<a href="https://www.whatsapp.com"
+											><i
+												class="fa-brands fa-square-whatsapp"
+											></i
+											>Whatsapp</a
+										>
+									</li>
+								</ul>
 							</div>
 						</div>
 					</div>
