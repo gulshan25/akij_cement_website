@@ -66,7 +66,7 @@ a {
     transition: all 0.3s ease-in-out;
 }
 
-input {
+input:not( [type="submit"], [type="radio"], [type="checkbox"] ){
     width: 100%;
     background: #fff;
     border: 1px solid #DDDDE0;
@@ -80,6 +80,11 @@ input {
 
 input:focus {
     border-color: #333;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
 }
 
 
@@ -146,15 +151,41 @@ header {
 
 .dm-topbar {
     background-color: #030419;
-    height: 54px;
-    color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+
+}
+
+.topbar-content {
+	height: 54px;
+	color: #fff;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 20px;
 }
 
 .dm-searchbar {
     position: relative;
+}
+
+.header-search-form {
+	position: relative;
+}
+
+.header-search-form .search-icon {
+	position: absolute;
+	left: 12px;
+	top: 46%;
+	transform: translateY(-50%);
+}
+
+.header-search-form .search-icon svg path {
+	fill: transparent;
+}
+
+.dm-searchbar .header-search-form input {
+	margin: 0;
+	padding: 8px 10px 8px 30px;
+	height: 32px;
 }
 
 .dm-searchbar input {
@@ -185,6 +216,7 @@ header {
 
 .dm-icons ul {
     display: flex;
+	padding: 0;
 }
 
 .dm-icons li {
@@ -402,20 +434,18 @@ header {
 	margin: 50px 450px 0px 450px;
 
 }
-.dm-news__image img{
+.dm-news__image img {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	column-gap: 25px;
-	max-width: 100%;
-
-
+	width: 100%;
 }
 
 .dm-news__content {
 	align-items: center;
 	padding: 10px;
-	border: 1px solid #4C4D5C;
-	border-radius: 0px 0px 8px 8px;
+	border: 1px solid #E9E9EA;
+	border-radius: 0 0 8px 8px;
 }
 
 .news__link {
@@ -825,8 +855,13 @@ padding: 10px;
 
 /* Start Building Estimation Calculator */
 
+.dm--form {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 input[type="text"], select {
-    width: 800px;
+    width: 100%;
     background: #f5f5f5;
     border: 1px solid #DDDDE0;
     background: #F1F1F2;
@@ -903,6 +938,10 @@ input[type="radio"] {
     font-size: 18px;
     line-height: 19.8px;
     font-weight: 5;
+}
+
+button.dm-button {
+	border: 0;
 }
 
 .bec select {
