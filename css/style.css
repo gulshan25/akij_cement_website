@@ -99,6 +99,7 @@ img {
     text-decoration: none;
     border-radius: 5px;
     font-family: 'DIN-Bold';
+	border: 0;
 }
 
 .dm-button:hover {
@@ -457,27 +458,29 @@ header {
 	text-align: left;
 }
 
-/* World of Building Solutions*/
+/*============================
+# World of Building Solutions
+=============================*/
 
 #dm-wbs-area {
     padding-top: 70px;
     color: black;
-    background-color: #4C4D5C;
-    /* margin-top: 50px; */
 	background: url("../images/invisible-image.png"), url("../images/invisible-image2.jpg");
 	background-repeat: no-repeat;
 	background-position:bottom center, top center;
 
 }
 
-
 .wbs-heading {
 	text-align: center;
+	
 }
 
 
 
-/* why akij cement*/
+/*================ 
+# why akij cement
+==================*/
 
 .why-akij {
     position: relative;
@@ -781,7 +784,9 @@ padding: 10px;
 
 }
 
-/* Construction cost Calculator */
+/*=============================
+# Construction cost Calculator 
+==============================*/
 
 /* Start Sub-Banner */
 
@@ -853,7 +858,9 @@ padding: 10px;
 
 /* End Sub-Banner */
 
-/* Start Building Estimation Calculator */
+/*======================================
+# Start Building Estimation Calculator 
+=======================================*/
 
 .dm--form {
 	max-width: 800px;
@@ -1029,6 +1036,19 @@ button.dm-button {
 }
 
 /* End cost-result */
+
+/*=================
+# pagination
+=================*/
+.pagination .page-link {
+	color: #4C4D5C;
+	font-family: 'DIN-Bold';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 110%;
+	font-style: normal;
+}
+
 
 /* Start cost-images */
 
